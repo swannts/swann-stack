@@ -1,39 +1,36 @@
 ---
 layout: Home
 seo:
-  title: Web Developer
-  description: Custom description for this page goes here
+  title: Full Stack Developer
+  description: AWS CI/CD Docker Microservice Spring Boot React Laravel Django React Native Vue Express
 ---
 
 ---main
 images:
-  - src: /hero.jpg
-    alt: my photo
-  - src: /hero-mobile.jpg
-    alt: my photo
+
+- src: /hero.jpg
+  alt: my photo
+- src: /hero-mobile.jpg
+  alt: my photo
+
 ---
 
-# <Typewriter>Carl Hanson</Typewriter>
+# <Typewriter>Swann</Typewriter>
 
-# *Web Developer* <span>&</span> *Growth Consultant*
+## *DevOps* <span>&</span> *Full Stack Engineer*
 
-<Sep size={12} />
+<Sep size={12}></Sep>
 
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle, shall to the press or to the
-sponge.
-
-
-
+I'm a versatile professional, seamlessly navigating both the realms of DevOps and full-stack development. With expertise
+in AWS, CI/CD, Docker, and microservices, I orchestrate high-performance applications, ensuring efficient deployment. My
+holistic approach harmonizes frontend and backend for robust, streamlined software solutions.
 ---achievements
-- number: 6+
+
+- number: 3+
   text: Years of experience
-- number: 60+
+- number: 16+
   text: Projects Completed
-- number: 5
-  text: OpenSource Libraries
+
 ---
 
 
@@ -41,24 +38,5 @@ sponge.
 ---cta
 ---
 <Button href="/contact" size="lg">
-  Download Resume
+  Explore
 </Button>
-
-
-
----companies
-title: Trusted By
-list:
-  - name: Company 1
-    icon:
-      src: /icons/logo-1.svg
-  - name: Company 2
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 3
-    icon:
-      src: /icons/logo-3.svg
-  - name: Company 4
-    icon:
-      src: /icons/logo-4.svg
----
