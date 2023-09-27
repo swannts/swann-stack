@@ -2,16 +2,15 @@
 layout: About
 seo:
   title: About Me
-  description: Custom description for this page goes here
+  description: AWS CI/CD Docker Microservice Spring Boot React Laravel Django React Native Vue Express
 ---
 
 
 
 ---personal_info
-name: CARL HANSON
 images:
-  - src: /about.jpg
-    alt: my image
+  - src: /hero.jpg
+    alt: Swann
 ---
 ##### <span>01.</span> About me
 
@@ -44,7 +43,7 @@ title: I'm Specialized in
 list:
   - Front-End Design
   - Back-End Development
-  - Modern Frameworks
+  - DevOps & CI/CD
 ---
 
 
@@ -52,26 +51,26 @@ list:
 ---skills[0]
 title: Back-End Development
 list:
-  - title: Node.js
-    level: 1
-    icon:
-      src: /icons/nodedotjs.svg
-  - title: Prisma
-    level: 3
-    icon:
-      src: /icons/prisma.svg
-  - title: Svelte
-    level: 4
-    icon:
-      src: /icons/svelte.svg
-  - title: HTML5
+  - title: Spring Boot
     level: 5
     icon:
-      src: /icons/html5.svg
-  - title: Solidity
-    level: 2
+      src: /icons/spring-boot.svg
+  - title: Express
+    level: 4
     icon:
-      src: /icons/solidity.svg
+      src: /icons/nodedotjs.svg
+  - title: Django
+    level: 4
+    icon:
+      src: /icons/django.svg
+  - title: Laravel
+    level: 5
+    icon:
+      src: /icons/laravel.svg
+  - title: WordPress
+    level: 4
+    icon:
+      src: /icons/wordpress.svg
 ---
 
 
@@ -102,40 +101,65 @@ list:
     level: 4
     icon:
       src: /icons/nodedotjs.svg
-  - title: Prisma
+  - title: Vue
     level: 5
     icon:
-      src: /icons/prisma.svg
+      src: /icons/vue.svg
 ---
 
 
 
----history[0]
-title: Employment
-list:
-  - name: MetaVerse Inc.
-    description: Web3 Developer
-    date: 2020-Present
-  - name: Vircil Intl Co..
-    description: Back-End Developer and Designer
-    date: 2018-2020
-  - name: Crowdcube Inc.
-    description: Technical Support
-    date: 2018-2015
----
+[//]: # (---history[0])
 
+[//]: # (title: Employment)
 
+[//]: # (list:)
 
----history[1]
-title: Education
-list:
-  - name: Stanford university
-    description: MSc (Computer Science)
-    date: 2006-2010
-  - name: University of Los Angeles
-    description: MSc (Human Computer Interaction)
-    date: 2010-2014
-  - name: Berkeley University
-    description: MSc (Information Technology)
-    date: 2015-2019
----
+[//]: # (  - name: MetaVerse Inc.)
+
+[//]: # (    description: Web3 Developer)
+
+[//]: # (    date: 2020-Present)
+
+[//]: # (  - name: Vircil Intl Co..)
+
+[//]: # (    description: Back-End Developer and Designer)
+
+[//]: # (    date: 2018-2020)
+
+[//]: # (  - name: Crowdcube Inc.)
+
+[//]: # (    description: Technical Support)
+
+[//]: # (    date: 2018-2015)
+
+[//]: # (---)
+
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (---history[1])
+
+[//]: # (title: Education)
+
+[//]: # (list:)
+
+[//]: # (  - name: Stanford university)
+
+[//]: # (    description: MSc &#40;Computer Science&#41;)
+
+[//]: # (    date: 2006-2010)
+
+[//]: # (  - name: University of Los Angeles)
+
+[//]: # (    description: MSc &#40;Human Computer Interaction&#41;)
+
+[//]: # (    date: 2010-2014)
+
+[//]: # (  - name: Berkeley University)
+
+[//]: # (    description: MSc &#40;Information Technology&#41;)
+
+[//]: # (    date: 2015-2019)
+
+[//]: # (---)

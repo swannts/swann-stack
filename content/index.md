@@ -1,7 +1,7 @@
 ---
 layout: Home
 seo:
-  title: Full Stack Developer
+  title: DevOps & Full Stack Engineer
   description: AWS CI/CD Docker Microservice Spring Boot React Laravel Django React Native Vue Express
 ---
 
@@ -9,9 +9,9 @@ seo:
 images:
 
 - src: /hero.jpg
-  alt: my photo
+  alt: Swann
 - src: /hero-mobile.jpg
-  alt: my photo
+  alt: Swann
 
 ---
 
