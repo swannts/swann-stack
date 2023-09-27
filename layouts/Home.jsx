@@ -21,14 +21,16 @@ const HeroPhoto = ({main}) => (
             </div>
         )}
         {main.images?.[1] && (
-            <div className="with-back-plate md:hidden">
-                <Image
-                    src={main.images[1].src}
-                    width={main.images[1].width}
-                    height={main.images[1].height}
-                    alt={main.images[1].alt}
-                    animation="mask-left"
-                    priority
+            <div className="md:hidden">
+                <div
+                    className="bg-cover rounded-[200px] overflow-hidden"
+                    style={{
+                        height: '300px',
+                        width: '300px',
+                        backgroundImage: `url(${main.images[1].src})`,
+                        display: 'flow',
+                        rounded: '200px'
+                    }}
                 />
             </div>
         )}

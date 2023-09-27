@@ -10,7 +10,7 @@ images:
 
 - src: /hero.jpg
   alt: Swann
-- src: /hero-mobile.jpg
+- src: /hero.jpg
   alt: Swann
 
 ---
