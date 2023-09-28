@@ -20,14 +20,14 @@ Thinking about a new project, a problem to solve, or just want to connect? Let's
 
 Use the form on this page or get in touch by other means.
 
-<Sep size="12" />
+<Sep size="12"></Sep>
 
 <small>
-  <Icon src="/icons/call.svg" className="inline mr-2 align-middle fill-current text-omega-500" /> Phone: (888) 777-6666
+  <Icon src="/icons/call.svg" className="inline mr-2 align-middle fill-current text-omega-500"></Icon> Phone: (888) 777-6666
 
-  <Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Email: hello@carl.io
+  <Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> Email: hello@carl.io
 
-  <Icon src="/icons/logo-linkedin.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Linkedin: [CarlHanson](http://linkedin.com/vercel)
+  <Icon src="/icons/logo-linkedin.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> Linkedin: [CarlHanson](http://linkedin.com/vercel)
 
-  <Icon src="/icons/logo-twitter.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Twitter: [@CarlHanson](http://twitter.com/vercel)
+  <Icon src="/icons/logo-twitter.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> Twitter: [@CarlHanson](http://twitter.com/vercel)
 </small>

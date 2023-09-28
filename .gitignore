@@ -40,3 +40,4 @@ feed.xml
 robots.txt
 sitemap.xml
 sitemap-[0-9]*.xml
+/.idea

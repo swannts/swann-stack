@@ -113,12 +113,12 @@ export const mdxConfig = {
 
 export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
-  authorName: 'Carl Hanson',
-  siteName: 'Carl Hanson',
-  defaultTitle: 'Carl Hanson Personal Site',
-  titleTemplate: 'Carl Hanson | %s',
-  description: 'A short description goes here.',
-  email: 'hello@example.com',
+  authorName: 'Swann',
+  siteName: 'Swannstack',
+  defaultTitle: 'DevOps & Full Stack Engineer',
+  titleTemplate: 'Swann | %s',
+  description: 'I\'m a versatile professional, seamlessly navigating both the realms of DevOps and full-stack development.',
+  email: 'princeapurbask@gmail.com',
   locale: 'en_US',
   twitter: {
     handle: '@handle',
