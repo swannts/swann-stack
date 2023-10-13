@@ -14,16 +14,13 @@ images:
 ---
 ##### <span>01.</span> About me
 
-Lorem consequat reprehenderit ipsum nulla qui pariatur tempor officia ad. Excepteur excepteur pariatur ad laborum labore reprehenderit. Do eiusmod sit pariatur nisi. Quis non dolor amet magna eu adipisicing est ex.
-
+A seasoned technologist, I weave through Back-End Development, Front-End UI/UX Design, and delve into Microservices, DevOps, and CI/CD, crafting digital solutions that meld innovation with user-centric designs. From sculpting interactive interfaces with React and Vue to architecting back-end systems with Spring Boot and Laravel, my aim is to leverage robust technology to craft solutions that address real-world challenges.
 ##### <span>02.</span> Interests and Hobbies
 
-Ad Lorem et amet exercitation enim culpa nulla laboris eu eiusmod. Irure fugiat sunt esse consequat consectetur eu laboris voluptate eiusmod dolor. Nisi velit consectetur deserunt esse aliquip esse officia consequat eiusmod voluptate cupidatat id.
-
+Away from the code, I explore tech beyond the screen, venturing into IoT projects and the decentralized world of Web3. A fervent reader and nature enthusiast, my off-screen time oscillates between books and nature trails. My passion also extends to mentoring and sharing knowledge through blogs and community forums.
 ##### <span>03.</span> Framework Preferences
 
-Ullamco cillum pariatur qui eu. Aliqua quis in adipisicing nulla do. Reprehenderit cupidatat eiusmod cupidatat ut ipsum pariatur Lorem incididunt. Veniam sunt reprehenderit consectetur ullamco laborum magna sit aliquip minim esse.
-
+My framework inclinations lean towards Spring Boot and Django for reliable back-end solutions and React and Vue for interactive front-ends. Docker and Jenkins guide my DevOps and CI/CD practices, ensuring streamlined deployments and consistent development environments, while my microservices architecture ensures modular and maintainable systems.
 
 
 ---cta
