@@ -2,7 +2,7 @@
 layout: Blog
 seo:
   title: Learn Programming
-  description: Custom description for this page goes here
+  description: Let's start your programming journey.
 collection:
   path: /blog
   sortBy: date

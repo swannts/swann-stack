@@ -4,7 +4,7 @@
  ****************************************************************/
 
 import sendgrid from '@sendgrid/mail'
-import {config} from '../../theme.config'
+import {config} from '@/theme.config'
 
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY)
 
