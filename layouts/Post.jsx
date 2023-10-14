@@ -8,7 +8,7 @@ import Date from '@/components/Date'
 import ImageGallery from '@/components/ImageGallery'
 import Sep from '@/components/Sep'
 import Newsletter from '@/components/Newsletter'
-import {siteMetaData} from '../theme.config'
+import {siteMetaData} from '@/theme.config'
 import authorImage from '../public/author-profile-picture.jpg'
 
 const SocialShare = dynamic(() => import('@/components/SocialShare'))
