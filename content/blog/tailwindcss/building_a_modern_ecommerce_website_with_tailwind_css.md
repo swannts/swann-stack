@@ -44,7 +44,7 @@ Utilize Tailwind CSS’s grid utilities to create a responsive product grid, ens
 ```html
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
   <div class="border p-4">
-    <img src="/path/to/product-image.jpg" alt="Product Name" class="w-full h-64 object-cover mb-4"/>
+    <img src="./../../../public/photos/blog-prototype.jpg" alt="Product Name" class="w-full h-64 object-cover mb-4"/>
     <h2 class="text-lg font-semibold mb-2">Product Name</h2>
     <p class="text-gray-700 mb-4">Product Description</p>
     <button class="bg-blue-500 text-white px-4 py-2">Add to Cart</button>
