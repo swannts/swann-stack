@@ -1,7 +1,7 @@
 ---
 layout: Blog
 seo:
-  title: My Blog
+  title: Learn Programming
   description: Custom description for this page goes here
 collection:
   path: /blog

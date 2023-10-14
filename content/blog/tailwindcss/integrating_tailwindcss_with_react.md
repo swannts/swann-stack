@@ -8,7 +8,7 @@ tags:
   - react
   - web development
 images:
-  - src: /photos/blog-prototype.jpg
+  - src: /photos/tailwind/integrating_tailwindcss_with_react-min.png
     alt: Tailwind CSS and React logos
 ---
 
