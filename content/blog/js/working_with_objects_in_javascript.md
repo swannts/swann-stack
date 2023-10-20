@@ -2,7 +2,7 @@
 layout: Post
 title: "Working with Objects in JavaScript"
 description: "JavaScript, being a prototype-based language, has a unique way of dealing with objects. Objects are fundamental in JavaScript and serve as building blocks for constructing more complex data structures and functionalities. This article aims to guide beginners through the essentials of working with objects in JavaScript, covering their creation, manipulation, and common use-cases."
-date: 2023-11-15
+date: '2023-11-15'
 tags:
   - javascript
   - web development
