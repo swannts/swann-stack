@@ -5,7 +5,7 @@ description: Delve into the simplified process of integrating the utility-first 
 date: '2023-10-10'
 tags:
   - tailwindcss
-  - react
+  - react-tailwindcss
   - web development
 images:
   - src: /photos/tailwind/integrating_tailwindcss_with_react-min.png
