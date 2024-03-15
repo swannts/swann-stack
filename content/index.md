@@ -26,7 +26,7 @@ in AWS, CI/CD, Docker, and microservices, I orchestrate high-performance applica
 holistic approach harmonizes frontend and backend for robust, streamlined software solutions.
 ---achievements
 
-- number: 3+
+- number: 5+
   text: Years of experience
 - number: 16+
   text: Projects Completed
