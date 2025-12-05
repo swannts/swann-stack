@@ -1,22 +1,21 @@
 ---
 layout: Projects
 seo:
-  title: Web Development Projects
-  description: Custom description for this page goes here
+  title: Portfolio Case Studies
+  description: Selected full stack and DevOps engagements spanning event platforms, marketplaces, and cloud-native products.
 ---
 
 ---github
 repositories:
-  - leerob/leerob.io
-  - jxnblk/mdx-deck
-  - vercel/og-image
+  - Swannhs
 ---
 
 <PageTitle>
-  ### My Open-Source Projects
+  ### Featured Case Studies
 </PageTitle>
 
-Discover my most popular open-source projects on Github.
+A selection of production work covering microservices, SSR frontends, and DevOps automation across startups and enterprise
+teams.
 
 
 
@@ -30,4 +29,4 @@ collection:
   ### Latest Projects
 </PageTitle>
 
-I have transformed ideas into remarkable digital products.
+Practical examples of architecting, securing, and observing complex platforms.

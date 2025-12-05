@@ -1,8 +1,8 @@
 ---
 layout: About
 seo:
-  title: About Me
-  description: AWS CI/CD Docker Microservice Spring Boot React Laravel Django React Native Vue Express
+  title: About Abu
+  description: DevOps-focused full stack engineer delivering production-grade microservices, CI/CD pipelines, and modern web apps.
 ---
 
 
@@ -10,17 +10,21 @@ seo:
 ---personal_info
 images:
   - src: /hero.jpg
-    alt: Swann
+    alt: Abu Bokor Siddik
 ---
 ##### <span>01.</span> About me
 
-A seasoned technologist, I weave through Back-End Development, Front-End UI/UX Design, and delve into Microservices, DevOps, and CI/CD, crafting digital solutions that meld innovation with user-centric designs. From sculpting interactive interfaces with React and Vue to architecting back-end systems with Spring Boot and Laravel, my aim is to leverage robust technology to craft solutions that address real-world challenges.
+I am a Senior Software Engineer who bridges backend, frontend, and DevOps to deliver high-performance products. I specialize in
+microservice architectures with Spring Boot, NestJS, Laravel, and Django, and pair them with React/Next.js experiences. My work
+leans on Kubernetes, Terraform, GitHub Actions, and AWS to ship resilient, observable software with clean developer workflows.
 ##### <span>02.</span> Interests and Hobbies
 
-Away from the code, I explore tech beyond the screen, venturing into IoT projects and the decentralized world of Web3. A fervent reader and nature enthusiast, my off-screen time oscillates between books and nature trails. My passion also extends to mentoring and sharing knowledge through blogs and community forums.
+When I'm not shaping release pipelines or tuning API performance, I explore new DevOps practices, write technical notes, and
+mentor engineers. Outside of tech, I enjoy reading, cycling, and traveling to understand how different teams build software.
 ##### <span>03.</span> Framework Preferences
 
-My framework inclinations lean towards Spring Boot and Django for reliable back-end solutions and React and Vue for interactive front-ends. Docker and Jenkins guide my DevOps and CI/CD practices, ensuring streamlined deployments and consistent development environments, while my microservices architecture ensures modular and maintainable systems.
+I reach for Spring Boot, NestJS, and Laravel for reliable services; React and Next.js for fast interfaces; and Docker plus
+Kubernetes for portable deployments. Jenkins, GitHub Actions, and Terraform round out my toolkit for repeatable delivery.
 
 
 ---cta
@@ -38,8 +42,8 @@ Let's super-charge your business today!
 ---skills_header
 title: I'm Specialized in
 list:
-  - Front-End Design
-  - Back-End Development
+  - Cloud-Native Development
+  - Scalable Web Applications
   - DevOps & CI/CD
 ---
 
@@ -52,111 +56,73 @@ list:
     level: 5
     icon:
       src: /icons/spring-boot.svg
-  - title: Express
+  - title: NestJS
     level: 4
     icon:
       src: /icons/nodedotjs.svg
-  - title: Django
-    level: 4
-    icon:
-      src: /icons/django.svg
   - title: Laravel
     level: 5
     icon:
       src: /icons/laravel.svg
-  - title: WordPress
+  - title: Django
     level: 4
     icon:
-      src: /icons/wordpress.svg
+      src: /icons/django.svg
+  - title: FastAPI
+    level: 3
+    icon:
+      src: /icons/prisma.svg
 ---
 
 
 
 ---skills[1]
-########################################
-### Skills
-########################################
-title: Front-End UI/UX Design
+title: Front-End Engineering
 list:
   - title: JavaScript
     level: 4
     icon:
       src: /icons/javascript.svg
   - title: React
-    level: 3
+    level: 4
     icon:
       src: /icons/react.svg
-  - title: Redux
+  - title: Next.js
+    level: 4
+    icon:
+      src: /icons/next-js.svg
+  - title: Redux Toolkit
     level: 4
     icon:
       src: /icons/redux.svg
-  - title: GraphQL
-    level: 2
-    icon:
-      src: /icons/graphql.svg
-  - title: Node.js
+  - title: Tailwind CSS
     level: 4
     icon:
-      src: /icons/nodedotjs.svg
-  - title: Vue
-    level: 5
-    icon:
-      src: /icons/vue.svg
+      src: /icons/javascript.svg
 ---
 
 
 
-[//]: # (---history[0])
-
-[//]: # (title: Employment)
-
-[//]: # (list:)
-
-[//]: # (  - name: MetaVerse Inc.)
-
-[//]: # (    description: Web3 Developer)
-
-[//]: # (    date: 2020-Present)
-
-[//]: # (  - name: Vircil Intl Co..)
-
-[//]: # (    description: Back-End Developer and Designer)
-
-[//]: # (    date: 2018-2020)
-
-[//]: # (  - name: Crowdcube Inc.)
-
-[//]: # (    description: Technical Support)
-
-[//]: # (    date: 2018-2015)
-
-[//]: # (---)
-
-[//]: # ()
-[//]: # ()
-[//]: # ()
-[//]: # (---history[1])
-
-[//]: # (title: Education)
-
-[//]: # (list:)
-
-[//]: # (  - name: Stanford university)
-
-[//]: # (    description: MSc &#40;Computer Science&#41;)
-
-[//]: # (    date: 2006-2010)
-
-[//]: # (  - name: University of Los Angeles)
-
-[//]: # (    description: MSc &#40;Human Computer Interaction&#41;)
-
-[//]: # (    date: 2010-2014)
-
-[//]: # (  - name: Berkeley University)
-
-[//]: # (    description: MSc &#40;Information Technology&#41;)
-
-[//]: # (    date: 2015-2019)
-
-[//]: # (---)
+---skills[2]
+title: DevOps, Cloud & Reliability
+list:
+  - title: Docker & Kubernetes
+    level: 5
+    icon:
+      src: /icons/docker.svg
+  - title: AWS
+    level: 4
+    icon:
+      src: /icons/aws.svg
+  - title: Terraform & Ansible
+    level: 4
+    icon:
+      src: /icons/prisma.svg
+  - title: CI/CD (GitHub Actions, Jenkins)
+    level: 5
+    icon:
+      src: /icons/dashboard.svg
+  - title: Observability (Prometheus, Grafana)
+    level: 4
+    icon:
+      src: /icons/audit.svg
