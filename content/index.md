@@ -1,35 +1,37 @@
 ---
 layout: Home
 seo:
-  title: DevOps & Full Stack Engineer
-  description: AWS CI/CD Docker Microservice Spring Boot React Laravel Django React Native Vue Express
+  title: Abu Bokor Siddik | DevOps & Full Stack Engineer
+  description: Senior software engineer with 5+ years building scalable microservices, cloud-native deployments, and polished React/Next.js experiences.
 ---
 
 ---main
 images:
 
 - src: /hero.jpg
-  alt: Swann
+  alt: Abu Bokor Siddik
 - src: /hero.jpg
-  alt: Swann
+  alt: Abu Bokor Siddik
 
 ---
 
-# <Typewriter>Swann</Typewriter>
+# <Typewriter>Abu Bokor Siddik</Typewriter>
 
-## *DevOps* <span>&</span> *Full Stack Engineer*
+## *Senior Software Engineer* <span>&</span> *DevOps Specialist*
 
 <Sep size={12}></Sep>
 
-I'm a versatile professional, seamlessly navigating both the realms of DevOps and full-stack development. With expertise
-in AWS, CI/CD, Docker, and microservices, I orchestrate high-performance applications, ensuring efficient deployment. My
-holistic approach harmonizes frontend and backend for robust, streamlined software solutions.
+I build resilient products end to end—from cloud-native backend services to fast, accessible user interfaces. With a focus on
+AWS, CI/CD automation, Docker/Kubernetes, and modern React/Next.js frontends, I deliver secure, observable platforms that scale
+cleanly across environments.
 ---achievements
 
 - number: 5+
   text: Years of experience
-- number: 16+
-  text: Projects Completed
+- number: 6
+  text: Platforms launched to production
+- number: 3
+  text: Clouds & orchestration stacks mastered
 
 ---
 
@@ -37,6 +39,6 @@ holistic approach harmonizes frontend and backend for robust, streamlined softwa
 
 ---cta
 ---
-<Button href="/contact" size="lg">
-  Explore
+<Button href="/projects" size="lg">
+  View Projects
 </Button>

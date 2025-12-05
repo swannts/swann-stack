@@ -1,8 +1,8 @@
 ---
 layout: Services
 seo:
-  title: Web Development Services
-  description: Custom description for this page goes here
+  title: Engineering Services
+  description: Cloud-native delivery, DevOps automation, and full stack product development tailored to modern teams.
 ---
 
 
@@ -13,25 +13,24 @@ seo:
 <PageTitle>
   ### Services
 
-  ### _My Expertise_
+  ### _How I Help Teams Ship Faster_
 </PageTitle>
 
 ###### Solving problems
 
-I design products that are more than pretty. I make them shippable and usable.
-Et tempor non mollit dolor et do aute voluptate ea ullamco.
+I align architecture, delivery pipelines, and user experience so features move reliably from commit to production.
 
 ###### What you can expect
 
-- Design Strategy
-- Web and Mobile App Design
-- Front-end Development
+- Cloud-native architectures that scale and heal
+- CI/CD pipelines with automated testing and security gates
+- Observability built-in for confident releases
 
 ###### Applications I'm fluent in
 
-- Design Strategy
-- Web and Mobile App Design
-- Front-end Development
+- Event-driven microservices
+- Server-side rendered and SPA frontends
+- Infrastructure as Code for AWS and Kubernetes
 
 <Sep size="12" />
 
@@ -42,69 +41,68 @@ Et tempor non mollit dolor et do aute voluptate ea ullamco.
 
 
 ---services[0]
-title: Web and Mobile App Design
+title: Cloud & Platform Engineering
 icon:
-  src: /icons/mobile-app.svg
+  src: /icons/aws.svg
 ---
 
 <small>
-  Defining the problem, identifying the scope and finally, organizing. Et tempor non mollit dolor et
-  do aute voluptate ea ullamco culpa pariatur.
+  Design and deploy resilient systems on AWS and Kubernetes using IaC, service discovery, and secure networking. Common tools
+  include Terraform, Ansible, Helm, and Kustomize.
 
-    - <strong>Design Strategy</strong>
-    - <strong>Web and Mobile App Design</strong>
-    - <strong>Front-end Development</strong>
+    - <strong>Microservice architecture</strong>
+    - <strong>Scalable container orchestration</strong>
+    - <strong>Security hardening & secrets management</strong>
 
 </small>
 
 
 
 ---services[1]
-title: Project Strategy & Development
+title: CI/CD & DevOps Automation
 icon:
-  src: /icons/prisma.svg
+  src: /icons/docker.svg
 ---
 
 <small>
-  Defining the problem, identifying the scope and finally, organizing. Et tempor non mollit dolor et
-  do aute voluptate ea ullamco culpa pariatur.
+  Build delivery pipelines with GitHub Actions, Jenkins, and Bitbucket CI/CD to automate builds, tests, and rollouts with zero-downtime
+  deployments.
 
-    - <strong>Design Strategy</strong>
-    - <strong>Web and Mobile App Design </strong>
-    - <strong>Front-end Development</strong>
+    - <strong>Progressive delivery</strong>
+    - <strong>Test automation & quality gates</strong>
+    - <strong>Release governance and monitoring</strong>
 
 </small>
 
 
 
 ---services[2]
-title: UI/UX Design & Optimization
+title: Full Stack Product Development
 icon:
-  src: /icons/dashboard.svg
+  src: /icons/react.svg
 ---
 
 <small>
-  Defining the problem, identifying the scope and finally, organizing. Et tempor non mollit dolor et
-  do aute voluptate ea ullamco culpa pariatur.
+  Ship end-to-end experiences using React/Next.js on the frontend and Spring Boot, NestJS, or Laravel on the backend, integrating
+  payments, real-time features, and API gateways.
 
-    - <strong>Design Strategy</strong>
-    - <strong>Web and Mobile App Design</strong>
-    - <strong>Front-end Development</strong>
+    - <strong>API-first design</strong>
+    - <strong>Responsive, accessible UI</strong>
+    - <strong>Performance tuning & caching</strong>
 </small>
 
 
 
 ---services[3]
-title: Application Audit & Debugging
+title: Observability & Reliability
 icon:
   src: /icons/audit.svg
 ---
 
 <small>
-  Defining the problem, identifying the scope and finally, organizing. Et tempor non mollit dolor et
-  do aute voluptate ea ullamco culpa pariatur.
+  Instrument applications with Prometheus, Grafana, Sentry, and ELK to provide actionable insights, alerting, and SLO reporting.
 
-  - <strong>Design Strategy </strong>
-  - <strong>Web and Mobile App Design </strong>
-  - <strong>Front-end Development</strong>
+  - <strong>Proactive monitoring</strong>
+  - <strong>Chaos-resistant architectures</strong>
+  - <strong>Incident readiness & runbooks</strong>
 </small>
