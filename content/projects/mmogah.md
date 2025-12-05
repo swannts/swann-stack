@@ -11,8 +11,8 @@ logo:
   src: /icons/logo-2.svg
   alt: MMOGAH
 images:
-  - src: /projects/project-4.png
-    alt: MMOGAH marketplace storefront and operations
+  - src: /projects/project-6.png
+    alt: MMOGAH marketplace
 attributes:
   - label: Duration
     value: 9 Months

@@ -11,8 +11,8 @@ logo:
   src: /icons/logo-1.svg
   alt: MYM Manager
 images:
-  - src: /projects/project-3.png
-    alt: MYM Manager analytics dashboard and admin workflows
+  - src: /projects/project-5.png
+    alt: MYM Manager analytics dashboard
 attributes:
   - label: Duration
     value: 7 Months
