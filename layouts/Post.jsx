@@ -25,6 +25,7 @@ const Layout = ({
                     pageUrl,
                 }) => {
     const {siteUrl, authorName} = siteMetaData || {}
+    const safeImages = (images || []).filter(Boolean)
 
     return (
         <>
@@ -32,7 +33,7 @@ const Layout = ({
                 type="BlogPosting"
                 url={pageUrl}
                 title={title}
-                images={images.map((img) => siteUrl + img.src)}
+                images={safeImages.map((img) => siteUrl + img.src)}
                 datePublished={date}
                 authorName={authorName}
                 description={seo?.description || description}
@@ -84,7 +85,7 @@ const Layout = ({
                     )}
 
                     <div className="not-prose mt-6 text-center md:mt-12">
-                        <ImageGallery images={images}/>
+                        <ImageGallery images={safeImages}/>
                     </div>
 
                     <div className="mt-6 grid gap-6 md:mt-12 md:grid-cols-[auto_3fr_auto] md:gap-0">
