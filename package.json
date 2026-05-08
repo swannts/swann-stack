@@ -16,9 +16,7 @@
     "start": "next start",
     "lint": "next lint",
     "build": "next build",
-    "postbuild": "next-sitemap",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@next/font": "^13.1.6",

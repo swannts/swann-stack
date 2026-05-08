@@ -61,8 +61,10 @@ I also work with AI-enabled development patterns, including OpenAI API integrati
 
 I value clean, maintainable, scalable code; strong backend architecture and API design; performance-focused frontend experiences; full ownership from frontend to backend; and production reliability through automation.
 
-## ---cta
+##### <span>02.</span> Backend expertise
 
+---cta
+---
 ## Senior Software Engineer
 
 Full Stack • Cloud & Platform
@@ -80,33 +82,13 @@ list:
 - Microservices & APIs
 - AI-Enabled Development
 
----
-
----skills[0]
-title: Backend Development
+---skills_header
+title: Technical Skills
 list:
-
-- title: PHP, Laravel
-  level: 5
-  icon:
-  src: /icons/laravel.svg
-- title: Node.js, Express, NestJS
-  level: 5
-  icon:
-  src: /icons/nodedotjs.svg
-- title: Microservices
-  level: 5
-  icon:
-  src: /icons/dashboard.svg
-- title: REST APIs, GraphQL
-  level: 5
-  icon:
-  src: /icons/audit.svg
-- title: Eloquent, Prisma
-  level: 4
-  icon:
-  src: /icons/prisma.svg
-
+  - Full Stack SaaS Platforms
+  - Cloud-Native Systems
+  - Microservices & APIs
+  - AI-Enabled Development
 ---
 
 ---skills[1]
@@ -134,33 +116,29 @@ list:
   icon:
   src: /icons/javascript.svg
 
----
-
----skills[2]
-title: AI / GenAI
+---skills[0]
+title: Backend Development
 list:
-
-- title: OpenAI API integration
-  level: 4
-  icon:
-  src: /icons/graphql.svg
-- title: Prompt design
-  level: 4
-  icon:
-  src: /icons/dashboard.svg
-- title: RAG patterns
-  level: 4
-  icon:
-  src: /icons/dashboard.svg
-- title: ChatGPT
-  level: 4
-  icon:
-  src: /icons/audit.svg
-- title: GitHub Copilot, Claude
-  level: 4
-  icon:
-  src: /icons/dashboard.svg
-
+  - title: PHP, Laravel
+    level: 5
+    icon:
+      src: /icons/laravel.svg
+  - title: Node.js, Express, NestJS
+    level: 5
+    icon:
+      src: /icons/nodedotjs.svg
+  - title: Microservices
+    level: 5
+    icon:
+      src: /icons/dashboard.svg
+  - title: REST APIs, GraphQL
+    level: 5
+    icon:
+      src: /icons/audit.svg
+  - title: Eloquent, Prisma
+    level: 4
+    icon:
+      src: /icons/prisma.svg
 ---
 
 ---skills[3]
@@ -186,23 +164,29 @@ list:
 
 ---
 
----skills[4]
-title: Real-time and Messaging
+---skills[1]
+title: Frontend Development
 list:
-
-- title: WebSockets
-  level: 4
-  icon:
-  src: /icons/graphql.svg
-- title: Kafka
-  level: 4
-  icon:
-  src: /icons/dashboard.svg
-- title: RabbitMQ
-  level: 4
-  icon:
-  src: /icons/dashboard.svg
-
+  - title: React
+    level: 5
+    icon:
+      src: /icons/react.svg
+  - title: Next.js
+    level: 5
+    icon:
+      src: /icons/next-js.svg
+  - title: TypeScript
+    level: 4
+    icon:
+      src: /icons/javascript.svg
+  - title: Redux Toolkit, Context API
+    level: 4
+    icon:
+      src: /icons/redux.svg
+  - title: Tailwind CSS, MUI, Bootstrap
+    level: 4
+    icon:
+      src: /icons/javascript.svg
 ---
 
 ---skills[5]
@@ -226,77 +210,166 @@ list:
   icon:
   src: /icons/dashboard.svg
 
+---skills[2]
+title: AI / GenAI
+list:
+  - title: OpenAI API integration
+    level: 4
+    icon:
+      src: /icons/graphql.svg
+  - title: Prompt design
+    level: 4
+    icon:
+      src: /icons/dashboard.svg
+  - title: RAG patterns
+    level: 4
+    icon:
+      src: /icons/dashboard.svg
+  - title: ChatGPT
+    level: 4
+    icon:
+      src: /icons/audit.svg
+  - title: GitHub Copilot, Claude
+    level: 4
+    icon:
+      src: /icons/dashboard.svg
 ---
+
+
+
+---skills[3]
+title: Databases
+list:
+  - title: PostgreSQL
+    level: 5
+    icon:
+      src: /icons/graphql.svg
+  - title: MySQL
+    level: 5
+    icon:
+      src: /icons/graphql.svg
+  - title: MongoDB
+    level: 4
+    icon:
+      src: /icons/graphql.svg
+  - title: Redis
+    level: 4
+    icon:
+      src: /icons/graphql.svg
+---
+
+
+
+---skills[4]
+title: Real-time and Messaging
+list:
+  - title: WebSockets
+    level: 4
+    icon:
+      src: /icons/graphql.svg
+  - title: Kafka
+    level: 4
+    icon:
+      src: /icons/dashboard.svg
+  - title: RabbitMQ
+    level: 4
+    icon:
+      src: /icons/dashboard.svg
+---
+
+
+
+---skills[5]
+title: DevOps and Cloud
+list:
+  - title: Docker, Kubernetes, EKS
+    level: 5
+    icon:
+      src: /icons/docker.svg
+  - title: Terraform, Ansible
+    level: 4
+    icon:
+      src: /icons/dashboard.svg
+  - title: AWS, Azure
+    level: 4
+    icon:
+      src: /icons/aws.svg
+  - title: CI/CD
+    level: 5
+    icon:
+      src: /icons/dashboard.svg
+---
+
+
 
 ---skills[6]
 title: Monitoring and Observability
 list:
-
-- title: Prometheus
-  level: 4
-  icon:
-  src: /icons/audit.svg
-- title: Grafana
-  level: 4
-  icon:
-  src: /icons/audit.svg
-- title: ELK Stack
-  level: 4
-  icon:
-  src: /icons/audit.svg
-- title: Sentry
-  level: 4
-  icon:
-  src: /icons/audit.svg
-
+  - title: Prometheus
+    level: 4
+    icon:
+      src: /icons/audit.svg
+  - title: Grafana
+    level: 4
+    icon:
+      src: /icons/audit.svg
+  - title: ELK Stack
+    level: 4
+    icon:
+      src: /icons/audit.svg
+  - title: Sentry
+    level: 4
+    icon:
+      src: /icons/audit.svg
 ---
+
+
 
 ---skills[7]
 title: Testing and Tools
 list:
-
-- title: Jest, Cypress
-  level: 4
-  icon:
-  src: /icons/javascript.svg
-- title: Postman, Swagger
-  level: 5
-  icon:
-  src: /icons/graphql.svg
-- title: Testcontainers
-  level: 4
-  icon:
-  src: /icons/docker.svg
-- title: Mocha, Chai
-  level: 4
-  icon:
-  src: /icons/nodedotjs.svg
-
+  - title: Jest, Cypress
+    level: 4
+    icon:
+      src: /icons/javascript.svg
+  - title: Postman, Swagger
+    level: 5
+    icon:
+      src: /icons/graphql.svg
+  - title: Testcontainers
+    level: 4
+    icon:
+      src: /icons/docker.svg
+  - title: Mocha, Chai
+    level: 4
+    icon:
+      src: /icons/nodedotjs.svg
 ---
+
+
 
 ---history[0]
 title: Professional Experience
 list:
-
-- name: Senior Software Engineer Team Lead — ScaleBridger
-  date: Sep 2025 – Apr 2026
-  description: Contract role leading full-stack applications using React, Next.js, and Node.js; designing scalable backend services and APIs; and improving development workflows and deployment processes.
-- name: Senior Software Engineer — MyManager
-  date: Mar 2025 – Sep 2025
-  description: On-site role contributing to the MYM Manager SaaS platform, developing backend APIs and real-time features for business workflows, and collaborating closely in an agile team environment.
-- name: Full Stack Developer — Wise Minds & WeTicket
-  date: Feb 2023 – May 2025
-  description: Full-time partner engineering collaboration across Wise Minds and WeTicket, developing Laravel, Node.js, and microservices backends; React, Next.js, and TypeScript frontends; REST APIs; Keycloak authentication; Stripe payments; and scalable shared platform features.
-- name: Full Stack Developer — Fortunatis GmbH
-  date: Aug 2021 – Mar 2024
-  description: Remote full-stack role developing microservices deployed on AWS Kubernetes EKS, building React and TypeScript frontend applications, and improving system performance and scalability.
-
+  - name: Senior Software Engineer Team Lead — ScaleBridger
+    date: Sep 2025 – Apr 2026
+    description: Contract role leading full-stack applications using React, Next.js, and Node.js; designing scalable backend services and APIs; and improving development workflows and deployment processes.
+  - name: Senior Software Engineer — MyManager
+    date: Mar 2025 – Sep 2025
+    description: On-site role contributing to the MYM Manager SaaS platform, developing backend APIs and real-time features for business workflows, and collaborating closely in an agile team environment.
+  - name: Full Stack Developer — Wise Minds & WeTicket
+    date: Feb 2023 – May 2025
+    description: Full-time partner engineering collaboration across Wise Minds and WeTicket, developing Laravel, Node.js, and microservices backends; React, Next.js, and TypeScript frontends; REST APIs; Keycloak authentication; Stripe payments; and scalable shared platform features.
+  - name: Full Stack Developer — Fortunatis GmbH
+    date: Aug 2021 – Mar 2024
+    description: Remote full-stack role developing microservices deployed on AWS Kubernetes EKS, building React and TypeScript frontend applications, and improving system performance and scalability.
 ---
+
+
 
 ---history[1]
 title: Education
 list:
-
-- name: Bachelor of Science in Information and Communication Engineering
-  date: BAUET
-  description: Bangladesh Army University of Engineering and Technology, BAUET.
+  - name: Bachelor of Science in Information and Communication Engineering
+    date: BAUET
+    description: Bangladesh Army University of Engineering and Technology, BAUET.

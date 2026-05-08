@@ -10,8 +10,7 @@ seo:
 <PageTitle>
   ### Engineering Focus
 
-### _Full Stack • Cloud & Platform_
-
+  ### _Full Stack • Cloud & Platform_
 </PageTitle>
 
 I help teams build production-grade SaaS platforms, APIs, microservices, and cloud-native systems with a practical focus on maintainability, scalability, performance, and delivery ownership.
@@ -32,12 +31,17 @@ I help teams build production-grade SaaS platforms, APIs, microservices, and clo
 ---services[0]
 title: Backend & API Engineering
 icon:
-src: /icons/nodedotjs.svg
-
+  src: /icons/nodedotjs.svg
 ---
 
 <small>
   Build scalable backend applications and microservices using Node.js, Express, NestJS, and Laravel, with clean REST and GraphQL APIs for product teams.
+
+  - <strong>Microservices and reusable service design</strong>
+  - <strong>JWT, OAuth, Laravel Sanctum, and Keycloak authentication</strong>
+  - <strong>Redis caching, database tuning, Kafka, and RabbitMQ</strong>
+</small>
+
 
 - <strong>Microservices and reusable service design</strong>
 - <strong>JWT, OAuth, Laravel Sanctum, and Keycloak authentication</strong>
@@ -47,12 +51,17 @@ src: /icons/nodedotjs.svg
 ---services[1]
 title: Frontend Product Development
 icon:
-src: /icons/react.svg
-
+  src: /icons/react.svg
 ---
 
 <small>
   Deliver responsive, production-ready interfaces with React and Next.js, including SSR, SSG, protected routes, and reliable API integration patterns.
+
+  - <strong>React, Next.js, TypeScript, Redux Toolkit, and Context API</strong>
+  - <strong>Axios, React Query, and modern data-fetching workflows</strong>
+  - <strong>Tailwind CSS, MUI, and Bootstrap UI consistency</strong>
+</small>
+
 
 - <strong>React, Next.js, TypeScript, Redux Toolkit, and Context API</strong>
 - <strong>Axios, React Query, and modern data-fetching workflows</strong>
@@ -62,12 +71,17 @@ src: /icons/react.svg
 ---services[2]
 title: Cloud & Platform Engineering
 icon:
-src: /icons/aws.svg
-
+  src: /icons/aws.svg
 ---
 
 <small>
   Improve delivery reliability with Docker, Kubernetes, EKS, Terraform, AWS, Azure, CI/CD, and automation that supports repeatable deployments.
+
+  - <strong>Containerized services and Kubernetes deployments</strong>
+  - <strong>Infrastructure provisioning with Terraform</strong>
+  - <strong>CI/CD workflows for safer production releases</strong>
+</small>
+
 
 - <strong>Containerized services and Kubernetes deployments</strong>
 - <strong>Infrastructure provisioning with Terraform</strong>
@@ -84,7 +98,7 @@ src: /icons/audit.svg
 <small>
   Design maintainable systems with microservices, REST and GraphQL APIs, event-driven messaging, Redis caching, and practical AI integration patterns.
 
-- <strong>Scalability, fault tolerance, and maintainability</strong>
-- <strong>OpenAI API integration, prompt design, and RAG patterns</strong>
-- <strong>Monitoring with Prometheus, Grafana, ELK Stack, and Sentry</strong>
-  </small>
+  - <strong>Scalability, fault tolerance, and maintainability</strong>
+  - <strong>OpenAI API integration, prompt design, and RAG patterns</strong>
+  - <strong>Monitoring with Prometheus, Grafana, ELK Stack, and Sentry</strong>
+</small>
