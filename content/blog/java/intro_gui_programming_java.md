@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Introduction to GUI Programming with Java (Swing or JavaFX)"
-description: "Dive into GUI programming with Java by exploring two pivotal frameworks: Swing and JavaFX. This guide introduces beginners to the concepts, tools, and practices needed to develop visually appealing, user-friendly applications with Java."
+title: 'Introduction to GUI Programming with Java (Swing or JavaFX)'
+description: 'Dive into GUI programming with Java by exploring two pivotal frameworks: Swing and JavaFX. This guide introduces beginners to the concepts, tools, and practices needed to develop visually appealing, user-friendly applications with Java.'
 date: '2023-10-29'
 tags:
   - java
@@ -98,4 +98,3 @@ Whether opting for Swing or JavaFX, understanding the core concepts, components,
 
 - [JavaFX Documentation](https://openjfx.io/)
 - [Swing Tutorial - Oracle Docs](https://docs.oracle.com/javase/tutorial/uiswing/)
-

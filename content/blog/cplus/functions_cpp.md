@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Functions in C++: Building Reusable Code"
-description: "Delve into the realm of functions in C++, exploring the mechanism that allows developers to create modular, reusable, and organized code. Understand the essence of function declaration, definition, and calling, while also exploring different types of functions, parameter passing, and scope within C++ programming. Learn to enhance code readability and maintainability by effectively utilizing functions."
+title: 'Functions in C++: Building Reusable Code'
+description: 'Delve into the realm of functions in C++, exploring the mechanism that allows developers to create modular, reusable, and organized code. Understand the essence of function declaration, definition, and calling, while also exploring different types of functions, parameter passing, and scope within C++ programming. Learn to enhance code readability and maintainability by effectively utilizing functions.'
 date: '2023-11-12'
 tags:
   - programming
@@ -97,4 +97,3 @@ Functions serve as the building blocks of C++ programs, facilitating the creatio
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Arrays in PHP: Storing and Manipulating Data"
-description: "Unveil the power of arrays in PHP and explore various methods to efficiently store and manipulate data. Understand indexed arrays, associative arrays, and multi-dimensional arrays and delve into various array functions provided by PHP to handle data effectively."
+title: 'Arrays in PHP: Storing and Manipulating Data'
+description: 'Unveil the power of arrays in PHP and explore various methods to efficiently store and manipulate data. Understand indexed arrays, associative arrays, and multi-dimensional arrays and delve into various array functions provided by PHP to handle data effectively.'
 date: '2023-11-02'
 tags:
   - php

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Threads and Concurrency in Java"
-description: "Dive into the concurrent world of Java programming, exploring the crucial concepts of threads and concurrency. Understand the significance of multi-threading, synchronize threads, manage deadlocks, and exploit parallelism in Java applications, enhancing performance and user experience."
+title: 'Threads and Concurrency in Java'
+description: 'Dive into the concurrent world of Java programming, exploring the crucial concepts of threads and concurrency. Understand the significance of multi-threading, synchronize threads, manage deadlocks, and exploit parallelism in Java applications, enhancing performance and user experience.'
 date: '2023-10-31'
 tags:
   - java

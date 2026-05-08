@@ -7,7 +7,9 @@ seo:
 
 ---github
 repositories:
-  - Swannhs
+
+- Swannhs
+
 ---
 
 <PageTitle>
@@ -20,8 +22,9 @@ Selected work across SaaS platforms, ticketing systems, CRM workflows, multi-ven
 
 ---projects
 collection:
-  path: /projects
-  sortBy: date
+path: /projects
+sortBy: date
+
 ---
 
 <PageTitle>

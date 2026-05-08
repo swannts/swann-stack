@@ -5,14 +5,15 @@ seo:
   description: Senior Full Stack Engineer with 5+ years of experience building SaaS platforms, APIs, microservices, and cloud-native systems with React, Next.js, Node.js, Laravel, AWS, Azure, Docker, and Kubernetes.
 ---
 
-
-
 ---personal_info
 name: Abu Bokor Siddik
 images:
-  - src: /hero.jpg
-    alt: Abu Bokor Siddik
+
+- src: /hero.jpg
+  alt: Abu Bokor Siddik
+
 ---
+
 ##### <span>01.</span> About me
 
 I am a Senior Full Stack Engineer with 5+ years of experience building and scaling production-grade web applications and SaaS platforms. My work spans React, Next.js, Node.js, Laravel, APIs, microservices, cloud infrastructure, and platform automation.
@@ -60,6 +61,7 @@ I also work with AI-enabled development patterns, including OpenAI API integrati
 
 I value clean, maintainable, scalable code; strong backend architecture and API design; performance-focused frontend experiences; full ownership from frontend to backend; and production reliability through automation.
 
+##### <span>02.</span> Backend expertise
 
 ---cta
 ---
@@ -71,7 +73,14 @@ Full Stack • Cloud & Platform
   Contact Me
 </Button>
 
+---skills_header
+title: Technical Skills
+list:
 
+- Full Stack SaaS Platforms
+- Cloud-Native Systems
+- Microservices & APIs
+- AI-Enabled Development
 
 ---skills_header
 title: Technical Skills
@@ -82,7 +91,30 @@ list:
   - AI-Enabled Development
 ---
 
+---skills[1]
+title: Frontend Development
+list:
 
+- title: React
+  level: 5
+  icon:
+  src: /icons/react.svg
+- title: Next.js
+  level: 5
+  icon:
+  src: /icons/next-js.svg
+- title: TypeScript
+  level: 4
+  icon:
+  src: /icons/javascript.svg
+- title: Redux Toolkit, Context API
+  level: 4
+  icon:
+  src: /icons/redux.svg
+- title: Tailwind CSS, MUI, Bootstrap
+  level: 4
+  icon:
+  src: /icons/javascript.svg
 
 ---skills[0]
 title: Backend Development
@@ -109,7 +141,28 @@ list:
       src: /icons/prisma.svg
 ---
 
+---skills[3]
+title: Databases
+list:
 
+- title: PostgreSQL
+  level: 5
+  icon:
+  src: /icons/graphql.svg
+- title: MySQL
+  level: 5
+  icon:
+  src: /icons/graphql.svg
+- title: MongoDB
+  level: 4
+  icon:
+  src: /icons/graphql.svg
+- title: Redis
+  level: 4
+  icon:
+  src: /icons/graphql.svg
+
+---
 
 ---skills[1]
 title: Frontend Development
@@ -136,7 +189,26 @@ list:
       src: /icons/javascript.svg
 ---
 
+---skills[5]
+title: DevOps and Cloud
+list:
 
+- title: Docker, Kubernetes, EKS
+  level: 5
+  icon:
+  src: /icons/docker.svg
+- title: Terraform, Ansible
+  level: 4
+  icon:
+  src: /icons/dashboard.svg
+- title: AWS, Azure
+  level: 4
+  icon:
+  src: /icons/aws.svg
+- title: CI/CD
+  level: 5
+  icon:
+  src: /icons/dashboard.svg
 
 ---skills[2]
 title: AI / GenAI

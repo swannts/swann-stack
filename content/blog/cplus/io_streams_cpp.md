@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "C++ Standard Library: Input/Output Streams"
-description: "Dive into the realm of Input/Output (I/O) streams in the C++ Standard Library, a fundamental concept for managing input and output operations in C++ applications. Explore various I/O streams like cin, cout, ifstream, and ofstream, and understand how they facilitate data flow between the program and external entities, such as the console or files. Delve into practical examples, common operations, and effective usage of I/O streams in diverse C++ programming scenarios."
+title: 'C++ Standard Library: Input/Output Streams'
+description: 'Dive into the realm of Input/Output (I/O) streams in the C++ Standard Library, a fundamental concept for managing input and output operations in C++ applications. Explore various I/O streams like cin, cout, ifstream, and ofstream, and understand how they facilitate data flow between the program and external entities, such as the console or files. Delve into practical examples, common operations, and effective usage of I/O streams in diverse C++ programming scenarios.'
 date: '2023-11-20'
 tags:
   - programming
@@ -100,4 +100,3 @@ I/O streams in C++ provide an efficient and straightforward mechanism to manage 
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321992784)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Pointers and Memory Management in C"
-description: "Unlock the potentials of pointers and delve into the memory management aspects in C programming. This guide provides a detailed exploration of pointers, their usage, and the dynamic memory management techniques in C, offering insights into memory allocation, deallocation, and pointer arithmetic, which are pivotal in developing efficient programs."
+title: 'Pointers and Memory Management in C'
+description: 'Unlock the potentials of pointers and delve into the memory management aspects in C programming. This guide provides a detailed exploration of pointers, their usage, and the dynamic memory management techniques in C, offering insights into memory allocation, deallocation, and pointer arithmetic, which are pivotal in developing efficient programs.'
 date: '2023-10-26'
 tags:
   - programming
@@ -97,4 +97,3 @@ Understanding pointers and memory management is pivotal for developing efficient
 
 - [Pointers On C](https://www.amazon.com/Pointers-C-Kenneth-Reek/dp/0673999866)
 - [C Programming Absolute Beginner's Guide](https://www.amazon.com/C-Programming-Absolute-Beginners-Guide-ebook/dp/B00EANJ09U)
-

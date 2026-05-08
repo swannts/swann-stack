@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Setting Up Your JavaScript Development Environment"
-description: "A comprehensive guide to setting up a robust JavaScript development environment, ensuring you have all the tools and configurations in place to build, test, and deploy JavaScript applications effectively."
+title: 'Setting Up Your JavaScript Development Environment'
+description: 'A comprehensive guide to setting up a robust JavaScript development environment, ensuring you have all the tools and configurations in place to build, test, and deploy JavaScript applications effectively.'
 date: '2023-10-18'
 tags:
   - javascript
@@ -66,9 +66,11 @@ npm install [package_name]
 Build tools like Webpack help to bundle your JavaScript, CSS, and images into static assets.
 
 - Install Webpack and its CLI tool.
+
 ```bash
 npm install --save-dev webpack webpack-cli
 ```
+
 - Configure Webpack as per your project needs.
 
 ### Automated Testing
@@ -100,4 +102,3 @@ A well-structured JavaScript development environment is fundamental to developin
 - [VS Code Extensions](https://marketplace.visualstudio.com/VSCode)
 - [Webpack Documentation](https://webpack.js.org/concepts/)
 - [Jest Documentation](https://jestjs.io/docs/getting-started)
-

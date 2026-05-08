@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "PHP Web Development: Introduction to HTML and Forms"
-description: "Dive into the world of PHP web development by understanding the integration of HTML and managing forms. Explore the crucial aspects of creating dynamic web pages, handling user inputs safely, and implementing basic web functionalities using PHP."
+title: 'PHP Web Development: Introduction to HTML and Forms'
+description: 'Dive into the world of PHP web development by understanding the integration of HTML and managing forms. Explore the crucial aspects of creating dynamic web pages, handling user inputs safely, and implementing basic web functionalities using PHP.'
 date: '2023-10-29'
 tags:
   - php
@@ -24,14 +24,14 @@ PHP scripts can be embedded within HTML documents, allowing developers to dynami
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>My First PHP Web Page</title>
-</head>
-<body>
-    <?php
-        echo "<h1>Welcome to PHP Web Development!</h1>";
-    ?>
-</body>
+  </head>
+  <body>
+    <?php echo "
+    <h1>Welcome to PHP Web Development!</h1>
+    "; ?>
+  </body>
 </html>
 ```
 
@@ -45,9 +45,9 @@ HTML forms provide a mechanism to collect user input and submit it to the server
 
 ```html
 <form action="process_form.php" method="post">
-    Name: <input type="text" name="user_name"><br>
-    Email: <input type="text" name="user_email"><br>
-    <input type="submit" value="Submit">
+  Name: <input type="text" name="user_name" /><br />
+  Email: <input type="text" name="user_email" /><br />
+  <input type="submit" value="Submit" />
 </form>
 ```
 
@@ -105,4 +105,3 @@ Combining PHP with HTML forms paves the way for creating interactive web pages, 
 
 - [PHP Official Documentation](https://www.php.net/manual/en/)
 - [W3Schools - PHP Form Handling](https://www.w3schools.com/php/php_forms.asp)
-

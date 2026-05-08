@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Debugging and Error Handling in C"
-description: "Embark on an exploration of debugging and error handling in C programming, providing a guide on identifying, troubleshooting, and resolving errors effectively. This guide provides insights into various debugging techniques, error types, and error-handling mechanisms that ensure the development of robust, error-free C programs."
+title: 'Debugging and Error Handling in C'
+description: 'Embark on an exploration of debugging and error handling in C programming, providing a guide on identifying, troubleshooting, and resolving errors effectively. This guide provides insights into various debugging techniques, error types, and error-handling mechanisms that ensure the development of robust, error-free C programs.'
 date: '2023-10-29'
 tags:
   - programming
@@ -118,4 +118,3 @@ Debugging and error handling are integral to C programming, enabling developers 
 
 - [C Programming Absolute Beginner's Guide](https://www.amazon.com/C-Programming-Absolute-Beginners-Guide/dp/0789751984)
 - [GNU Debugger Tutorial](https://www.tutorialspoint.com/gnu_debugger/index.htm)
-

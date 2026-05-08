@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Control Flow: Conditional Statements in C++"
-description: "Dive into the control flow within C++ programs, understanding how conditional statements like if, else if, and else, as well as switch statements, direct the path of program execution. Learn to implement decision-making logic in your C++ applications, ensuring your programs can respond dynamically to different inputs and situations."
+title: 'Control Flow: Conditional Statements in C++'
+description: 'Dive into the control flow within C++ programs, understanding how conditional statements like if, else if, and else, as well as switch statements, direct the path of program execution. Learn to implement decision-making logic in your C++ applications, ensuring your programs can respond dynamically to different inputs and situations.'
 date: '2023-11-11'
 tags:
   - programming
@@ -100,4 +100,3 @@ Understanding and implementing control flow through conditional statements is pi
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

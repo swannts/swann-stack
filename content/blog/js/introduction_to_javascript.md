@@ -30,8 +30,8 @@ JavaScript, often abbreviated as JS, is a programming language that conforms to 
 JavaScript supports a variety of data types, including strings, numbers, and objects. Variables are containers to store data values.
 
 ```javascript
-let greeting = "Hello, World!";
-const pi = 3.14159;
+let greeting = 'Hello, World!'
+const pi = 3.14159
 ```
 
 #### Operators
@@ -39,8 +39,8 @@ const pi = 3.14159;
 JavaScript includes arithmetic operators (`+`, `-`, `*`, `/`) and comparison operators (`==`, `===`, `!=`, `!==`) to perform operations and compare values.
 
 ```javascript
-let sum = 5 + 3;
-let isEqual = (5 == "5");  // true
+let sum = 5 + 3
+let isEqual = 5 == '5' // true
 ```
 
 #### Control Structures
@@ -49,9 +49,9 @@ Control structures, like `if`, `else`, and `for`, control the flow of the progra
 
 ```javascript
 if (sum > 10) {
-    console.log("Sum is greater than 10.");
+  console.log('Sum is greater than 10.')
 } else {
-    console.log("Sum is less than or equal to 10.");
+  console.log('Sum is less than or equal to 10.')
 }
 ```
 
@@ -61,7 +61,7 @@ if (sum > 10) {
 
 ```html
 <script>
-    alert("Hello, World!");
+  alert('Hello, World!')
 </script>
 ```
 
@@ -89,4 +89,3 @@ Learning JavaScript opens doors to various possibilities in web development and 
 - [Mozilla Developer Network (MDN) - JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - [Eloquent JavaScript](https://eloquentjavascript.net/)
 - [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
-

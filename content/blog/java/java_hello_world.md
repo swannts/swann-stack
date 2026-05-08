@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: "Your First Java Program: Hello, World!"
+title: 'Your First Java Program: Hello, World!'
 description: "Embarking on the journey of learning Java programming commences with writing the traditional 'Hello, World!' program. This guide will walk you through creating, writing, compiling, and executing your first Java program, providing insights into the structure and syntax of Java code."
 date: '2023-12-04'
 tags:
@@ -89,4 +89,3 @@ With your first Java program successfully written, compiled, and executed, you a
 - [Java Programming and Software Engineering Fundamentals](https://www.coursera.org/specializations/java-programming)
 - [Java Brains](https://javabrains.io/)
 - [Codecademy: Learn Java](https://www.codecademy.com/learn/learn-java)
-

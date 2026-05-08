@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "File Handling in Java: Managing Data with I/O Streams"
-description: "Explore the comprehensive guide to file handling in Java, covering the fundamentals of reading from and writing to files using various I/O streams. Learn about byte streams, character streams, buffered streams, and how to manage files and directories using the File class, providing a pathway to effectively manipulate data and manage files in Java applications."
+title: 'File Handling in Java: Managing Data with I/O Streams'
+description: 'Explore the comprehensive guide to file handling in Java, covering the fundamentals of reading from and writing to files using various I/O streams. Learn about byte streams, character streams, buffered streams, and how to manage files and directories using the File class, providing a pathway to effectively manipulate data and manage files in Java applications.'
 date: '2023-11-01'
 tags:
   - java
@@ -21,14 +21,14 @@ File handling in Java allows developers to create, read, update, and delete file
 #### Streams in Java
 
 - **Byte Streams**: Handle I/O of raw binary data.
-    - FileInputStream
-    - FileOutputStream
+  - FileInputStream
+  - FileOutputStream
 - **Character Streams**: Handle I/O of character data, automatically handling the character encoding.
-    - FileReader
-    - FileWriter
+  - FileReader
+  - FileWriter
 - **Buffered Streams**: Used to make the I/O operations faster by buffering the input and output data.
-    - BufferedReader
-    - BufferedWriter
+  - BufferedReader
+  - BufferedWriter
 
 #### The File Class
 
@@ -107,4 +107,3 @@ File handling is a pivotal aspect of Java programming, allowing applications to 
 
 - [Java: The Complete Reference, Eleventh Edition](https://www.amazon.com/Java-Complete-Reference-Herbert-Schildt/dp/1260440230)
 - [Oracle Java Documentation](https://docs.oracle.com/en/java/)
-

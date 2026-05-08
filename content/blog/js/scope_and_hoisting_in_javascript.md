@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Scope and Hoisting in JavaScript"
-description: "Dive into the concepts of scope and hoisting in JavaScript, exploring how variables and functions are accessed and hoisted within different scopes. Understand the nuances of the var, let, and const declarations and the function and block scopes, enabling you to manage variables effectively within your JavaScript code."
+title: 'Scope and Hoisting in JavaScript'
+description: 'Dive into the concepts of scope and hoisting in JavaScript, exploring how variables and functions are accessed and hoisted within different scopes. Understand the nuances of the var, let, and const declarations and the function and block scopes, enabling you to manage variables effectively within your JavaScript code.'
 date: '2023-10-17'
 tags:
   - javascript
@@ -25,16 +25,16 @@ In JavaScript, there are two types of scope:
 - **Local (Function/Block) Scope:** Variables declared inside a function or block are in the local scope and are only accessible within that function or block.
 
 ```javascript
-var globalVar = "I am global";  // Global scope
+var globalVar = 'I am global' // Global scope
 
 function exampleFunction() {
-    var localVar = "I am local";  // Local scope
-    console.log(globalVar);  // Accessible
-    console.log(localVar);  // Accessible
+  var localVar = 'I am local' // Local scope
+  console.log(globalVar) // Accessible
+  console.log(localVar) // Accessible
 }
 
-console.log(globalVar);  // Accessible
-console.log(localVar);  // ReferenceError
+console.log(globalVar) // Accessible
+console.log(localVar) // ReferenceError
 ```
 
 ### Var, Let, and Const
@@ -49,11 +49,11 @@ The `var`, `let`, and `const` keywords affect the scope and hoisting of variable
 Hoisting in JavaScript moves the declarations to the top of the current scope before code execution.
 
 ```javascript
-console.log(a);  // undefined
-var a = 3;
+console.log(a) // undefined
+var a = 3
 
-console.log(b);  // ReferenceError
-let b = 3;
+console.log(b) // ReferenceError
+let b = 3
 ```
 
 In the above example, `var a` is hoisted but not its assignment, resulting in `undefined`. `let b` is not hoisted, resulting in a ReferenceError.
@@ -63,15 +63,15 @@ In the above example, `var a` is hoisted but not its assignment, resulting in `u
 Function declarations are hoisted to the top of the scope, but function expressions (using var) are not.
 
 ```javascript
-console.log(funcDecl());  // "Function Declaration"
-console.log(funcExpr());  // TypeError
+console.log(funcDecl()) // "Function Declaration"
+console.log(funcExpr()) // TypeError
 
 function funcDecl() {
-    return "Function Declaration";
+  return 'Function Declaration'
 }
 
-var funcExpr = function() {
-    return "Function Expression";
+var funcExpr = function () {
+  return 'Function Expression'
 }
 ```
 
@@ -92,4 +92,3 @@ Scope and hoisting are fundamental concepts in JavaScript that influence the acc
 - [Mozilla Developer Network (MDN) - Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
 - [JavaScript Info - Variable Hoisting](https://javascript.info/variables)
 - [W3Schools - JavaScript Hoisting](https://www.w3schools.com/js/js_hoisting.asp)
-

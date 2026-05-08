@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "C++ Standard Library: Containers and Iterators"
-description: "Embark on a thorough exploration of the C++ Standard Library, focusing on the role of containers and iterators. Understand the different types of containers offered, such as sequential, associative, and unordered containers, and learn how iterators facilitate the manipulation and traversal of these containers. Dive into practical examples and use-cases, illustrating the utilization of containers and iterators in developing efficient, robust, and concise C++ applications."
+title: 'C++ Standard Library: Containers and Iterators'
+description: 'Embark on a thorough exploration of the C++ Standard Library, focusing on the role of containers and iterators. Understand the different types of containers offered, such as sequential, associative, and unordered containers, and learn how iterators facilitate the manipulation and traversal of these containers. Dive into practical examples and use-cases, illustrating the utilization of containers and iterators in developing efficient, robust, and concise C++ applications.'
 date: '2023-11-19'
 tags:
   - programming
@@ -24,9 +24,9 @@ The C++ Standard Library provides a rich set of tools, notably containers and it
 
 - **Containers** are objects that store data in a specified format and allow various operations on the stored data.
 - **Types of Containers:**
-    - **Sequential Containers:** Store elements in a linear sequence. E.g., vector, list, deque.
-    - **Associative Containers:** Store elements in a way that supports fast retrieval. E.g., set, map.
-    - **Unordered Containers:** Store elements with no guarantee of order. E.g., unordered_set, unordered_map.
+  - **Sequential Containers:** Store elements in a linear sequence. E.g., vector, list, deque.
+  - **Associative Containers:** Store elements in a way that supports fast retrieval. E.g., set, map.
+  - **Unordered Containers:** Store elements with no guarantee of order. E.g., unordered_set, unordered_map.
 
 #### Practical Usage
 
@@ -91,4 +91,3 @@ The C++ Standard Library's containers and iterators offer a powerful and versati
 
 - [C++ Standard Library: A Tutorial and Reference](https://www.amazon.com/Standard-Library-Tutorial-Reference/dp/0321623215)
 - [Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library](https://www.amazon.com/Effective-STL-Specific-Standard-Template/dp/0201749629)
-

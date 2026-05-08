@@ -18,7 +18,7 @@ To create paragraphs, use a blank line to separate one or more lines of text lik
 
 First paragraph. I really like using Markdown.
 
-Second paragraph. *Italic*, **bold**, ~~strikethrough~~, Emoji 😂 ⛺, and `monospace`. I think I'll use it to format all of my documents from now on.
+Second paragraph. _Italic_, **bold**, ~~strikethrough~~, Emoji 😂 ⛺, and `monospace`. I think I'll use it to format all of my documents from now on.
 
 ---
 
@@ -44,45 +44,45 @@ To create a heading, add number signs (#) in front of a word or phrase. The numb
 
 The Markdown syntax allows you to create code blocks by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. To do that, you’ll use three backticks (```) on the lines before and after the code block. The best part? You don’t have to indent any lines!
 
-  ```js  {4-7} showLineNumbers
-  import contact from './contact.js';
+```js {4-7} showLineNumbers
+import contact from './contact.js'
 
-  // below 3 lines are highlighted
-  const person = {
-    name: 'Sara',
-    age: 25,
-  }
+// below 3 lines are highlighted
+const person = {
+  name: 'Sara',
+  age: 25,
+}
 
-  let name = person.name;
-  let age = person.age;
+let name = person.name
+let age = person.age
 
-  // returns a promise
-  let countValue = new Promise(function (resolve, reject) {
-    reject('Promise rejected');
-  });
-  ```
+// returns a promise
+let countValue = new Promise(function (resolve, reject) {
+  reject('Promise rejected')
+})
+```
 
 Code blocks can also be used inside the `<Wide />` component.
 
 <Wide>
 
-  ```js  {4-7} showLineNumbers
-  import contact from './contact.js';
+```js {4-7} showLineNumbers
+import contact from './contact.js'
 
-  // below 3 lines are highlighted
-  const person = {
-    name: 'Sara',
-    age: 25,
-  }
+// below 3 lines are highlighted
+const person = {
+  name: 'Sara',
+  age: 25,
+}
 
-  let name = person.name;
-  let age = person.age;
+let name = person.name
+let age = person.age
 
-  // returns a promise
-  let countValue = new Promise(function (resolve, reject) {
-    reject('Promise rejected');
-  });
-  ```
+// returns a promise
+let countValue = new Promise(function (resolve, reject) {
+  reject('Promise rejected')
+})
+```
 
 </Wide>
 
@@ -95,6 +95,7 @@ In order to receive tips (contributions) from your readers, we've developed a fu
 ```md
 <TipJar />
 ```
+
 This will render the TipJar component:
 
 <TipJar />
@@ -108,18 +109,19 @@ The theme is integrated with [ConvertKit](https://convertkit.com?lmref=CeGsMw&ut
 ```md
 <Newsletter className="bg-omega-800 p-10" />
 ```
+
 This will render the Newsletter component:
 
-<Newsletter className="bg-omega-800 p-10" />
----
+## <Newsletter className="bg-omega-800 p-10" />
 
 ### Images
 
 To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title in quotation marks after the path or URL.
 
 ```md
-![This is the caption](/photos/blog-performance.jpg "Team meeting")
+![This is the caption](/photos/blog-performance.jpg 'Team meeting')
 ```
+
 This image is wrapper inside the `<Wide />` component.
 
 <Wide>
@@ -131,7 +133,7 @@ This image is wrapper inside the `<Wide />` component.
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ```md
-[![This is the caption](/photos/blog-performance.jpg "Team meeting")](https://en.wikipedia.org/wiki/Meeting)
+[![This is the caption](/photos/blog-performance.jpg 'Team meeting')](https://en.wikipedia.org/wiki/Meeting)
 ```
 
 ---
@@ -146,6 +148,7 @@ You can embed youtube videos using the `<Youtube />` component and passing the Y
   title="Next.js 13.1 Explained"
 />
 ```
+
 This will render below embed:
 
 <Wide>
@@ -163,18 +166,18 @@ To add a table, use three or more hyphens (---) to create each column’s header
 
 Tables can look like this:
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-| Table data   | Text        |
+| Syntax     | Description |
+| ---------- | ----------- |
+| Header     | Title       |
+| Paragraph  | Text        |
+| Table data | Text        |
 
 You can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.
 
-|Header 1 |Header 2  | Header 3|
-|:--- | ---: | :---:|
-|Align left| Align right|center text|
-|cell data1|cell data2|cell data3|
+| Header 1   |    Header 2 |  Header 3   |
+| :--------- | ----------: | :---------: |
+| Align left | Align right | center text |
+| cell data1 |  cell data2 | cell data3  |
 
 ---
 
@@ -191,7 +194,7 @@ To create an ordered list, add line items with numbers followed by periods. The 
 3. Third item
 4. Fourth item
 
-To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
+To create an unordered list, add dashes (-), asterisks (\*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
 
 ##### Unordered Lists
 
@@ -204,15 +207,14 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
 
 Now a nested list:
 
- 1. First, get these ingredients:
+1.  First, get these ingredients:
+    - carrots
+    - celery
+    - lentils
 
-      * carrots
-      * celery
-      * lentils
+2.  Boil some water.
 
- 2. Boil some water.
-
- 3. Dump everything in the pot and follow
+3.  Dump everything in the pot and follow
     this algorithm:
 
         find wooden spoon
@@ -254,7 +256,7 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 > - Revenue was off the chart.
 > - Profits were higher than ever.
 >
->  *Everything* is going according to **plan**.
+>   _Everything_ is going according to **plan**.
 
 ---
 

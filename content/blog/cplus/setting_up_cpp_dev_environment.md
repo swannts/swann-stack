@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Setting Up Your C++ Development Environment"
-description: "Setting up a conducive C++ development environment is pivotal to kickstart your coding journey. This guide will walk you through the process of installing and configuring a C++ compiler, an Integrated Development Environment (IDE), and exploring other tools that facilitate a smooth and efficient C++ programming experience."
+title: 'Setting Up Your C++ Development Environment'
+description: 'Setting up a conducive C++ development environment is pivotal to kickstart your coding journey. This guide will walk you through the process of installing and configuring a C++ compiler, an Integrated Development Environment (IDE), and exploring other tools that facilitate a smooth and efficient C++ programming experience.'
 date: '2023-11-06'
 tags:
   - programming
@@ -73,8 +73,8 @@ int main() {
 Setting up your C++ development environment is the first step in your programming journey. With a compiler and an IDE of your choice, you're all set to start writing, debugging, and building your C++ projects. Ensure to explore further and familiarize yourself with the IDE and its features to enhance your development experience.
 
 ---
+
 ### Additional Resources
 
 - [C++ Programming for the Absolute Beginner](https://www.amazon.com/Programming-Absolute-Beginner-Mark-Lee/dp/1598638830)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

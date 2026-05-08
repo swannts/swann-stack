@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: "Your First C++ Program: Hello, World!"
+title: 'Your First C++ Program: Hello, World!'
 description: "Embarking on the C++ programming journey begins with the classic 'Hello, World!' program. This guide explores the intricacies of writing, compiling, and running your first C++ program, ensuring you understand the fundamental syntax and structure of C++ code, providing a stepping stone into more complex programming adventures."
 date: '2023-11-07'
 tags:
@@ -69,12 +69,14 @@ int main() {
 #### Using an IDE
 
 If you're using an IDE like Visual Studio Code, CLion, or Code::Blocks:
+
 - Write the code in a new file and save it with a `.cpp` extension (e.g., `main.cpp`).
 - Compile and run the program using the build and run options in the IDE.
 
 #### Using a Compiler Directly
 
 If you're using a compiler directly via the command line:
+
 - Save the code in a file with a `.cpp` extension (e.g., `main.cpp`).
 - Open the terminal or command prompt.
 - Navigate to the directory containing the code.
@@ -94,8 +96,8 @@ Hello, World!
 Congratulations on writing, compiling, and running your first C++ program! The 'Hello, World!' program provides a sneak peek into the syntax and structure of C++ programming. As you progress, you'll explore more complex syntax, diverse functionalities, and delve deeper into the world of C++ programming.
 
 ---
+
 ### Additional Resources
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "PHP Security Best Practices: Input Validation and Sanitization"
-description: "Dive into the crucial aspect of web development with PHP – security. Uncover the best practices for ensuring robust security in your PHP applications with a focus on input validation and sanitization. Understand the potential vulnerabilities and learn how to safeguard your application against various security threats."
+title: 'PHP Security Best Practices: Input Validation and Sanitization'
+description: 'Dive into the crucial aspect of web development with PHP – security. Uncover the best practices for ensuring robust security in your PHP applications with a focus on input validation and sanitization. Understand the potential vulnerabilities and learn how to safeguard your application against various security threats.'
 date: '2023-10-30'
 tags:
   - php
@@ -83,4 +83,3 @@ Ensuring robust security in PHP applications by implementing meticulous input va
 
 - [PHP Manual – Data Filtering](https://www.php.net/manual/en/book.filter.php)
 - [OWASP Top Ten Web Application Security Risks](https://owasp.org/www-project-top-ten/)
-

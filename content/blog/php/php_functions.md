@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: "Functions in PHP: Building Reusable Code"
+title: 'Functions in PHP: Building Reusable Code'
 description: "Explore the realm of functions in PHP and understand how they pave the way for reusable and modular code. This guide introduces the creation, utilization, and best practices of functions in PHP, ensuring that your codebase remains clean, efficient, and DRY (Don't Repeat Yourself)."
 date: '2023-10-29'
 tags:

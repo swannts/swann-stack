@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Best Practices for C++ Programming"
-description: "Adopting best practices in C++ programming is pivotal for crafting clean, efficient, and maintainable code. This guide will explore various best practices in aspects like coding style, memory management, and error handling in C++ programming, which not only enhance code quality and performance but also ensure a collaborative and error-minimized development environment."
+title: 'Best Practices for C++ Programming'
+description: 'Adopting best practices in C++ programming is pivotal for crafting clean, efficient, and maintainable code. This guide will explore various best practices in aspects like coding style, memory management, and error handling in C++ programming, which not only enhance code quality and performance but also ensure a collaborative and error-minimized development environment.'
 date: '2023-11-27'
 tags:
   - programming
@@ -78,4 +78,3 @@ Adopting best practices in C++ programming not only ensures the creation of effi
 
 - [C++ Coding Standards: 101 Rules, Guidelines, and Best Practices](https://www.amazon.com/Coding-Standards-Rules-Guidelines-Practices/dp/0321113586)
 - [Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14](https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
-

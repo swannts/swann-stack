@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Working with Files and Directories in PHP"
-description: "Dive into the intricate processes of handling files and directories in PHP. Explore the fundamental operations like reading, writing, and modifying files, as well as manipulating directories, which enable PHP developers to manage data storage and retrieval effectively in web development."
+title: 'Working with Files and Directories in PHP'
+description: 'Dive into the intricate processes of handling files and directories in PHP. Explore the fundamental operations like reading, writing, and modifying files, as well as manipulating directories, which enable PHP developers to manage data storage and retrieval effectively in web development.'
 date: '2023-10-29'
 tags:
   - php
@@ -77,8 +77,8 @@ PHP facilitates file uploads, enabling users to submit files which can be proces
 <!-- HTML Form for File Upload -->
 <form action="upload.php" method="post" enctype="multipart/form-data">
   Select file to upload:
-  <input type="file" name="fileToUpload" id="fileToUpload">
-  <input type="submit" value="Upload File" name="submit">
+  <input type="file" name="fileToUpload" id="fileToUpload" />
+  <input type="submit" value="Upload File" name="submit" />
 </form>
 ```
 
@@ -112,4 +112,3 @@ File and directory handling in PHP opens up numerous possibilities in web develo
 
 - [PHP Documentation](https://www.php.net/manual/en/refs.fileprocess.file.php)
 - [W3Schools - PHP File Handling](https://www.w3schools.com/php/php_file.asp)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Introduction to Object-Oriented Programming (OOP) in C++"
-description: "Embark on the exploration of Object-Oriented Programming (OOP) in C++, a paradigm that allows developers to structure their software as a collection of objects representing real-world entities. Grasp the fundamental concepts of OOP like classes, objects, inheritance, polymorphism, and encapsulation, and understand how C++ enables developers to implement OOP concepts to solve complex problems."
+title: 'Introduction to Object-Oriented Programming (OOP) in C++'
+description: 'Embark on the exploration of Object-Oriented Programming (OOP) in C++, a paradigm that allows developers to structure their software as a collection of objects representing real-world entities. Grasp the fundamental concepts of OOP like classes, objects, inheritance, polymorphism, and encapsulation, and understand how C++ enables developers to implement OOP concepts to solve complex problems.'
 date: '2023-11-13'
 tags:
   - programming
@@ -106,4 +106,3 @@ OOP in C++ not only provides a practical approach to solving complex problems bu
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [Object-Oriented Programming in C++](https://www.amazon.com/Object-Oriented-Programming-C-Robert-Lafore/dp/0672323087)
-

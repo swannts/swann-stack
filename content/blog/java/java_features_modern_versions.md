@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Java Features in Modern Java Versions (Java 8, Java 11, Java 16, etc.)"
-description: "Explore the evolution of Java through its various versions, focusing on the introduction of new features, enhancements, and improvements in Java 8, Java 11, Java 16, and beyond. Understand how the modern versions of Java have enhanced the language, providing more functionality, improving performance, and simplifying development."
+title: 'Java Features in Modern Java Versions (Java 8, Java 11, Java 16, etc.)'
+description: 'Explore the evolution of Java through its various versions, focusing on the introduction of new features, enhancements, and improvements in Java 8, Java 11, Java 16, and beyond. Understand how the modern versions of Java have enhanced the language, providing more functionality, improving performance, and simplifying development.'
 date: '2023-10-29'
 tags:
   - java
@@ -60,4 +60,3 @@ The evolution of Java has been guided by the principle of maintaining backward c
 - [Java Documentation](https://docs.oracle.com/en/java/)
 - [AdoptOpenJDK](https://adoptopenjdk.net/)
 - [Project Loom: Lightweight concurrency in Java](https://openjdk.java.net/projects/loom/)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Introduction to Object-Oriented Programming (OOP) in PHP"
-description: "Embark on a journey through Object-Oriented Programming (OOP) in PHP, exploring the core concepts, syntax, and practical implementations of OOP to elevate your PHP development skills and build scalable, maintainable applications."
+title: 'Introduction to Object-Oriented Programming (OOP) in PHP'
+description: 'Embark on a journey through Object-Oriented Programming (OOP) in PHP, exploring the core concepts, syntax, and practical implementations of OOP to elevate your PHP development skills and build scalable, maintainable applications.'
 date: '2023-10-29'
 tags:
   - php
@@ -28,12 +28,12 @@ class Car {
     // properties
     public $color;
     public $model;
-    
+
     // methods
     public function setColor($color) {
         $this->color = $color;
     }
-    
+
     public function getColor() {
         return $this->color;
     }
@@ -51,7 +51,7 @@ Inheritance allows a class (child class) to use methods and properties of anothe
 ```php
 class ElectricCar extends Car {
     public $batteryLife;
-    
+
     public function setBatteryLife($batteryLife) {
         $this->batteryLife = $batteryLife;
     }
@@ -65,7 +65,7 @@ Encapsulation involves hiding the internal state of the object and requiring all
 ```php
 class Account {
     private $balance;
-    
+
     public function deposit($amount) {
         if ($amount > 0) {
             $this->balance += $amount;

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Setting Up Your Java Development Environment"
-description: "Before diving into Java programming, setting up a conducive development environment is crucial. This guide will walk you through the steps to set up a Java development environment, discussing the installation of JDK, configuration of an IDE, and the creation of your first Java program."
+title: 'Setting Up Your Java Development Environment'
+description: 'Before diving into Java programming, setting up a conducive development environment is crucial. This guide will walk you through the steps to set up a Java development environment, discussing the installation of JDK, configuration of an IDE, and the creation of your first Java program.'
 date: '2023-12-03'
 tags:
   - programming
@@ -80,4 +80,3 @@ With the JDK installed and the IDE configured, you're now equipped with the tool
 - [Java Documentation](https://docs.oracle.com/en/java/)
 - [Eclipse Documentation](https://help.eclipse.org/2021-09/index.jsp)
 - [IntelliJ IDEA Documentation](https://www.jetbrains.com/idea/documentation/documentation.html)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Super Global Variables and Form Handling in PHP"
-description: "Dive into the exploration of super global variables in PHP, which provide a convenient way to access data from various sources such as form inputs. Learn how PHP handles form data, enabling developers to create interactive and dynamic web applications by retrieving, processing, and utilizing user input seamlessly."
+title: 'Super Global Variables and Form Handling in PHP'
+description: 'Dive into the exploration of super global variables in PHP, which provide a convenient way to access data from various sources such as form inputs. Learn how PHP handles form data, enabling developers to create interactive and dynamic web applications by retrieving, processing, and utilizing user input seamlessly.'
 date: '2023-10-29'
 tags:
   - php
@@ -52,9 +52,9 @@ Forms using the GET method appends data into the URL, making it visible and book
 
 ```html
 <form action="welcome.php" method="get">
-  Name: <input type="text" name="name"><br>
-  Email: <input type="text" name="email"><br>
-  <input type="submit">
+  Name: <input type="text" name="name" /><br />
+  Email: <input type="text" name="email" /><br />
+  <input type="submit" />
 </form>
 ```
 
@@ -64,9 +64,9 @@ The POST method conceals data during transmission and does not append it to the 
 
 ```html
 <form action="login.php" method="post">
-  Username: <input type="text" name="username"><br>
-  Password: <input type="password" name="password"><br>
-  <input type="submit">
+  Username: <input type="text" name="username" /><br />
+  Password: <input type="password" name="password" /><br />
+  <input type="submit" />
 </form>
 ```
 

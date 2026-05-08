@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Sessions and Cookies in PHP"
-description: "Dive into the essential concepts of managing user sessions and cookies in PHP. Learn how to manage user data securely across various pages of a PHP website and ensure a seamless and personalized user experience by leveraging sessions and cookies."
+title: 'Sessions and Cookies in PHP'
+description: 'Dive into the essential concepts of managing user sessions and cookies in PHP. Learn how to manage user data securely across various pages of a PHP website and ensure a seamless and personalized user experience by leveraging sessions and cookies.'
 date: '2023-11-02'
 tags:
   - php
@@ -99,4 +99,3 @@ Sessions and cookies are pivotal in creating a coherent and user-friendly experi
 
 - [PHP Manual: Using Cookies](https://www.php.net/manual/en/features.cookies.php)
 - [PHP Manual: Sessions](https://www.php.net/manual/en/book.session.php)
-

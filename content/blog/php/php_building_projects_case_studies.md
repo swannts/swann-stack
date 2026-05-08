@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Building PHP Projects: Case Studies"
-description: "Dive into real-world applications and project case studies built with PHP. Explore different domains where PHP has been utilized, from e-commerce and content management systems to API development and data handling, providing insights into the practical and scalable use of PHP in various development scenarios."
+title: 'Building PHP Projects: Case Studies'
+description: 'Dive into real-world applications and project case studies built with PHP. Explore different domains where PHP has been utilized, from e-commerce and content management systems to API development and data handling, providing insights into the practical and scalable use of PHP in various development scenarios.'
 date: '2023-10-30'
 tags:
   - php
@@ -19,7 +19,7 @@ PHP, being a server-side scripting language, has been widely used in developing 
 
 ### Case Study 1: E-commerce Platform
 
-PHP has been a popular choice for developing e-commerce platforms due to its flexibility and abundant frameworks like Magento, WooCommerce (WordPress), and PrestaShop. 
+PHP has been a popular choice for developing e-commerce platforms due to its flexibility and abundant frameworks like Magento, WooCommerce (WordPress), and PrestaShop.
 
 - **Project Brief:** Developing an e-commerce platform that allows users to browse products, add them to the cart, and proceed to checkout.
 - **Key PHP Features Utilized:**

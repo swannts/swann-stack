@@ -12,7 +12,7 @@ images:
     alt: Tailwind CSS and React logos
 ---
 
-React, a robust front-end library, and Tailwind CSS, a utility-first CSS framework, can be combined to create efficient and visually appealing web applications. Integrating Tailwind CSS with React can seem daunting to beginners. However, with a step-by-step guide, the process becomes straightforward and accessible. 
+React, a robust front-end library, and Tailwind CSS, a utility-first CSS framework, can be combined to create efficient and visually appealing web applications. Integrating Tailwind CSS with React can seem daunting to beginners. However, with a step-by-step guide, the process becomes straightforward and accessible.
 
 ### Getting Started
 
@@ -23,7 +23,7 @@ npx create-react-app tailwind-react-app
 cd tailwind-react-app
 ```
 
-### Installing Tailwind CSS 
+### Installing Tailwind CSS
 
 Next, install Tailwind CSS, PostCSS, and CRACO (Create React App Configuration Override) by running the following command:
 
@@ -44,9 +44,7 @@ This command creates two files: `tailwind.config.js` and `postcss.config.js`. Up
 ```js
 // tailwind.config.js
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   // other configurations
 }
 ```
@@ -57,7 +55,7 @@ module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
-  }
+  },
 }
 ```
 
@@ -93,7 +91,7 @@ function App() {
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <h1 className="text-5xl font-bold text-blue-700">Welcome to Tailwind CSS with React</h1>
     </div>
-  );
+  )
 }
 ```
 

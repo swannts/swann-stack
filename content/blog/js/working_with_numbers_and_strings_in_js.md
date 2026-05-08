@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Working with Numbers and Strings in JavaScript"
-description: "Delve into the practical aspects of handling numbers and strings in JavaScript, exploring various methods, operations, and functionalities that developers can leverage while dealing with numerical and textual data in their web applications."
+title: 'Working with Numbers and Strings in JavaScript'
+description: 'Delve into the practical aspects of handling numbers and strings in JavaScript, exploring various methods, operations, and functionalities that developers can leverage while dealing with numerical and textual data in their web applications.'
 date: '2023-10-29'
 tags:
   - javascript
@@ -24,11 +24,11 @@ JavaScript is versatile when it comes to handling different data types, especial
 JavaScript allows performing basic arithmetic operations like addition, subtraction, multiplication, and division easily.
 
 ```javascript
-let a = 10;
-let b = 20;
+let a = 10
+let b = 20
 
-console.log(a + b); // 30
-console.log(a - b); // -10
+console.log(a + b) // 30
+console.log(a - b) // -10
 ```
 
 #### Complex Calculations
@@ -36,8 +36,8 @@ console.log(a - b); // -10
 JavaScript Math object provides methods for more complex calculations like rounding, powers, and trigonometry.
 
 ```javascript
-console.log(Math.sqrt(25));  // 5
-console.log(Math.pow(2, 3)); // 8
+console.log(Math.sqrt(25)) // 5
+console.log(Math.pow(2, 3)) // 8
 ```
 
 ### Working with Strings in JavaScript
@@ -47,11 +47,11 @@ console.log(Math.pow(2, 3)); // 8
 Strings can be concatenated using the `+` operator or template literals.
 
 ```javascript
-let greeting = "Hello";
-let name = "World";
+let greeting = 'Hello'
+let name = 'World'
 
-console.log(greeting + " " + name); // Hello World
-console.log(`\${greeting} \${name}`); // Hello World
+console.log(greeting + ' ' + name) // Hello World
+console.log(`\${greeting} \${name}`) // Hello World
 ```
 
 #### Methods and Properties
@@ -59,10 +59,10 @@ console.log(`\${greeting} \${name}`); // Hello World
 JavaScript strings come with a variety of methods and properties, allowing developers to manipulate and analyze text effectively.
 
 ```javascript
-let text = "JavaScript is fun";
+let text = 'JavaScript is fun'
 
-console.log(text.length);        // 17
-console.log(text.toUpperCase()); // JAVASCRIPT IS FUN
+console.log(text.length) // 17
+console.log(text.toUpperCase()) // JAVASCRIPT IS FUN
 ```
 
 ### Type Conversion
@@ -70,15 +70,15 @@ console.log(text.toUpperCase()); // JAVASCRIPT IS FUN
 Implicit and explicit type conversions between strings and numbers are common in JavaScript.
 
 ```javascript
-let stringValue = "100";
-let numberValue = 50;
+let stringValue = '100'
+let numberValue = 50
 
 // Implicit conversion
-console.log(stringValue - numberValue); // 50
+console.log(stringValue - numberValue) // 50
 
 // Explicit conversion
-console.log(Number(stringValue) + numberValue); // 150
-console.log(stringValue + String(numberValue)); // 10050
+console.log(Number(stringValue) + numberValue) // 150
+console.log(stringValue + String(numberValue)) // 10050
 ```
 
 ### Conclusion

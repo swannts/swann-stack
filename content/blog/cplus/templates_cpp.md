@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Templates and Generic Programming in C++"
-description: "Dive into the world of templates and generic programming in C++, exploring how they enable developers to create functions and classes that operate on generic types. This guide illuminates the syntax, application, and potent capabilities of templates, facilitating the creation of versatile and reusable code structures in C++ programming."
+title: 'Templates and Generic Programming in C++'
+description: 'Dive into the world of templates and generic programming in C++, exploring how they enable developers to create functions and classes that operate on generic types. This guide illuminates the syntax, application, and potent capabilities of templates, facilitating the creation of versatile and reusable code structures in C++ programming.'
 date: '2023-11-24'
 tags:
   - programming
@@ -93,4 +93,3 @@ Templates and generic programming in C++ provide a potent mechanism to create fl
 
 - [C++ Templates: The Complete Guide](https://www.amazon.com/C-Templates-Complete-Guide-2nd/dp/0321714121)
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-2nd/dp/0321992784)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Setting Up Your Development Environment for C Programming"
-description: "A step-by-step guide to setting up a development environment for C programming. Navigate through the process of installing compilers, IDEs, and essential tools to kickstart your journey in developing applications using the C programming language."
+title: 'Setting Up Your Development Environment for C Programming'
+description: 'A step-by-step guide to setting up a development environment for C programming. Navigate through the process of installing compilers, IDEs, and essential tools to kickstart your journey in developing applications using the C programming language.'
 date: '2023-10-18'
 tags:
   - programming

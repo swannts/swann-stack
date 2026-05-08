@@ -33,10 +33,8 @@ Senior Software Engineer building scalable full-stack SaaS platforms, APIs, micr
 
 ---
 
+## ---cta
 
-
----cta
----
 <Button href="/projects" size="lg">
   View Projects
 </Button>

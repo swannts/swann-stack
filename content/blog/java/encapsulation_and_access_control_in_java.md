@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Encapsulation and Access Control in Java: Safeguarding Data Integrity"
-description: "Dive into the concept of Encapsulation in Java, exploring how it safeguards data integrity by bundling code and data into a single unit and restricting unauthorized access and modifications. Learn about access modifiers and their pivotal role in implementing encapsulation, ensuring that the data is shielded from unintended interference and misuse."
+title: 'Encapsulation and Access Control in Java: Safeguarding Data Integrity'
+description: 'Dive into the concept of Encapsulation in Java, exploring how it safeguards data integrity by bundling code and data into a single unit and restricting unauthorized access and modifications. Learn about access modifiers and their pivotal role in implementing encapsulation, ensuring that the data is shielded from unintended interference and misuse.'
 date: '2023-10-29'
 tags:
   - java
@@ -94,4 +94,3 @@ Encapsulation and access control stand out as fundamental principles in safeguar
 
 - [Java: A Beginner's Guide, Eighth Edition](https://www.amazon.com/Java-Beginners-Guide-Herbert-Schildt/dp/1260440214)
 - [Oracle Java Documentation](https://docs.oracle.com/en/java/)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Building a Modern E-commerce Website with Tailwind CSS"
-description: "Explore the pathway to building a contemporary e-commerce website by leveraging Tailwind CSS. Dive into a hands-on guide that navigates through creating visually appealing, responsive, and user-centric e-commerce platforms, ensuring a smooth and intuitive shopping experience for users across various devices."
+title: 'Building a Modern E-commerce Website with Tailwind CSS'
+description: 'Explore the pathway to building a contemporary e-commerce website by leveraging Tailwind CSS. Dive into a hands-on guide that navigates through creating visually appealing, responsive, and user-centric e-commerce platforms, ensuring a smooth and intuitive shopping experience for users across various devices.'
 date: '2023-10-16'
 tags:
   - tailwindcss
@@ -44,7 +44,11 @@ Utilize Tailwind CSS’s grid utilities to create a responsive product grid, ens
 ```html
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
   <div class="border p-4">
-    <img src="./../../../public/photos/blog-prototype.jpg" alt="Product Name" class="w-full h-64 object-cover mb-4"/>
+    <img
+      src="./../../../public/photos/blog-prototype.jpg"
+      alt="Product Name"
+      class="w-full h-64 object-cover mb-4"
+    />
     <h2 class="text-lg font-semibold mb-2">Product Name</h2>
     <p class="text-gray-700 mb-4">Product Description</p>
     <button class="bg-blue-500 text-white px-4 py-2">Add to Cart</button>

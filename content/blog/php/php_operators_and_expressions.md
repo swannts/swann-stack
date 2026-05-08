@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "PHP Operators and Expressions"
-description: "Dive into the world of PHP operators and expressions, exploring the versatility and flexibility they offer in crafting logical and computational functionality in PHP scripts. Learn about the various operators available in PHP, their usage, and how to effectively implement them in various scenarios to enhance the logical flow and data manipulation capabilities of your PHP applications."
+title: 'PHP Operators and Expressions'
+description: 'Dive into the world of PHP operators and expressions, exploring the versatility and flexibility they offer in crafting logical and computational functionality in PHP scripts. Learn about the various operators available in PHP, their usage, and how to effectively implement them in various scenarios to enhance the logical flow and data manipulation capabilities of your PHP applications.'
 date: '2023-10-29'
 tags:
   - php
@@ -95,4 +95,3 @@ Operators and expressions in PHP provide the capability to implement logical and
 
 - [PHP Manual: Operators](https://www.php.net/manual/en/language.operators.php)
 - [W3Schools PHP Operators Tutorial](https://www.w3schools.com/php/php_operators.asp)
-

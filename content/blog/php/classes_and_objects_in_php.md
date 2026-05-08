@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Classes and Objects in PHP: Building Modular Applications"
-description: "Dive into the world of Object-Oriented Programming in PHP by exploring classes and objects. Learn how to create classes, instantiate objects, and utilize them to build modular, scalable, and maintainable PHP applications. This guide provides insights into defining properties, methods, and understanding the role of $this keyword in PHP OOP."
+title: 'Classes and Objects in PHP: Building Modular Applications'
+description: 'Dive into the world of Object-Oriented Programming in PHP by exploring classes and objects. Learn how to create classes, instantiate objects, and utilize them to build modular, scalable, and maintainable PHP applications. This guide provides insights into defining properties, methods, and understanding the role of $this keyword in PHP OOP.'
 date: '2023-10-25'
 tags:
   - php
@@ -27,7 +27,7 @@ In PHP, a class is a blueprint or a template for creating objects. It defines pr
 class Car {
     public $color;
     public $model;
-    
+
     public function describe() {
         return "This car is a " . $this->color . " " . $this->model . ".";
     }
@@ -70,11 +70,11 @@ Encapsulation involves wrapping the data (properties) and the code (methods) tog
 ```php
 class Car {
     private $color;
-    
+
     public function setColor($color) {
         $this->color = $color;
     }
-    
+
     public function getColor() {
         return $this->color;
     }

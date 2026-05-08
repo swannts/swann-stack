@@ -78,8 +78,8 @@ int main() {
 C++ serves as a comprehensive entry-point into the realm of programming, offering a blend of procedural and object-oriented programming paradigms. As you delve deeper, exploring topics like STL (Standard Template Library), file handling, and data structures will further enhance your C++ programming skills.
 
 ---
+
 ### Additional Resources
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321992784/)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

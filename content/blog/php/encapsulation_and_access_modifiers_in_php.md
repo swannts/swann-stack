@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Encapsulation and Access Modifiers in PHP"
-description: "Dive into the concepts of encapsulation and access modifiers in PHP to understand how to safeguard data and manage its accessibility within a class. Learn how encapsulation ensures data integrity and how utilizing access modifiers like public, private, and protected can regulate the scope of properties and methods in PHP classes."
+title: 'Encapsulation and Access Modifiers in PHP'
+description: 'Dive into the concepts of encapsulation and access modifiers in PHP to understand how to safeguard data and manage its accessibility within a class. Learn how encapsulation ensures data integrity and how utilizing access modifiers like public, private, and protected can regulate the scope of properties and methods in PHP classes.'
 date: '2023-11-02'
 tags:
   - php

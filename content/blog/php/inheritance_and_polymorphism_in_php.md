@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Inheritance and Polymorphism in PHP"
-description: "Delve into the object-oriented programming concepts of Inheritance and Polymorphism in PHP, exploring how these principles promote code reusability and flexibility. This guide provides a comprehensive exploration of extending classes (Inheritance) and utilizing objects to invoke methods from multiple classes (Polymorphism) within the PHP programming language."
+title: 'Inheritance and Polymorphism in PHP'
+description: 'Delve into the object-oriented programming concepts of Inheritance and Polymorphism in PHP, exploring how these principles promote code reusability and flexibility. This guide provides a comprehensive exploration of extending classes (Inheritance) and utilizing objects to invoke methods from multiple classes (Polymorphism) within the PHP programming language.'
 date: '2023-10-27'
 tags:
   - php

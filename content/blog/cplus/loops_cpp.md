@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Control Flow: Loops in C++"
-description: "Venture into the cyclical world of loops within C++ programming. Understand the significance and application of different looping constructs like for, while, and do-while loops, thereby creating repetitive yet controlled execution flows in your applications. Learn to harness the power of loops to implement iterative operations and repetitive task execution efficiently."
+title: 'Control Flow: Loops in C++'
+description: 'Venture into the cyclical world of loops within C++ programming. Understand the significance and application of different looping constructs like for, while, and do-while loops, thereby creating repetitive yet controlled execution flows in your applications. Learn to harness the power of loops to implement iterative operations and repetitive task execution efficiently.'
 date: '2023-11-12'
 tags:
   - programming
@@ -87,4 +87,3 @@ Loops are fundamental in crafting efficient and readable C++ programs, enabling 
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

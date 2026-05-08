@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Arrays and Collections in Java: Organizing Data"
-description: "Dive into the world of organizing data in Java through arrays and collections. Understand how arrays provide a simplistic yet powerful medium to group similar data, and explore the expansive Java Collections Framework (JCF) that offers a wide range of data structures and algorithms to handle data in more sophisticated ways."
+title: 'Arrays and Collections in Java: Organizing Data'
+description: 'Dive into the world of organizing data in Java through arrays and collections. Understand how arrays provide a simplistic yet powerful medium to group similar data, and explore the expansive Java Collections Framework (JCF) that offers a wide range of data structures and algorithms to handle data in more sophisticated ways.'
 date: '2023-10-31'
 tags:
   - java
@@ -76,4 +76,3 @@ Arrays and collections provide robust capabilities to manage data in Java. While
 
 - [Java: The Complete Reference, Eleventh Edition](https://www.amazon.com/Java-Complete-Reference-Herbert-Schildt/dp/1260440230)
 - [Oracle Java Documentation](https://docs.oracle.com/en/java/)
-

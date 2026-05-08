@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Encapsulation and Access Control in C++"
-description: "Explore the essence of encapsulation and access control in C++ programming. Learn how to protect and restrict access to the data within classes using access specifiers, and understand the significance of encapsulation in crafting robust and secure object-oriented applications."
+title: 'Encapsulation and Access Control in C++'
+description: 'Explore the essence of encapsulation and access control in C++ programming. Learn how to protect and restrict access to the data within classes using access specifiers, and understand the significance of encapsulation in crafting robust and secure object-oriented applications.'
 date: '2023-11-17'
 tags:
   - programming
@@ -109,4 +109,3 @@ Encapsulation and access control stand as crucial principles in C++ programming,
 
 - [C++ Programming for the Absolute Beginner](https://www.amazon.com/Programming-Absolute-Beginner-Mark-Lee/dp/1598632768)
 - [C++: The Complete Reference](https://www.amazon.com/C-Complete-Reference-Herbert-Schildt/dp/0072226803)
-

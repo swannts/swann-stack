@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Control Flow: Conditional Statements in C"
-description: "Embark on a comprehensive exploration of conditional statements in C programming, ensuring efficient control over the flow of program execution. Understand the syntax, implementation, and utility of if, else if, and switch statements, providing a detailed guide on making decisions and controlling the logical flow of C programs."
+title: 'Control Flow: Conditional Statements in C'
+description: 'Embark on a comprehensive exploration of conditional statements in C programming, ensuring efficient control over the flow of program execution. Understand the syntax, implementation, and utility of if, else if, and switch statements, providing a detailed guide on making decisions and controlling the logical flow of C programs.'
 date: '2023-10-23'
 tags:
   - programming

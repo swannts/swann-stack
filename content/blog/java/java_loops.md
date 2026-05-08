@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Control Flow: Loops in Java"
-description: "Immerse into the iterative world of Java programming by understanding and utilizing loops. This guide introduces the fundamental looping structures in Java, such as the while loop, do-while loop, and for loop, enabling beginners to create efficient, repetitive code structures. This is fundamental for executing blocks of code multiple times and creating more dynamic, interactive, and resourceful applications."
+title: 'Control Flow: Loops in Java'
+description: 'Immerse into the iterative world of Java programming by understanding and utilizing loops. This guide introduces the fundamental looping structures in Java, such as the while loop, do-while loop, and for loop, enabling beginners to create efficient, repetitive code structures. This is fundamental for executing blocks of code multiple times and creating more dynamic, interactive, and resourceful applications.'
 date: '2023-12-08'
 tags:
   - programming
@@ -98,4 +98,3 @@ Mastering loops in Java provides developers the capability to create more effici
 - [Java: The Complete Reference](https://www.amazon.com/Java-Complete-Reference-Herbert-Schildt/dp/1260440230/)
 - [Codecademy: Learn Java](https://www.codecademy.com/learn/learn-java)
 - [Java Tutorials - Loop Control](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
-

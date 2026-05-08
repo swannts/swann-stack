@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Variables and Data Types in PHP"
-description: "Dive into the fundamental concepts of PHP programming by exploring variables and data types. Understand how to declare, initialize, and use variables while learning about the different data types supported by PHP, and how they aid in developing dynamic web applications."
+title: 'Variables and Data Types in PHP'
+description: 'Dive into the fundamental concepts of PHP programming by exploring variables and data types. Understand how to declare, initialize, and use variables while learning about the different data types supported by PHP, and how they aid in developing dynamic web applications.'
 date: '2023-10-29'
 tags:
   - php
@@ -85,4 +85,3 @@ Variables and data types are integral in PHP programming, enabling developers to
 
 - [PHP Manual](https://www.php.net/manual/en/)
 - [W3Schools PHP Tutorial](https://www.w3schools.com/php/)
-

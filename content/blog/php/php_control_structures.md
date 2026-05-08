@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Control Structures: Conditional Statements in PHP"
-description: "Delve into the conditional statements in PHP, exploring the foundational control structures that enable decision-making in code. Understand the syntax, usage, and practical implementations of if, else if, and else in PHP, providing a guide for beginners to comprehend and utilize conditional statements effectively."
+title: 'Control Structures: Conditional Statements in PHP'
+description: 'Delve into the conditional statements in PHP, exploring the foundational control structures that enable decision-making in code. Understand the syntax, usage, and practical implementations of if, else if, and else in PHP, providing a guide for beginners to comprehend and utilize conditional statements effectively.'
 date: '2023-10-28'
 tags:
   - php
@@ -100,4 +100,3 @@ Understanding and efficiently utilizing conditional statements is pivotal for im
 
 - [PHP Official Documentation](https://www.php.net/manual/en/)
 - [W3Schools PHP Tutorial](https://www.w3schools.com/php/)
-

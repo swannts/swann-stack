@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Input and Output in Java"
-description: "Delve into understanding the mechanisms for input and output in Java, exploring how to read data from the user and display output. This guide will cover various methods and classes provided by Java for handling standard input/output operations and file I/O, providing a foundation for managing data interaction in your Java applications."
+title: 'Input and Output in Java'
+description: 'Delve into understanding the mechanisms for input and output in Java, exploring how to read data from the user and display output. This guide will cover various methods and classes provided by Java for handling standard input/output operations and file I/O, providing a foundation for managing data interaction in your Java applications.'
 date: '2023-12-06'
 tags:
   - programming
@@ -110,4 +110,3 @@ Understanding and implementing input and output operations form the basis for in
 - [Java I/O (Input and Output)](https://docs.oracle.com/javase/tutorial/essential/io/)
 - [Java Programming Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/)
 - [Head First Java](https://www.oreilly.com/library/view/head-first-java/0596009208/)
-

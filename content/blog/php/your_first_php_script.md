@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: "Your First PHP Script: Hello, World!"
+title: 'Your First PHP Script: Hello, World!'
 description: "Embark on the journey of PHP programming by creating your first PHP script. A simple 'Hello, World!' script provides a smooth introduction to the syntax, structure, and execution of PHP code. Explore how to write, save, and execute your PHP script, providing a foundation to delve deeper into the world of PHP programming."
 date: '2023-10-29'
 tags:
@@ -27,6 +27,7 @@ PHP scripts are generally saved with a `.php` extension and can be embedded with
 ```
 
 In this script:
+
 - `<?php`: Indicates the start of PHP code.
 - `echo`: Is used to output data.
 - `"Hello, World!"`: Is the string that will be output to the browser.
@@ -58,4 +59,3 @@ With your first PHP script under your belt, you can progress to more complex PHP
 - [PHP Manual](https://www.php.net/manual/en/)
 - [W3Schools PHP Tutorial](https://www.w3schools.com/php/)
 - [PHP: The Right Way](https://phptherightway.com/)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Advanced C Programming Topics: Recursion, Macros, and More"
-description: "Venture into the advanced aspects of C programming, exploring topics like recursion, macros, pointer arithmetic, and more. This guide aims to enhance your C programming expertise by delving into concepts that go beyond the basics, enabling you to tackle more complex programming challenges and optimize your code for better performance and usability."
+title: 'Advanced C Programming Topics: Recursion, Macros, and More'
+description: 'Venture into the advanced aspects of C programming, exploring topics like recursion, macros, pointer arithmetic, and more. This guide aims to enhance your C programming expertise by delving into concepts that go beyond the basics, enabling you to tackle more complex programming challenges and optimize your code for better performance and usability.'
 date: '2023-11-03'
 tags:
   - programming
@@ -133,4 +133,3 @@ Advanced C programming topics pave the way for developers to harness the full po
 
 - [Advanced C Programming](https://www.amazon.com/Advanced-C-Programming-Developers-Working/dp/1871962609)
 - [Pointers on C](https://www.amazon.com/Pointers-C-Kenneth-Reek/dp/0673999866)
-

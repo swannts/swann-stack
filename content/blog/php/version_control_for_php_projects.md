@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Version Control for PHP Projects: Git and GitHub"
-description: "Embrace the power of version control in your PHP projects using Git and GitHub. Explore how to track changes, collaborate with other developers, and manage your codebase effectively by utilizing the core functionalities of Git and the collaborative platform of GitHub. Navigate through the process of setting up a repository, committing changes, and working with branches in a PHP project."
+title: 'Version Control for PHP Projects: Git and GitHub'
+description: 'Embrace the power of version control in your PHP projects using Git and GitHub. Explore how to track changes, collaborate with other developers, and manage your codebase effectively by utilizing the core functionalities of Git and the collaborative platform of GitHub. Navigate through the process of setting up a repository, committing changes, and working with branches in a PHP project.'
 date: '2023-10-29'
 tags:
   - php
