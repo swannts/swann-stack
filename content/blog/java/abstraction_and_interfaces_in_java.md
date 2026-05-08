@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Abstraction and Interfaces in Java: Simplifying Complexity"
-description: "Explore the concept of Abstraction in Java, which allows developers to hide the complex implementation details and show only the essential features of an object. Understand the role of interfaces in Java, which helps achieve abstraction, and discover how abstraction enables developers to handle complexity by hiding the intricate implementation details and showcasing only the necessary functionalities."
+title: 'Abstraction and Interfaces in Java: Simplifying Complexity'
+description: 'Explore the concept of Abstraction in Java, which allows developers to hide the complex implementation details and show only the essential features of an object. Understand the role of interfaces in Java, which helps achieve abstraction, and discover how abstraction enables developers to handle complexity by hiding the intricate implementation details and showcasing only the necessary functionalities.'
 date: '2023-10-30'
 tags:
   - java
@@ -87,4 +87,3 @@ Abstraction and interfaces are pivotal in creating simple, secure, and efficient
 
 - [Java: The Complete Reference, Eleventh Edition](https://www.amazon.com/Java-Complete-Reference-Herbert-Schildt/dp/1260440230)
 - [Oracle Java Documentation](https://docs.oracle.com/en/java/)
-

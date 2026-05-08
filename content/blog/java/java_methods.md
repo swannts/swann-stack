@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Methods and Functions in Java"
-description: "Dive into the world of Java programming by exploring methods and functions, the vital building blocks that facilitate code modularity, reuse, and structured programming. This guide elucidates the concept of methods in Java, their creation, usage, and the various nuances including overloading, recursion, and access modifiers, thereby providing beginners with a comprehensive overview."
+title: 'Methods and Functions in Java'
+description: 'Dive into the world of Java programming by exploring methods and functions, the vital building blocks that facilitate code modularity, reuse, and structured programming. This guide elucidates the concept of methods in Java, their creation, usage, and the various nuances including overloading, recursion, and access modifiers, thereby providing beginners with a comprehensive overview.'
 date: '2023-12-09'
 tags:
   - programming
@@ -111,4 +111,3 @@ Mastering methods in Java equips developers with the capability to write modular
 - [Java Programming for Beginners](https://www.udemy.com/course/java-programming-complete-beginner-to-advanced/)
 - [Java Brains](https://javabrains.io/)
 - [Geeks for Geeks - Java Programming Language](https://www.geeksforgeeks.org/java-programming-language/)
-

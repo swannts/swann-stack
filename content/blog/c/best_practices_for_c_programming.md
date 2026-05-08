@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Best Practices for C Programming"
-description: "Explore the best practices for C programming, focusing on coding standards, code organization, memory management, and performance optimization. This guide aims to provide C programmers with a set of practices that ensure code readability, maintainability, and efficient execution, thereby enhancing the overall quality of software applications."
+title: 'Best Practices for C Programming'
+description: 'Explore the best practices for C programming, focusing on coding standards, code organization, memory management, and performance optimization. This guide aims to provide C programmers with a set of practices that ensure code readability, maintainability, and efficient execution, thereby enhancing the overall quality of software applications.'
 date: '2023-10-30'
 tags:
   - programming
@@ -129,4 +129,3 @@ Best practices in C programming encompass a wide array of practices, from coding
 
 - [C Programming for the Absolute Beginner](https://www.amazon.com/C-Programming-Absolute-Beginner/dp/1598634800)
 - [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-

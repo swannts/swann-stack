@@ -1,29 +1,32 @@
 ---
 layout: Post
-title: MYM Manager Business Dashboard
-description: Real-time analytics dashboard with Laravel/Express services and React visualizations for CRM operations.
-date: '2022-03-05'
+title: MYM Manager
+description: SaaS CRM platform with real-time features and scalable backend services for business workflows.
+date: '2025-09-01'
 tags:
-  - react
-  - laravel
-  - realtime
+  - SaaS
+  - CRM
+  - Node.js
+  - React
+  - Real-time
+  - APIs
 logo:
   src: /icons/logo-1.svg
   alt: MYM Manager
 images:
   - src: /projects/project-3.png
-    alt: MYM Manager analytics dashboard and admin workflows
+    alt: MYM Manager SaaS CRM platform
 attributes:
-  - label: Duration
-    value: 7 Months
   - label: Role
-    value: Senior Full Stack Engineer
+    value: Senior Software Engineer
+  - label: Focus
+    value: SaaS CRM workflows
 ---
 
-Developed a CRM-style dashboard featuring live metrics, user segmentation, and notifications. Combined Laravel services with
-Socket-based real-time updates and React data visualizations to give operators instant feedback on pipeline health.
+MYM Manager is a SaaS CRM platform with real-time features and scalable backend services for business workflows.
 
 #### Highlights
-- Added RBAC-secured admin features and audit logging for compliance.
-- Built ETL-style workers to aggregate events from third-party APIs into reporting stores.
-- Created Cypress and Jest suites integrated into GitHub Actions to guard releases.
+
+- Contributed to SaaS platform development in an onsite engineering environment.
+- Developed backend APIs and real-time features for business workflows.
+- Collaborated with team members to deliver reliable CRM platform functionality.

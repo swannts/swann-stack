@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Debugging and Error Handling in C++"
-description: "Debugging and error handling are pivotal aspects of the development cycle in C++ programming. Understanding the essentials of debugging, utilizing debugging tools, and implementing error handling mechanisms, such as exception handling, enhances software reliability and usability. This guide takes you through the basics and advanced concepts of debugging and error handling in C++, ensuring robust and user-friendly application development."
+title: 'Debugging and Error Handling in C++'
+description: 'Debugging and error handling are pivotal aspects of the development cycle in C++ programming. Understanding the essentials of debugging, utilizing debugging tools, and implementing error handling mechanisms, such as exception handling, enhances software reliability and usability. This guide takes you through the basics and advanced concepts of debugging and error handling in C++, ensuring robust and user-friendly application development.'
 date: '2023-11-26'
 tags:
   - programming
@@ -87,4 +87,3 @@ Debugging and error handling are integral to developing reliable and user-friend
 
 - [C++ Programming: From Problem Analysis to Program Design](https://www.amazon.com/Programming-Problem-Analysis-Program-Design/dp/1337117560)
 - [Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems](https://www.amazon.com/Debugging-Indispensable-Finding-Elusive-Software/dp/0814474578)
-

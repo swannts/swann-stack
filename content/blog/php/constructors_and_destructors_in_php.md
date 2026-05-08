@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Constructors and Destructors in PHP: Managing Object Initialization and Cleanup"
-description: "Delve into the crucial aspects of object-oriented programming in PHP by exploring constructors and destructors. Learn how these special methods enable developers to manage object initialization and cleanup effectively, ensuring that resources are used efficiently and that the object state is managed properly throughout its lifecycle."
+title: 'Constructors and Destructors in PHP: Managing Object Initialization and Cleanup'
+description: 'Delve into the crucial aspects of object-oriented programming in PHP by exploring constructors and destructors. Learn how these special methods enable developers to manage object initialization and cleanup effectively, ensuring that resources are used efficiently and that the object state is managed properly throughout its lifecycle.'
 date: '2023-10-29'
 tags:
   - php

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Customizing Tailwind CSS: Extending the Framework to Fit Your Design Needs"
-description: "Explore the boundless customization capabilities of Tailwind CSS, allowing developers to extend and mold the framework to meet their design specifications. From theming to crafting custom utilities and variants, discover how Tailwind can be tailored to fit intricate design needs without compromising its utility-first essence."
+title: 'Customizing Tailwind CSS: Extending the Framework to Fit Your Design Needs'
+description: 'Explore the boundless customization capabilities of Tailwind CSS, allowing developers to extend and mold the framework to meet their design specifications. From theming to crafting custom utilities and variants, discover how Tailwind can be tailored to fit intricate design needs without compromising its utility-first essence.'
 date: '2023-10-14'
 tags:
   - tailwindcss
@@ -28,9 +28,9 @@ module.exports = {
     extend: {
       colors: {
         'brand-blue': '#1DA1F2',
-      }
-    }
-  }
+      },
+    },
+  },
 }
 ```
 
@@ -45,12 +45,12 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        '72': '18rem',
-        '84': '21rem',
-        '96': '24rem',
-      }
-    }
-  }
+        72: '18rem',
+        84: '21rem',
+        96: '24rem',
+      },
+    },
+  },
 }
 ```
 
@@ -68,11 +68,11 @@ module.exports = {
     function ({ addVariant, e }) {
       addVariant('important', ({ modifySelectors, separator }) => {
         modifySelectors(({ className }) => {
-          return `.${e(`important${separator}${className}`)}!important`;
-        });
-      });
-    }
-  ]
+          return `.${e(`important${separator}${className}`)}!important`
+        })
+      })
+    },
+  ],
 }
 ```
 
@@ -94,8 +94,8 @@ module.exports = {
         },
       }
       addUtilities(newUtilities, ['responsive', 'hover'])
-    }
-  ]
+    },
+  ],
 }
 ```
 

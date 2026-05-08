@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Inheritance and Polymorphism in Java: Exploring Object-Oriented Concepts"
-description: "Embark on an exploration of key object-oriented programming concepts in Java: Inheritance and Polymorphism. Understand how inheritance promotes code reusability and how polymorphism provides flexibility and dynamic behavior to Java applications, enhancing design and functional capabilities."
+title: 'Inheritance and Polymorphism in Java: Exploring Object-Oriented Concepts'
+description: 'Embark on an exploration of key object-oriented programming concepts in Java: Inheritance and Polymorphism. Understand how inheritance promotes code reusability and how polymorphism provides flexibility and dynamic behavior to Java applications, enhancing design and functional capabilities.'
 date: '2023-10-28'
 tags:
   - java
@@ -100,4 +100,3 @@ Inheritance and Polymorphism are foundational in Java programming, enabling deve
 
 - [Java Programming for Beginners](https://www.udemy.com/course/java-programming-for-beginners/)
 - [Head First Java](https://www.oreilly.com/library/view/head-first-java/0596009208/)
-

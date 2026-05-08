@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Variables and Data Types in JavaScript"
-description: "Unveil the essentials of variables and data types in JavaScript, an indispensable aspect that governs how data is stored and manipulated within your scripts. This guide sheds light on the varied data types and the conventions and rules for declaring and using variables in JavaScript."
+title: 'Variables and Data Types in JavaScript'
+description: 'Unveil the essentials of variables and data types in JavaScript, an indispensable aspect that governs how data is stored and manipulated within your scripts. This guide sheds light on the varied data types and the conventions and rules for declaring and using variables in JavaScript.'
 date: '2023-10-29'
 tags:
   - javascript
@@ -25,9 +25,9 @@ Understanding variables and data types is foundational in embarking on the JavaS
 Variables in JavaScript are declared using `var`, `let`, or `const` keywords:
 
 ```javascript
-var name = "John";
-let age = 30;
-const pi = 3.14;
+var name = 'John'
+let age = 30
+const pi = 3.14
 ```
 
 #### Scope and Hoisting
@@ -65,8 +65,8 @@ JavaScript supports various data types, which can be broadly categorized as prim
 JavaScript allows explicit type conversion and also performs type coercion when comparing values:
 
 ```javascript
-let str = String(123);  // Type conversion
-let isTrue = '5' == 5;  // Type coercion (true)
+let str = String(123) // Type conversion
+let isTrue = '5' == 5 // Type coercion (true)
 ```
 
 ### Conclusion

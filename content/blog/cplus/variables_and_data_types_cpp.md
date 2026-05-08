@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Variables and Data Types in C++"
-description: "Understanding variables and data types is fundamental to mastering C++ programming. This guide provides a detailed overview of variables, data types, and their usage in C++, ensuring that beginners have a solid foundation in storing, manipulating, and utilizing data effectively in their C++ coding journey."
+title: 'Variables and Data Types in C++'
+description: 'Understanding variables and data types is fundamental to mastering C++ programming. This guide provides a detailed overview of variables, data types, and their usage in C++, ensuring that beginners have a solid foundation in storing, manipulating, and utilizing data effectively in their C++ coding journey.'
 date: '2023-11-08'
 tags:
   - programming
@@ -24,6 +24,7 @@ In C++, variables and data types are essential in storing and manipulating data.
 ```cpp
 int age = 30;
 ```
+
 - `int`: Used to store integer values.
 
 #### Floating-Point Numbers
@@ -32,6 +33,7 @@ int age = 30;
 float pi = 3.14;
 double longPi = 3.141592653589793;
 ```
+
 - `float`: Stores floating-point numbers with about 7 decimal places of precision.
 - `double`: Stores floating-point numbers with about 15 decimal places of precision.
 
@@ -40,6 +42,7 @@ double longPi = 3.141592653589793;
 ```cpp
 char grade = 'A';
 ```
+
 - `char`: Stores a single character.
 
 #### Booleans
@@ -47,6 +50,7 @@ char grade = 'A';
 ```cpp
 bool is_true = true;
 ```
+
 - `bool`: Stores either `true` or `false`.
 
 ### Variables in C++
@@ -58,6 +62,7 @@ Variables are named storage locations that store values of a particular data typ
 ```cpp
 int number;
 ```
+
 - `number`: A variable of type `int`.
 
 #### Initializing Variables
@@ -65,6 +70,7 @@ int number;
 ```cpp
 int number = 10;
 ```
+
 - The variable `number` is initialized with the value `10`.
 
 ### Modifiers
@@ -79,11 +85,13 @@ Modifiers are used to alter the meaning of the base data type to fit various sit
 ```cpp
 unsigned long int largeNumber;
 ```
+
 - `largeNumber` can store large non-negative integer values.
 
 ### Type Conversion
 
 C++ allows converting data from one type to another. This can be:
+
 - **Implicit Conversion**: Done automatically by the compiler.
 - **Explicit Conversion (Type Casting)**: Done manually by the programmer.
 
@@ -108,4 +116,3 @@ Understanding variables and data types is pivotal in crafting effective C++ prog
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

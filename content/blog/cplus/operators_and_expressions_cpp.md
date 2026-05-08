@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Operators and Expressions in C++"
-description: "Delve into the world of operators and expressions in C++, exploring how operators can manipulate variables and values, evaluate expressions, and control program flow. This guide introduces various operators in C++, such as arithmetic, relational, logical, and bitwise operators, providing beginners with the knowledge to implement complex logic and calculations in their programs."
+title: 'Operators and Expressions in C++'
+description: 'Delve into the world of operators and expressions in C++, exploring how operators can manipulate variables and values, evaluate expressions, and control program flow. This guide introduces various operators in C++, such as arithmetic, relational, logical, and bitwise operators, providing beginners with the knowledge to implement complex logic and calculations in their programs.'
 date: '2023-11-10'
 tags:
   - programming
@@ -110,4 +110,3 @@ Understanding and effectively utilizing operators allow developers to implement 
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

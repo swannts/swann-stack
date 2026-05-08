@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "From Bootstrap to Tailwind CSS: A Transition Guide"
-description: "Embark on a seamless transition from Bootstrap to Tailwind CSS. This guide provides insights and practical steps on migrating from the Bootstrap framework to utilizing the utility-first capabilities of Tailwind CSS, ensuring a smooth shift in your development workflow and design practices."
+title: 'From Bootstrap to Tailwind CSS: A Transition Guide'
+description: 'Embark on a seamless transition from Bootstrap to Tailwind CSS. This guide provides insights and practical steps on migrating from the Bootstrap framework to utilizing the utility-first capabilities of Tailwind CSS, ensuring a smooth shift in your development workflow and design practices.'
 date: '2023-10-15'
 tags:
   - tailwindcss
@@ -73,4 +73,3 @@ The transition from Bootstrap to Tailwind CSS opens avenues for developers to ex
 
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Bootstrap Documentation](https://getbootstrap.com/docs/)
-

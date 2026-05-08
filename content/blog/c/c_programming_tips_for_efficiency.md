@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "C Programming Tips for Efficiency and Performance"
-description: "Delve into the world of C programming with a focus on developing efficient and high-performing code. This guide provides C programmers with insightful tips and strategies that ensure the code is not only functional but also optimized in terms of execution speed and resource utilization, ultimately enhancing the performance and reliability of software applications."
+title: 'C Programming Tips for Efficiency and Performance'
+description: 'Delve into the world of C programming with a focus on developing efficient and high-performing code. This guide provides C programmers with insightful tips and strategies that ensure the code is not only functional but also optimized in terms of execution speed and resource utilization, ultimately enhancing the performance and reliability of software applications.'
 date: '2023-11-01'
 tags:
   - programming
@@ -72,4 +72,3 @@ Efficiency and performance in C programming are pivotal in developing robust and
 
 - [C Programming Absolute Beginner's Guide](https://www.amazon.com/C-Programming-Absolute-Beginners-Guide/dp/0789751984)
 - [Computer Programming: Learn Any Programming Language In 2 Hours](https://www.amazon.com/Computer-Programming-Languages-Beginners-Technology-ebook/dp/B07QN1KNJV)
-

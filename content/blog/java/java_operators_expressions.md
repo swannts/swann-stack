@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Operators and Expressions in Java"
-description: "Delve into the intricate world of operators and expressions in Java, exploring how arithmetic, relational, logical, and other operators can be utilized to formulate expressions and manipulate data within a Java application. This guide aims to provide a thorough understanding of utilizing operators and managing expressions to navigate through data manipulation, condition checking, and logical computations in Java."
+title: 'Operators and Expressions in Java'
+description: 'Delve into the intricate world of operators and expressions in Java, exploring how arithmetic, relational, logical, and other operators can be utilized to formulate expressions and manipulate data within a Java application. This guide aims to provide a thorough understanding of utilizing operators and managing expressions to navigate through data manipulation, condition checking, and logical computations in Java.'
 date: '2023-12-07'
 tags:
   - programming
@@ -59,7 +59,7 @@ a += 5; // Addition assignment
 Expressions are combinations of variables, literals, and operators that are computed to produce a value.
 
 ```java
-int totalScore = (score * weight) + bonus; 
+int totalScore = (score * weight) + bonus;
 ```
 
 ### Using Operators and Expressions in Java
@@ -107,4 +107,3 @@ Mastering operators and understanding how to formulate expressions is fundamenta
 - [Java: The Complete Reference](https://www.amazon.com/Java-Complete-Reference-Herbert-Schildt/dp/1260440230/)
 - [Java Operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)
 - [W3Schools Java Tutorial](https://www.w3schools.com/java/)
-

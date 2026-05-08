@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Smart Pointers in C++"
-description: "Embark on a comprehensive exploration of smart pointers in C++, a pivotal feature that provides automatic memory management, ensuring objects are deallocated properly, thereby preventing memory leaks. Understand the various types of smart pointers provided by C++ and their applications, ensuring robust, and efficient memory management in your applications."
+title: 'Smart Pointers in C++'
+description: 'Embark on a comprehensive exploration of smart pointers in C++, a pivotal feature that provides automatic memory management, ensuring objects are deallocated properly, thereby preventing memory leaks. Understand the various types of smart pointers provided by C++ and their applications, ensuring robust, and efficient memory management in your applications.'
 date: '2023-11-23'
 tags:
   - programming
@@ -99,4 +99,3 @@ Smart pointers in C++ provide a robust mechanism for managing memory effectively
 
 - [Effective Modern C++](https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
 - [C++ Programming: From Problem Analysis to Program Design](https://www.amazon.com/Programming-Problem-Analysis-Program-Design/dp/1337102088)
-

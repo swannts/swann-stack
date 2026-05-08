@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "PHP Frameworks: An Overview (e.g., Laravel, Symfony)"
-description: "Dive into the world of PHP frameworks that streamline and expedite web development by providing structured, reusable code. This guide provides an overview of various PHP frameworks, such as Laravel and Symfony, highlighting their features, similarities, and divergences, and aiding developers in making an informed choice."
+title: 'PHP Frameworks: An Overview (e.g., Laravel, Symfony)'
+description: 'Dive into the world of PHP frameworks that streamline and expedite web development by providing structured, reusable code. This guide provides an overview of various PHP frameworks, such as Laravel and Symfony, highlighting their features, similarities, and divergences, and aiding developers in making an informed choice.'
 date: '2023-10-30'
 tags:
   - php
@@ -21,21 +21,25 @@ PHP frameworks provide developers with an organized, reusable, and maintainable 
 ### Laravel: Elegance and Simplicity
 
 #### Key Features
+
 - **Eloquent ORM:** An advanced implementation of the active record pattern, making database interactions intuitive.
 - **Blade Templating Engine:** A lightweight yet powerful templating engine that allows developers to write templates using plain PHP code.
 - **Middleware:** Filters HTTP requests, enabling functionalities like authentication and CSRF protection.
 
 #### Community and Ecosystem
+
 Laravel boasts a vibrant community and a rich ecosystem of packages, tutorials, and resources, which makes it a favorable choice for developers seeking robust support and extensive functionalities.
 
 ### Symfony: Flexibility and Reusability
 
 #### Key Features
+
 - **Flexible Architecture:** Symfony is known for its bundle system, which allows developers to pick and choose the components they wish to use.
 - **Doctrine ORM:** It provides a set of libraries that aid in database storage and object mapping.
 - **Twig Templating Engine:** It facilitates the generation of dynamic content through an expressive syntax.
 
 #### Community and Ecosystem
+
 Symfony has a massive, active community and an expansive set of reusable components, which makes it a prevalent choice for developers seeking a mature and flexible framework.
 
 ### Comparing Laravel and Symfony

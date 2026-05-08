@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: "Your First C Program: Hello, World!"
+title: 'Your First C Program: Hello, World!'
 description: "Dive into C programming by creating your first program - the classic 'Hello, World!'. Understand the basic structure, syntax, and elements of a C program by breaking down each line of code, paving your way into the expansive world of programming with a foundational example."
 date: '2023-10-19'
 tags:

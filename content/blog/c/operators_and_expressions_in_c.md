@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Operators and Expressions in C"
-description: "Unlock the essentials of operators and expressions in C programming. Grasp the functionality, usage, and implementation of various operators, including arithmetic, relational, logical, and bitwise operators, to perform operations and evaluate expressions within your C programs."
+title: 'Operators and Expressions in C'
+description: 'Unlock the essentials of operators and expressions in C programming. Grasp the functionality, usage, and implementation of various operators, including arithmetic, relational, logical, and bitwise operators, to perform operations and evaluate expressions within your C programs.'
 date: '2023-10-22'
 tags:
   - programming
@@ -68,18 +68,18 @@ Expressions involve variables, constants, and operator combinations, evaluated t
 int main() {
     int a = 5, b = 10, sum, product;
     int is_equal, is_greater;
-    
+
     // Arithmetic Operators
     sum = a + b;
     product = a * b;
-    
+
     // Relational Operators
     is_equal = (a == b);
     is_greater = (a > b);
-    
+
     printf("Sum: %d, Product: %d\n", sum, product);
     printf("Is Equal: %d, Is Greater: %d\n", is_equal, is_greater);
-    
+
     return 0;
 }
 ```

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Using Java for Web Development (Servlets and JSP)"
-description: "Dive into the realm of web development with Java, exploring Servlets and JavaServer Pages (JSP) as robust technologies to build dynamic web applications. This guide introduces you to the core concepts, practical implementations, and the integration of Servlets and JSP to create scalable, performant, and interactive web applications."
+title: 'Using Java for Web Development (Servlets and JSP)'
+description: 'Dive into the realm of web development with Java, exploring Servlets and JavaServer Pages (JSP) as robust technologies to build dynamic web applications. This guide introduces you to the core concepts, practical implementations, and the integration of Servlets and JSP to create scalable, performant, and interactive web applications.'
 date: '2023-10-29'
 tags:
   - java

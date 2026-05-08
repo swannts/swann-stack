@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Abstraction and Interfaces in C++"
-description: "Delve into the concept of abstraction in C++ programming, understanding how to harness interfaces to create abstract classes and methods. Explore how abstraction enables developers to hide the complex reality while exposing only the essential parts, and understand how interfaces are used to create a contract that derived classes adhere to, ensuring a coherent and consistent implementation in object-oriented applications."
+title: 'Abstraction and Interfaces in C++'
+description: 'Delve into the concept of abstraction in C++ programming, understanding how to harness interfaces to create abstract classes and methods. Explore how abstraction enables developers to hide the complex reality while exposing only the essential parts, and understand how interfaces are used to create a contract that derived classes adhere to, ensuring a coherent and consistent implementation in object-oriented applications.'
 date: '2023-11-18'
 tags:
   - programming
@@ -105,4 +105,3 @@ Abstraction and interfaces in C++ provide a structured approach to object-orient
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321992784)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

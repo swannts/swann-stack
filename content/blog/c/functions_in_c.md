@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Functions in C: Building Blocks of Code"
-description: "Dive into the world of functions in C programming, understanding their pivotal role as the building blocks of code. Explore the syntax, declaration, definition, and calling of functions, ensuring modular, clean, and efficient code production. This guide provides a detailed overview of utilizing functions to enhance your C programming journey."
+title: 'Functions in C: Building Blocks of Code'
+description: 'Dive into the world of functions in C programming, understanding their pivotal role as the building blocks of code. Explore the syntax, declaration, definition, and calling of functions, ensuring modular, clean, and efficient code production. This guide provides a detailed overview of utilizing functions to enhance your C programming journey.'
 date: '2023-10-24'
 tags:
   - programming
@@ -100,7 +100,7 @@ int getSum(int a, int b);
 
 int main() {
     int sum;
-    
+
     // Function Calling
     sum = getSum(5, 10);
     printf("Sum: %d\n", sum);
@@ -130,4 +130,3 @@ Functions in C programming empower developers to create modular and reusable cod
 
 - [Programming in C](https://www.coursera.org/learn/programming-in-c)
 - [C Programming For Beginners](https://www.udemy.com/course/c-programming-for-beginners-/)
-

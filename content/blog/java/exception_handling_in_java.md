@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: "Exception Handling in Java: Managing Run-Time Errors"
+title: 'Exception Handling in Java: Managing Run-Time Errors'
 description: "Exception handling in Java provides a robust mechanism to manage run-time errors, enabling the creation of resilient applications that can handle unexpected events gracefully. Explore the fundamentals of Java's exception handling mechanism, including try, catch, throw, throws, and finally, and understand how to create and handle custom exceptions."
 date: '2023-10-31'
 tags:
@@ -21,10 +21,10 @@ Exception handling is a crucial aspect of Java programming, providing mechanisms
 #### Exception Hierarchy
 
 - **Throwable**: The superclass of all errors and exceptions in Java.
-    - **Exception**: Includes exceptions that applications typically catch.
-        - **IOException**: Includes exceptions produced by failed or interrupted I/O operations.
-        - **RuntimeException**: Includes exceptions that occur within the Java runtime system.
-    - **Error**: Includes exceptions that applications typically do not catch.
+  - **Exception**: Includes exceptions that applications typically catch.
+    - **IOException**: Includes exceptions produced by failed or interrupted I/O operations.
+    - **RuntimeException**: Includes exceptions that occur within the Java runtime system.
+  - **Error**: Includes exceptions that applications typically do not catch.
 
 #### Try and Catch
 
@@ -94,4 +94,3 @@ Exception handling in Java enables developers to build resilient and robust appl
 
 - [Java: The Complete Reference, Eleventh Edition](https://www.amazon.com/Java-Complete-Reference-Herbert-Schildt/dp/1260440230)
 - [Oracle Java Documentation](https://docs.oracle.com/en/java/)
-

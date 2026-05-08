@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Structures and Unions in C"
-description: "Embark on an exploration of structures and unions in C programming, uncovering their definitions, functionalities, and distinct usages. This guide provides beginners with a thorough understanding of how structures and unions aid in grouping different data types under a single umbrella, enabling organized and efficient data management in C programming."
+title: 'Structures and Unions in C'
+description: 'Embark on an exploration of structures and unions in C programming, uncovering their definitions, functionalities, and distinct usages. This guide provides beginners with a thorough understanding of how structures and unions aid in grouping different data types under a single umbrella, enabling organized and efficient data management in C programming.'
 date: '2023-10-27'
 tags:
   - programming
@@ -104,4 +104,3 @@ Structures and unions in C programming provide a robust mechanism for managing g
 
 - [Programming in C](https://www.coursera.org/learn/programming-in-c)
 - [Head First C](https://www.amazon.com/Head-First-C-David-Griffiths/dp/1449399916)
-

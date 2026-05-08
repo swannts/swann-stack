@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Arrays and Strings in C"
-description: "Delve into the realm of arrays and strings in C programming, exploring their definition, manipulation, and utilization in various computational scenarios. This guide provides a fundamental understanding of how arrays and strings function as data structures in C, offering detailed insights into their declaration, initialization, and usage in developing efficient code."
+title: 'Arrays and Strings in C'
+description: 'Delve into the realm of arrays and strings in C programming, exploring their definition, manipulation, and utilization in various computational scenarios. This guide provides a fundamental understanding of how arrays and strings function as data structures in C, offering detailed insights into their declaration, initialization, and usage in developing efficient code.'
 date: '2023-10-25'
 tags:
   - programming
@@ -107,4 +107,3 @@ Arrays and strings in C programming offer the ability to structure and manage da
 
 - [C Programming for Beginners](https://www.udemy.com/course/c-programming-for-beginners-/)
 - [Programming in C](https://www.edx.org/course/programming-in-c)
-

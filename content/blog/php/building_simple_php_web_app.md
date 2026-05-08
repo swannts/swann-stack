@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Building a Simple PHP Web Application: Step by Step"
-description: "Walk through the step-by-step guide of building a simple PHP web application. From setting up your development environment to deploying a basic CRUD application, this guide will introduce the essentials of PHP web development, providing practical insights and hands-on experience."
+title: 'Building a Simple PHP Web Application: Step by Step'
+description: 'Walk through the step-by-step guide of building a simple PHP web application. From setting up your development environment to deploying a basic CRUD application, this guide will introduce the essentials of PHP web development, providing practical insights and hands-on experience.'
 date: '2023-10-25'
 tags:
   - php

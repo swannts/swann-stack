@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "File Handling in C"
-description: "Dive into the world of file handling in C programming, exploring the various functionalities and capabilities that allow developers to manage files effectively. This guide provides a detailed overview of file operations like reading, writing, updating, and managing files, which are crucial for data storage and retrieval in software development."
+title: 'File Handling in C'
+description: 'Dive into the world of file handling in C programming, exploring the various functionalities and capabilities that allow developers to manage files effectively. This guide provides a detailed overview of file operations like reading, writing, updating, and managing files, which are crucial for data storage and retrieval in software development.'
 date: '2023-10-28'
 tags:
   - programming
@@ -94,4 +94,3 @@ File handling is a fundamental aspect of C programming that allows developers to
 
 - [File Structures: An Object-Oriented Approach with C++](https://www.amazon.com/File-Structures-Object-Oriented-Approach-C/dp/0201874016)
 - [C Programming for the Absolute Beginner](https://www.amazon.com/C-Programming-Absolute-Beginner/dp/1598634800)
-

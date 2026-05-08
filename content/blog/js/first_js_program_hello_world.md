@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Your First JavaScript Program: Hello, World!"
-description: "Step into the exciting world of JavaScript with your first program: Hello, World! Understand the simplicity and power that JavaScript brings to web development by creating a basic script that greets the world in the classic programming tradition."
+title: 'Your First JavaScript Program: Hello, World!'
+description: 'Step into the exciting world of JavaScript with your first program: Hello, World! Understand the simplicity and power that JavaScript brings to web development by creating a basic script that greets the world in the classic programming tradition.'
 date: '2023-11-02'
 tags:
   - javascript
@@ -28,18 +28,16 @@ Create an HTML file, which will be used to run your JavaScript code. Let's name 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello, World!</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <script>
-        // Your JavaScript will go here
+      // Your JavaScript will go here
     </script>
-
-</body>
+  </body>
 </html>
 ```
 
@@ -49,7 +47,7 @@ Within the `<script>` tags in your HTML file, you can write the JavaScript code 
 
 ```html
 <script>
-    alert('Hello, World!');
+  alert('Hello, World!')
 </script>
 ```
 
@@ -61,7 +59,7 @@ Alternatively, you can also display the "Hello, World!" message directly on the 
 
 ```html
 <script>
-    document.write('Hello, World!');
+  document.write('Hello, World!')
 </script>
 ```
 
@@ -84,4 +82,3 @@ The "Hello, World!" program is a simple yet crucial step into the world of JavaS
 - [Mozilla Developer Network (MDN) - JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - [Eloquent JavaScript](https://eloquentjavascript.net/)
 - [JavaScript.info](https://javascript.info/)
-

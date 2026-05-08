@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Control Flow: Conditional Statements in Java"
-description: "Navigate through the essence of control flow in Java by exploring conditional statements, crucial for directing the execution flow of a Java application. This guide introduces beginners to the utilization of if, else if, and else statements, switch-case constructs, and the ternary operator in Java, furnishing them with the knowledge to create dynamic, decision-making code structures in their applications."
+title: 'Control Flow: Conditional Statements in Java'
+description: 'Navigate through the essence of control flow in Java by exploring conditional statements, crucial for directing the execution flow of a Java application. This guide introduces beginners to the utilization of if, else if, and else statements, switch-case constructs, and the ternary operator in Java, furnishing them with the knowledge to create dynamic, decision-making code structures in their applications.'
 date: '2023-12-07'
 tags:
   - programming
@@ -93,4 +93,3 @@ Understanding and mastering conditional statements in Java pave the way for crea
 - [Java: A Beginner's Guide](https://www.amazon.com/Java-Beginners-Guide-Herbert-Schildt/dp/1259589315/)
 - [Java Programming for Beginners](https://www.udemy.com/course/java-programming-complete-beginner-to-advanced/)
 - [Java Tutorials - Control Flow Statements](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
-

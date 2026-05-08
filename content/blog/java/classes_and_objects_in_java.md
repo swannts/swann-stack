@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Classes and Objects in Java: Structuring Your Code"
-description: "Embark on a journey into Java programming by understanding the pivotal concepts of classes and objects. Grasp how encapsulation, methods, and attributes work together in creating a robust and organized code structure in Java applications."
+title: 'Classes and Objects in Java: Structuring Your Code'
+description: 'Embark on a journey into Java programming by understanding the pivotal concepts of classes and objects. Grasp how encapsulation, methods, and attributes work together in creating a robust and organized code structure in Java applications.'
 date: '2023-10-26'
 tags:
   - java
@@ -28,7 +28,7 @@ public class Dog {
     // Attributes
     String breed;
     String color;
-    
+
     // Method
     void bark() {
         System.out.println("Bark!");
@@ -44,7 +44,7 @@ Constructors initialize objects when they are created. They have the same name a
 public class Dog {
     String breed;
     String color;
-    
+
     // Constructor
     Dog(String b, String c) {
         breed = b;
@@ -79,7 +79,7 @@ Encapsulation involves wrapping the data (attributes) and code (methods) togethe
 public class Dog {
     private String breed;
     private String color;
-    
+
     // Getters and Setters
     public String getBreed() {
         return breed;

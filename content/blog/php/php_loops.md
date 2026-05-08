@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Control Structures: Loops in PHP"
-description: "Delve into control structures in PHP, focusing on loops, to manage the repetitive execution of code. Explore various types of loops such as for, while, and foreach, and understand their usage through practical examples, enabling you to implement iterative operations effectively in your PHP development journey."
+title: 'Control Structures: Loops in PHP'
+description: 'Delve into control structures in PHP, focusing on loops, to manage the repetitive execution of code. Explore various types of loops such as for, while, and foreach, and understand their usage through practical examples, enabling you to implement iterative operations effectively in your PHP development journey.'
 date: '2023-10-30'
 tags:
   - php
@@ -89,4 +89,3 @@ Loops are indispensable in PHP programming, allowing developers to execute code 
 
 - [PHP Manual: Control Structures](https://www.php.net/manual/en/language.control-structures.php)
 - [W3Schools PHP Loops Tutorial](https://www.w3schools.com/php/php_looping.asp)
-

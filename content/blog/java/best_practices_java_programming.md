@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Best Practices for Java Programming"
-description: "Discover a compilation of best practices for Java programming that will enhance code quality, facilitate maintenance, and improve performance. From coding standards and object-oriented principles to error handling and testing, explore various practices that professional Java developers adhere to for crafting efficient and robust applications."
+title: 'Best Practices for Java Programming'
+description: 'Discover a compilation of best practices for Java programming that will enhance code quality, facilitate maintenance, and improve performance. From coding standards and object-oriented principles to error handling and testing, explore various practices that professional Java developers adhere to for crafting efficient and robust applications.'
 date: '2023-10-31'
 tags:
   - java

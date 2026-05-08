@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Basic Input and Output in C"
-description: "Dive into the fundamentals of input and output (I/O) in C programming, exploring the essential functions, syntax, and methodologies to interact with users, collect data, and display output. Grasp the basics of `printf` and `scanf` to establish a foundational understanding of I/O operations in C."
+title: 'Basic Input and Output in C'
+description: 'Dive into the fundamentals of input and output (I/O) in C programming, exploring the essential functions, syntax, and methodologies to interact with users, collect data, and display output. Grasp the basics of `printf` and `scanf` to establish a foundational understanding of I/O operations in C.'
 date: '2023-10-21'
 tags:
   - programming

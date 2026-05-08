@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Introduction to the Standard C Library"
-description: "Dive into the Standard C Library, exploring its extensive collection of functions and macros that provide programmers with standardized solutions for common programming tasks. This guide introduces the various domains of the Standard C Library, from input/output operations, memory management, to mathematical computations, providing C programmers with a foundational understanding of this indispensable component of C programming."
+title: 'Introduction to the Standard C Library'
+description: 'Dive into the Standard C Library, exploring its extensive collection of functions and macros that provide programmers with standardized solutions for common programming tasks. This guide introduces the various domains of the Standard C Library, from input/output operations, memory management, to mathematical computations, providing C programmers with a foundational understanding of this indispensable component of C programming.'
 date: '2023-11-02'
 tags:
   - programming
@@ -81,4 +81,3 @@ The Standard C Library serves as an indispensable toolset for C programmers, off
 
 - [C Programming Absolute Beginner's Guide](https://www.amazon.com/C-Programming-Absolute-Beginners-Guide/dp/0789751984)
 - [The C Programming Language](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-

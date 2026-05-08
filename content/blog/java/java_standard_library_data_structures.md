@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Java Standard Library: Data Structures (Lists, Maps, etc.)"
-description: "Dive into the rich collection of data structures provided by the Java Standard Library. Explore the functionalities, use-cases, and implementation of various data structures like Lists, Maps, Sets, and more, which facilitate efficient data management and operations in Java programming."
+title: 'Java Standard Library: Data Structures (Lists, Maps, etc.)'
+description: 'Dive into the rich collection of data structures provided by the Java Standard Library. Explore the functionalities, use-cases, and implementation of various data structures like Lists, Maps, Sets, and more, which facilitate efficient data management and operations in Java programming.'
 date: '2023-11-10'
 tags:
   - java

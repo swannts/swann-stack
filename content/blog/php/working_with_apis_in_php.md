@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Working with APIs in PHP"
-description: "Delve into the world of APIs with PHP, exploring how to interact, fetch, and utilize data from various APIs, enhancing the functionality and data availability of your PHP applications. Understand the methodologies to make API requests, handle responses and integrate external data seamlessly into your projects."
+title: 'Working with APIs in PHP'
+description: 'Delve into the world of APIs with PHP, exploring how to interact, fetch, and utilize data from various APIs, enhancing the functionality and data availability of your PHP applications. Understand the methodologies to make API requests, handle responses and integrate external data seamlessly into your projects.'
 date: '2023-10-27'
 tags:
   - php

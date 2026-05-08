@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: "Introduction to PHP Programming: A Beginner's Guide"
-description: "Embark on the journey of exploring PHP programming with this introductory guide, covering the foundational concepts, syntax, and practical usage of PHP in web development. Learn about variables, operators, control structures, and building a simple web application with this beginner-friendly language."
+description: 'Embark on the journey of exploring PHP programming with this introductory guide, covering the foundational concepts, syntax, and practical usage of PHP in web development. Learn about variables, operators, control structures, and building a simple web application with this beginner-friendly language.'
 date: '2023-10-29'
 tags:
   - php
@@ -111,4 +111,3 @@ This guide provides a brief overview of PHP programming, introducing the syntax,
 
 - [PHP Manual](https://www.php.net/manual/en/)
 - [W3Schools PHP Tutorial](https://www.w3schools.com/php/)
-

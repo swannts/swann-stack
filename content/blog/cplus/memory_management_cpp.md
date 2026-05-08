@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Memory Management in C++"
-description: "Explore the intricacies of Memory Management in C++, a fundamental concept that ensures efficient utilization and management of memory in applications. Understand dynamic memory allocation, deallocation, and various memory management techniques in C++, which enhance the performance and reliability of applications by preventing memory leaks and ensuring optimal usage of resources."
+title: 'Memory Management in C++'
+description: 'Explore the intricacies of Memory Management in C++, a fundamental concept that ensures efficient utilization and management of memory in applications. Understand dynamic memory allocation, deallocation, and various memory management techniques in C++, which enhance the performance and reliability of applications by preventing memory leaks and ensuring optimal usage of resources.'
 date: '2023-11-22'
 tags:
   - programming
@@ -91,4 +91,3 @@ Effective memory management in C++ is crucial for developing high-performance an
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321992784)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

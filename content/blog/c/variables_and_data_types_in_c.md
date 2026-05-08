@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Variables and Data Types in C"
-description: "Navigate through the fundamental concepts of variables and data types in C programming. Understand the significance, usage, and characteristics of different data types and learn how to declare, initialize, and utilize variables effectively in your C programs."
+title: 'Variables and Data Types in C'
+description: 'Navigate through the fundamental concepts of variables and data types in C programming. Understand the significance, usage, and characteristics of different data types and learn how to declare, initialize, and utilize variables effectively in your C programs.'
 date: '2023-10-20'
 tags:
   - programming
@@ -65,11 +65,11 @@ int main() {
     int age = 30;
     float average = 20.5;
     char grade = 'A';
-    
+
     printf("Age: %d\n", age);
     printf("Average: %.2f\n", average);
     printf("Grade: %c\n", grade);
-    
+
     return 0;
 }
 ```

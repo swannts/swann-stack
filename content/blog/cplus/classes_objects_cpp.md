@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Classes and Objects in C++"
-description: "Explore the fundamental building blocks of Object-Oriented Programming in C++: Classes and Objects. Understand the principles of defining classes, creating objects, and utilizing them to build robust and modular C++ applications. Dive into code examples that illustrate the creation and utilization of classes and objects in C++."
+title: 'Classes and Objects in C++'
+description: 'Explore the fundamental building blocks of Object-Oriented Programming in C++: Classes and Objects. Understand the principles of defining classes, creating objects, and utilizing them to build robust and modular C++ applications. Dive into code examples that illustrate the creation and utilization of classes and objects in C++.'
 date: '2023-11-14'
 tags:
   - programming
@@ -94,4 +94,3 @@ Understanding classes and objects is pivotal to mastering C++ and OOP principles
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

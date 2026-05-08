@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: "Introduction to Java Programming: A Beginner's Guide"
-description: "Embark on a journey into the world of Java programming. With its platform-independent paradigm and robust feature set, Java has positioned itself as a premier programming language for various domains. This guide will introduce beginners to the foundational concepts, syntax, and practical aspects of Java programming."
+description: 'Embark on a journey into the world of Java programming. With its platform-independent paradigm and robust feature set, Java has positioned itself as a premier programming language for various domains. This guide will introduce beginners to the foundational concepts, syntax, and practical aspects of Java programming.'
 date: '2023-12-02'
 tags:
   - programming
@@ -99,4 +99,3 @@ As you progress in your Java programming journey, consider exploring advanced to
 - [Java: The Complete Reference](https://www.amazon.com/Java-Complete-Reference-Herbert-Schildt/dp/1260440230)
 - [LeetCode](https://leetcode.com/)
 - [HackerRank](https://www.hackerrank.com/)
-

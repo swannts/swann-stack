@@ -1,108 +1,90 @@
 ---
 layout: Services
 seo:
-  title: Engineering Services
-  description: Cloud-native delivery, DevOps automation, and full stack product development tailored to modern teams.
+  title: Senior Software Engineering Services
+  description: Full-stack SaaS development, backend architecture, cloud and platform engineering, microservices, DevOps automation, and AI-enabled development.
 ---
 
-
-
----main
----
+## ---main
 
 <PageTitle>
-  ### Services
+  ### Engineering Focus
 
-  ### _How I Help Teams Ship Faster_
+### _Full Stack • Cloud & Platform_
+
 </PageTitle>
 
-###### Solving problems
+I help teams build production-grade SaaS platforms, APIs, microservices, and cloud-native systems with a practical focus on maintainability, scalability, performance, and delivery ownership.
 
-I align architecture, delivery pipelines, and user experience so features move reliably from commit to production.
+###### Core strengths
 
-###### What you can expect
-
-- Cloud-native architectures that scale and heal
-- CI/CD pipelines with automated testing and security gates
-- Observability built-in for confident releases
-
-###### Applications I'm fluent in
-
-- Event-driven microservices
-- Server-side rendered and SPA frontends
-- Infrastructure as Code for AWS and Kubernetes
+- Full-stack product development with React, Next.js, Node.js, and Laravel
+- Backend architecture, APIs, microservices, and real-time workflows
+- Docker, Kubernetes, EKS, AWS, Azure, Terraform, Ansible, and CI/CD automation
+- AI-enabled development with OpenAI API integration, prompt design, and RAG patterns
 
 <Sep size="12" />
 
 <Button href="/contact" variant="white" size="sm">
-  Get Free Price Quote
+  Contact Me
 </Button>
 
-
-
 ---services[0]
-title: Cloud & Platform Engineering
+title: Backend & API Engineering
 icon:
-  src: /icons/aws.svg
+src: /icons/nodedotjs.svg
+
 ---
 
 <small>
-  Design and deploy resilient systems on AWS and Kubernetes using IaC, service discovery, and secure networking. Common tools
-  include Terraform, Ansible, Helm, and Kustomize.
+  Build scalable backend applications and microservices using Node.js, Express, NestJS, and Laravel, with clean REST and GraphQL APIs for product teams.
 
-    - <strong>Microservice architecture</strong>
-    - <strong>Scalable container orchestration</strong>
-    - <strong>Security hardening & secrets management</strong>
-
-</small>
-
-
+- <strong>Microservices and reusable service design</strong>
+- <strong>JWT, OAuth, Laravel Sanctum, and Keycloak authentication</strong>
+- <strong>Redis caching, database tuning, Kafka, and RabbitMQ</strong>
+  </small>
 
 ---services[1]
-title: CI/CD & DevOps Automation
+title: Frontend Product Development
 icon:
-  src: /icons/docker.svg
+src: /icons/react.svg
+
 ---
 
 <small>
-  Build delivery pipelines with GitHub Actions, Jenkins, and Bitbucket CI/CD to automate builds, tests, and rollouts with zero-downtime
-  deployments.
+  Deliver responsive, production-ready interfaces with React and Next.js, including SSR, SSG, protected routes, and reliable API integration patterns.
 
-    - <strong>Progressive delivery</strong>
-    - <strong>Test automation & quality gates</strong>
-    - <strong>Release governance and monitoring</strong>
-
-</small>
-
-
+- <strong>React, Next.js, TypeScript, Redux Toolkit, and Context API</strong>
+- <strong>Axios, React Query, and modern data-fetching workflows</strong>
+- <strong>Tailwind CSS, MUI, and Bootstrap UI consistency</strong>
+  </small>
 
 ---services[2]
-title: Full Stack Product Development
+title: Cloud & Platform Engineering
 icon:
-  src: /icons/react.svg
+src: /icons/aws.svg
+
 ---
 
 <small>
-  Ship end-to-end experiences using React/Next.js on the frontend and Spring Boot, NestJS, or Laravel on the backend, integrating
-  payments, real-time features, and API gateways.
+  Improve delivery reliability with Docker, Kubernetes, EKS, Terraform, AWS, Azure, CI/CD, and automation that supports repeatable deployments.
 
-    - <strong>API-first design</strong>
-    - <strong>Responsive, accessible UI</strong>
-    - <strong>Performance tuning & caching</strong>
-</small>
-
-
+- <strong>Containerized services and Kubernetes deployments</strong>
+- <strong>Infrastructure provisioning with Terraform</strong>
+- <strong>CI/CD workflows for safer production releases</strong>
+  </small>
 
 ---services[3]
-title: Observability & Reliability
+title: System Design & AI-Enabled Development
 icon:
-  src: /icons/audit.svg
+src: /icons/audit.svg
+
 ---
 
 <small>
-  Instrument applications with Prometheus, Grafana, Sentry, and ELK to provide actionable insights, alerting, and SLO reporting.
+  Design maintainable systems with microservices, REST and GraphQL APIs, event-driven messaging, Redis caching, and practical AI integration patterns.
 
-  - <strong>Proactive monitoring</strong>
-  - <strong>Chaos-resistant architectures</strong>
-  - <strong>Incident readiness & runbooks</strong>
-</small>
+- <strong>Scalability, fault tolerance, and maintainability</strong>
+- <strong>OpenAI API integration, prompt design, and RAG patterns</strong>
+- <strong>Monitoring with Prometheus, Grafana, ELK Stack, and Sentry</strong>
+  </small>

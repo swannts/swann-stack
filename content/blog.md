@@ -14,12 +14,11 @@ collection:
 
 A few handcrafted articles about my thoughts and experiments.
 
-
-
 ---categories
 collection:
-  path: /tags
-  shallow: true
+path: /tags
+shallow: true
+
 ---
 
 ### Categories

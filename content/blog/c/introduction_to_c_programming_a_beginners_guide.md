@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: "Introduction to C Programming: A Beginner's Guide"
-description: "Embark on the journey of learning C programming with this beginner-friendly guide. Explore the foundational concepts, the syntax, and the practical aspects of C programming, providing a comprehensive pathway for new learners to grasp and implement the language in various computational problems."
+description: 'Embark on the journey of learning C programming with this beginner-friendly guide. Explore the foundational concepts, the syntax, and the practical aspects of C programming, providing a comprehensive pathway for new learners to grasp and implement the language in various computational problems.'
 date: '2023-10-17'
 tags:
   - programming

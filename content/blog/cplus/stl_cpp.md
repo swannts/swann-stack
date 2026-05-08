@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Standard Template Library (STL) in C++"
-description: "Explore the Standard Template Library (STL) in C++, a powerful library that provides several generic classes and functions, including algorithms, iterators, and containers like stacks, queues, lists, and vectors. This guide delves into the components, functionality, and practical usage of STL, aiding C++ programmers in writing efficient and scalable code by leveraging the potent capabilities of STL."
+title: 'Standard Template Library (STL) in C++'
+description: 'Explore the Standard Template Library (STL) in C++, a powerful library that provides several generic classes and functions, including algorithms, iterators, and containers like stacks, queues, lists, and vectors. This guide delves into the components, functionality, and practical usage of STL, aiding C++ programmers in writing efficient and scalable code by leveraging the potent capabilities of STL.'
 date: '2023-11-25'
 tags:
   - programming
@@ -91,4 +91,3 @@ STL in C++ provides a robust framework for managing data structures and algorith
 
 - [The C++ Standard Library: A Tutorial and Reference](https://www.amazon.com/Standard-Library-Tutorial-Reference-2nd/dp/0321623215)
 - [Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library](https://www.amazon.com/Effective-STL-Specific-Standard-Template/dp/0201749629)
-

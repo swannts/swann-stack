@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Variables and Data Types in Java"
-description: "Understand the fundamentals of variables and data types in Java, exploring the various data types available and how to use them to store and manage data in your Java programs. This guide explains the concept of variables, the different data types, and how to utilize them in Java programming."
+title: 'Variables and Data Types in Java'
+description: 'Understand the fundamentals of variables and data types in Java, exploring the various data types available and how to use them to store and manage data in your Java programs. This guide explains the concept of variables, the different data types, and how to utilize them in Java programming.'
 date: '2023-12-05'
 tags:
   - programming
@@ -63,7 +63,7 @@ String greeting = "Hello, World!";
 
 ### Variable Naming Conventions
 
-- Variables should begin with a letter, underscore (_), or dollar sign ($); subsequent characters can also be numbers.
+- Variables should begin with a letter, underscore (\_), or dollar sign ($); subsequent characters can also be numbers.
 - Use meaningful names that indicate the purpose of the variable.
 - Follow camelCase notation for naming variables (e.g., `employeeName`, `totalAmount`).
 
@@ -80,7 +80,7 @@ Java supports both **implicit** and **explicit** type conversions.
 // Implicit Type Conversion
 int myInt = 9;
 double myDouble = myInt;
-        
+
 // Explicit Type Conversion
 double myDouble = 9.78;
 int myInt = (int) myDouble;
@@ -97,4 +97,3 @@ Understanding variables and data types is pivotal for managing data in Java prog
 - [Java: A Beginner's Guide](https://www.oreilly.com/library/view/java-a-beginners/9781259589317/)
 - [Java Programming for Beginners](https://www.udemy.com/course/java-programming-for-beginners/)
 - [Codecademy: Learn Java](https://www.codecademy.com/learn/learn-java)
-

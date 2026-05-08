@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: "Creating Responsive UI Components using Tailwind CSS"
+title: 'Creating Responsive UI Components using Tailwind CSS'
 description: Explore the ease of crafting responsive UI components with Tailwind CSS, ensuring your web applications deliver optimal user experiences across various device sizes.
 date: '2023-10-11'
 tags:
@@ -49,10 +49,13 @@ Similarly, you can create a responsive card component that adjusts its layout ba
 ```html
 <!-- src/components/Card.js -->
 <div className="max-w-sm mx-auto md:max-w-md lg:max-w-lg xl:max-w-xl">
-  <img src="/photos/image.jpg" alt="Sample Image" className="w-full h-64 object-cover"/>
+  <img src="/photos/image.jpg" alt="Sample Image" className="w-full h-64 object-cover" />
   <div className="p-4">
     <h2 className="text-xl font-bold mb-2">Title</h2>
-    <p className="text-gray-700">This is a sample description for the card component. Tailwind CSS makes it easy to create responsive components like this!</p>
+    <p className="text-gray-700">
+      This is a sample description for the card component. Tailwind CSS makes it easy to create
+      responsive components like this!
+    </p>
   </div>
 </div>
 ```

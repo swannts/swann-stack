@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Inheritance and Polymorphism in C++"
-description: "Delve into the core object-oriented programming concepts of Inheritance and Polymorphism in C++. Discover how to utilize inheritance for code reuse and implement polymorphism to enable objects to be treated as instances of their parent class, fostering flexibility and enhancing the dynamism in C++ applications."
+title: 'Inheritance and Polymorphism in C++'
+description: 'Delve into the core object-oriented programming concepts of Inheritance and Polymorphism in C++. Discover how to utilize inheritance for code reuse and implement polymorphism to enable objects to be treated as instances of their parent class, fostering flexibility and enhancing the dynamism in C++ applications.'
 date: '2023-11-16'
 tags:
   - programming
@@ -101,4 +101,3 @@ Inheritance and Polymorphism in C++ pave the way for crafting efficient, organiz
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

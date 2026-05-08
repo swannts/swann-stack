@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Events and Event Handling in JavaScript"
-description: "Dive into the interactive aspect of JavaScript by understanding events and event handling. Learn how to make your web pages responsive to user actions and explore the various types of events and methods to handle them."
+title: 'Events and Event Handling in JavaScript'
+description: 'Dive into the interactive aspect of JavaScript by understanding events and event handling. Learn how to make your web pages responsive to user actions and explore the various types of events and methods to handle them.'
 date: '2023-10-28'
 tags:
   - javascript
@@ -33,25 +33,29 @@ Handling events means defining a function (event handler) that will be executed 
 
 ```javascript
 // Inline event handler
-<button onclick="alert('Button clicked!')">Click Me!</button>
+;<button onclick="alert('Button clicked!')">Click Me!</button>
 
 // Separate function event handler
-document.querySelector('button').addEventListener('click', function() {
-  alert('Button clicked!');
-});
+document.querySelector('button').addEventListener('click', function () {
+  alert('Button clicked!')
+})
 ```
 
 ### Event Propagation: Bubbling and Capturing
 
-When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors. This process is called “bubbling”. 
+When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors. This process is called “bubbling”.
 
 However, for some events, the browser starts from the top element checking for handlers, then moves downwards. This is called “capturing”.
 
 ```javascript
 // Using the third argument to `addEventListener` to set the phase.
-element.addEventListener('click', function() {
-  alert('Event Captured!');
-}, true); // The `true` makes it capturing
+element.addEventListener(
+  'click',
+  function () {
+    alert('Event Captured!')
+  },
+  true
+) // The `true` makes it capturing
 ```
 
 ### The Event Object
@@ -59,10 +63,10 @@ element.addEventListener('click', function() {
 When an event occurs, the browser creates an event object, containing details about the event (like which key was pressed or which mouse button was clicked). This object is automatically passed to the handler function as its first argument.
 
 ```javascript
-document.querySelector('button').addEventListener('click', function(event) {
-  alert(event.type); // "click"
-  alert(event.currentTarget.tagName); // "BUTTON"
-});
+document.querySelector('button').addEventListener('click', function (event) {
+  alert(event.type) // "click"
+  alert(event.currentTarget.tagName) // "BUTTON"
+})
 ```
 
 ### Preventing Default Behavior
@@ -70,10 +74,10 @@ document.querySelector('button').addEventListener('click', function(event) {
 Some events have a default behavior associated with them. For instance, clicking on a link navigates to its `href`. However, we can prevent this default behavior using the `preventDefault()` method on the event object.
 
 ```javascript
-document.querySelector('a').addEventListener('click', function(event) {
-  event.preventDefault();
-  alert('Link click prevented!');
-});
+document.querySelector('a').addEventListener('click', function (event) {
+  event.preventDefault()
+  alert('Link click prevented!')
+})
 ```
 
 ### Conclusion

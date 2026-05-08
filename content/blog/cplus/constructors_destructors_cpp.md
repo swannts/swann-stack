@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Constructors and Destructors in C++"
-description: "Dive into the realm of Constructors and Destructors in C++, exploring their roles, types, and usage in object-oriented programming. Understand the significance of constructors in initializing objects and destructors in managing memory and resources effectively in C++ applications."
+title: 'Constructors and Destructors in C++'
+description: 'Dive into the realm of Constructors and Destructors in C++, exploring their roles, types, and usage in object-oriented programming. Understand the significance of constructors in initializing objects and destructors in managing memory and resources effectively in C++ applications.'
 date: '2023-11-15'
 tags:
   - programming
@@ -103,4 +103,3 @@ Constructors and Destructors in C++ provide robust mechanisms for managing objec
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

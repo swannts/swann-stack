@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: "Java Standard Library: Input/Output Streams"
+title: 'Java Standard Library: Input/Output Streams'
 description: "Dive into the Java Standard Library's capabilities in managing Input and Output streams, providing a robust mechanism to handle data flow in Java applications. Explore the various classes and methods available within Java to manipulate data streams efficiently, enabling seamless reading, writing, and managing of data."
 date: '2023-10-29'
 tags:

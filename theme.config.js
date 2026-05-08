@@ -6,7 +6,7 @@
  * Icons from react-icons: https://react-icons.github.io/react-icons
  */
 
-import { IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import { TfiHome, TfiPencilAlt } from 'react-icons/tfi'
 import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
 
@@ -53,18 +53,13 @@ export const menu = [
 
 export const social = [
   {
-    name: 'Twitter',
-    url: 'https://www.twitter.com/',
-    Icon: IoLogoTwitter,
-  },
-  {
-    name: 'Instagram',
-    url: 'https://www.instagram.com/',
-    Icon: IoLogoInstagram,
+    name: 'GitHub',
+    url: 'https://github.com/Swannhs',
+    Icon: IoLogoGithub,
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/in/swannhs/',
     Icon: IoLogoLinkedin,
   },
 ]
@@ -87,9 +82,9 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
-    recipient: 'RECIPIENT@EXAMPLE.com',
-    sender: 'SENDER@EXAMPLE.com',
-    subject: 'EMAIL NOTIFICATION SUBJECT',
+    recipient: 'a.b.siddik.swann@gmail.com',
+    sender: 'a.b.siddik.swann@gmail.com',
+    subject: 'Portfolio contact form inquiry',
   },
 }
 
@@ -113,12 +108,13 @@ export const mdxConfig = {
 
 export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
-  authorName: 'Swann',
-  siteName: 'Swannstack',
-  defaultTitle: 'DevOps & Full Stack Engineer',
-  titleTemplate: 'Swann | %s',
-  description: 'I\'m a versatile professional, seamlessly navigating both the realms of DevOps and full-stack development.',
-  email: 'princeapurbask@gmail.com',
+  authorName: 'Abu Bokor Siddik',
+  siteName: 'Abu Bokor Siddik Portfolio',
+  defaultTitle: 'Abu Bokor Siddik — Senior Software Engineer',
+  titleTemplate: 'Abu Bokor Siddik | %s',
+  description:
+    'Senior Software Engineer building full-stack SaaS platforms, cloud-native systems, APIs, and microservices with React, Next.js, Node.js, Laravel, AWS, and Kubernetes.',
+  email: 'a.b.siddik.swann@gmail.com',
   locale: 'en_US',
   twitter: {
     handle: '@handle',

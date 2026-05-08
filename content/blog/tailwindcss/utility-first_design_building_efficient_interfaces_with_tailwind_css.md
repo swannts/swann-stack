@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Utility-First Design: Building Efficient Interfaces with Tailwind CSS"
-description: "Dive into utility-first design with Tailwind CSS, exploring how this design principle can lead to efficient, rapid, and consistent UI development. Understand the key concepts, implementation, advantages, and challenges of a utility-first approach in web development."
+title: 'Utility-First Design: Building Efficient Interfaces with Tailwind CSS'
+description: 'Dive into utility-first design with Tailwind CSS, exploring how this design principle can lead to efficient, rapid, and consistent UI development. Understand the key concepts, implementation, advantages, and challenges of a utility-first approach in web development.'
 date: '2023-10-13'
 tags:
   - tailwindcss
@@ -29,9 +29,7 @@ Utility-first CSS is a design principle that prioritizes the use of utility clas
 Consider a simple example of building a button using Tailwind CSS:
 
 ```html
-<button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
-  Click Me
-</button>
+<button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Click Me</button>
 ```
 
 In this example, the utility classes directly apply styles for background color, text color, padding, border radius, and hover state, making it clear at a glance what the styling of the element will be, directly from the HTML.
@@ -41,9 +39,7 @@ In this example, the utility classes directly apply styles for background color,
 Tailwind CSS also allows for easy implementation of responsive designs with utility-first CSS. By using responsive variants, different utility classes can be applied at different breakpoints.
 
 ```html
-<div class="text-sm md:text-base lg:text-lg">
-  Responsive Text
-</div>
+<div class="text-sm md:text-base lg:text-lg">Responsive Text</div>
 ```
 
 Here, the text size changes depending on the width of the viewport, showcasing the power and simplicity of utility-first CSS in responsive design.

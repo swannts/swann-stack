@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "PHP and Databases: MySQL Database Connectivity"
-description: "Understanding the interaction between PHP and databases, specifically MySQL, and exploring how PHP can manipulate database data to dynamically create web content. Delve into the processes of establishing a connection, performing CRUD operations, and ensuring secure data handling in web development."
+title: 'PHP and Databases: MySQL Database Connectivity'
+description: 'Understanding the interaction between PHP and databases, specifically MySQL, and exploring how PHP can manipulate database data to dynamically create web content. Delve into the processes of establishing a connection, performing CRUD operations, and ensuring secure data handling in web development.'
 date: '2023-11-05'
 tags:
   - php
@@ -114,4 +114,3 @@ Integrating PHP with MySQL provides developers the tools to build dynamic and in
 
 - [PHP Manual: MySQLi](https://www.php.net/manual/en/book.mysqli.php)
 - [MySQL Documentation](https://dev.mysql.com/doc/)
-

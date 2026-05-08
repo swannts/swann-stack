@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Working with Strings in PHP"
-description: "Dive into the diverse and powerful capabilities of handling strings in PHP. Learn about the numerous functions and approaches available in PHP to manipulate, format, and utilize strings effectively in your web applications. From concatenating strings to formatting and extracting information, this guide will cover various aspects of string handling in PHP."
+title: 'Working with Strings in PHP'
+description: 'Dive into the diverse and powerful capabilities of handling strings in PHP. Learn about the numerous functions and approaches available in PHP to manipulate, format, and utilize strings effectively in your web applications. From concatenating strings to formatting and extracting information, this guide will cover various aspects of string handling in PHP.'
 date: '2023-11-03'
 tags:
   - php
@@ -110,4 +110,3 @@ PHP offers a broad spectrum of string functions that cater to various needs for 
 
 - [PHP String Functions (Official Documentation)](https://www.php.net/manual/en/ref.strings.php)
 - [PHP Regular Expressions (Official Documentation)](https://www.php.net/manual/en/ref.pcre.php)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "C++ Programming Exercises and Projects for Practice"
-description: "Embark on a hands-on learning journey with a compilation of C++ exercises and projects that are aimed at sharpening your programming skills and reinforcing your understanding of C++ concepts. From beginner-friendly exercises to intermediate-level projects, explore a variety of practical use-cases that will enhance your problem-solving skills and C++ knowledge."
+title: 'C++ Programming Exercises and Projects for Practice'
+description: 'Embark on a hands-on learning journey with a compilation of C++ exercises and projects that are aimed at sharpening your programming skills and reinforcing your understanding of C++ concepts. From beginner-friendly exercises to intermediate-level projects, explore a variety of practical use-cases that will enhance your problem-solving skills and C++ knowledge.'
 date: '2023-11-28'
 tags:
   - programming
@@ -71,4 +71,3 @@ Engaging in C++ exercises and projects not only fortifies your understanding of 
 - [Exercism: C++ Track](https://exercism.io/tracks/cpp)
 - [LeetCode](https://leetcode.com/)
 - [HackerRank](https://www.hackerrank.com/)
-

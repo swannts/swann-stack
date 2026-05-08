@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Input and Output in C++"
-description: "Mastering the art of handling input and output is fundamental in C++ programming. This beginner’s guide introduces the concepts of input and output operations in C++, exploring the use of cin, cout, and other essential I/O functions, providing a foundation for interacting with users and displaying program outcomes effectively."
+title: 'Input and Output in C++'
+description: 'Mastering the art of handling input and output is fundamental in C++ programming. This beginner’s guide introduces the concepts of input and output operations in C++, exploring the use of cin, cout, and other essential I/O functions, providing a foundation for interacting with users and displaying program outcomes effectively.'
 date: '2023-11-09'
 tags:
   - programming
@@ -125,4 +125,3 @@ Understanding input and output in C++ not only allows developers to create inter
 
 - [Programming: Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726)
 - [C++ Primer](https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113)
-

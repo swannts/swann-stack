@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "Object-Oriented Programming (OOP) Fundamentals in Java"
-description: "Embark on the journey of exploring Object-Oriented Programming (OOP) in Java, unraveling the core concepts of encapsulation, inheritance, polymorphism, and abstraction. This guide will walk beginners through the fundamental OOP principles, their implementation in Java, and the benefits they bring to the software development lifecycle, facilitating the development of robust and scalable applications."
+title: 'Object-Oriented Programming (OOP) Fundamentals in Java'
+description: 'Embark on the journey of exploring Object-Oriented Programming (OOP) in Java, unraveling the core concepts of encapsulation, inheritance, polymorphism, and abstraction. This guide will walk beginners through the fundamental OOP principles, their implementation in Java, and the benefits they bring to the software development lifecycle, facilitating the development of robust and scalable applications.'
 date: '2023-12-10'
 tags:
   - programming
@@ -120,4 +120,3 @@ Understanding and implementing OOP concepts in Java is pivotal for creating robu
 - [Java Programming for Beginners](https://www.udemy.com/course/java-programming-complete-beginner-to-advanced/)
 - [Java Brains](https://javabrains.io/)
 - [Codecademy - Learn Java](https://www.codecademy.com/learn/learn-java)
-

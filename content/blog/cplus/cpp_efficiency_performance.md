@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "C++ Programming Tips for Efficiency and Performance"
-description: "Dive into a collection of tips and best practices aimed at optimizing the efficiency and performance of your C++ applications. Explore guidelines related to memory management, algorithms, data structures, and coding practices that can significantly impact the speed, reliability, and resource utilization of your C++ programs."
+title: 'C++ Programming Tips for Efficiency and Performance'
+description: 'Dive into a collection of tips and best practices aimed at optimizing the efficiency and performance of your C++ applications. Explore guidelines related to memory management, algorithms, data structures, and coding practices that can significantly impact the speed, reliability, and resource utilization of your C++ programs.'
 date: '2023-11-29'
 tags:
   - programming
@@ -71,4 +71,3 @@ Efficiency and performance are critical in various domains like game development
 
 - [C++ Reference](https://en.cppreference.com/)
 - [C++ Performance Tips](https://www.acodersjourney.com/cplusplus-performance-tips/)
-

@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: "SQL Queries in PHP: Insert, Update, Delete, and Select"
-description: "Explore how to perform basic database operations, such as insert, update, delete, and select queries, using PHP to interact with MySQL databases. Understand how to use PHP to manipulate database records and retrieve data, thereby enhancing the dynamic functionality of web applications."
+title: 'SQL Queries in PHP: Insert, Update, Delete, and Select'
+description: 'Explore how to perform basic database operations, such as insert, update, delete, and select queries, using PHP to interact with MySQL databases. Understand how to use PHP to manipulate database records and retrieve data, thereby enhancing the dynamic functionality of web applications.'
 date: '2023-11-01'
 tags:
   - php
