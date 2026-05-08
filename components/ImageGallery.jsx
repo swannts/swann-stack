@@ -139,14 +139,14 @@ const ImageGallery = (props) => {
                 ))}
               </Slider>
 
-              <Button as={ButtonBack} className="absolute top-1/2 left-2 z-10 -translate-y-1/2">
+              <Button as={ButtonBack} className="absolute left-2 top-1/2 z-10 -translate-y-1/2">
                 <IoChevronBackSharp className="text-4xl" />
               </Button>
-              <Button as={ButtonNext} className="absolute top-1/2 right-2 z-10 -translate-y-1/2">
+              <Button as={ButtonNext} className="absolute right-2 top-1/2 z-10 -translate-y-1/2">
                 <IoChevronForwardSharp className="text-4xl" />
               </Button>
             </CarouselProvider>
-            <Button className="absolute top-2 right-2 z-10" onClick={handleClose}>
+            <Button className="absolute right-2 top-2 z-10" onClick={handleClose}>
               <IoCloseSharp className="text-4xl" />
               ESC
             </Button>

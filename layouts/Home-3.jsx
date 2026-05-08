@@ -69,7 +69,7 @@ const Achievements = ({ achievements }) => (
       {achievements?.map((item, i) => (
         <Reveal key={i} animation="fade-in" delay={i * 250} className="flex-1 p-2">
           <h3 className="m-0 text-accent">{item.number}</h3>
-          <p className="mt-2 mb-0 text-omega-300">{item.text}</p>
+          <p className="mb-0 mt-2 text-omega-300">{item.text}</p>
         </Reveal>
       ))}
     </Reveal>

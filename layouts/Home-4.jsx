@@ -26,7 +26,7 @@ const HeroPhoto = ({ main }) =>
 
 const HeroAbout = ({ main }) => (
   <>
-    <div className="inline-flex items-center justify-center space-x-2 bg-accent py-2 px-4 text-accent-50">
+    <div className="inline-flex items-center justify-center space-x-2 bg-accent px-4 py-2 text-accent-50">
       <FiThumbsUp className="text-xl" />
       <small className="font-bold">{main.slogan}</small>
     </div>
@@ -58,7 +58,7 @@ const Achievements = ({ achievements }) => (
       {achievements?.map((item, i) => (
         <Reveal key={i} animation="fade-in" delay={i * 150} className="flex-1 p-2">
           <h3 className="m-0 text-omega-900">{item.number}</h3>
-          <p className="mt-2 mb-0 font-bold text-omega-700">{item.text}</p>
+          <p className="mb-0 mt-2 font-bold text-omega-700">{item.text}</p>
         </Reveal>
       ))}
     </div>
@@ -88,7 +88,7 @@ const Layout = ({ main = {}, articles = {}, cta = {}, achievements = [], compani
         <div className="prose prose-invert">
           <ContentRenderer source={cta} />
         </div>
-        <Sep className="my-8 my-16" />
+        <Sep className="my-16 my-8" />
         <Achievements achievements={achievements} />
       </div>
       <Sep size={24} />

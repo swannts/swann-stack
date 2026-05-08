@@ -112,7 +112,8 @@ export const siteMetaData = {
   siteName: 'Abu Bokor Siddik Portfolio',
   defaultTitle: 'Abu Bokor Siddik — Senior Software Engineer',
   titleTemplate: 'Abu Bokor Siddik | %s',
-  description: 'Senior Software Engineer building full-stack SaaS platforms, cloud-native systems, APIs, and microservices with React, Next.js, Node.js, Laravel, AWS, and Kubernetes.',
+  description:
+    'Senior Software Engineer building full-stack SaaS platforms, cloud-native systems, APIs, and microservices with React, Next.js, Node.js, Laravel, AWS, and Kubernetes.',
   email: 'a.b.siddik.swann@gmail.com',
   locale: 'en_US',
   twitter: {
