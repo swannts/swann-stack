@@ -23,7 +23,7 @@ const HeroPhoto = ({ main }) => (
     {main.images?.[1] && (
       <div className="md:hidden">
         <div
-          className="bg-cover rounded-[200px] overflow-hidden"
+          className="overflow-hidden rounded-[200px] bg-cover"
           style={{
             height: '300px',
             width: '300px',
@@ -94,7 +94,7 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
         </div>
       </div>
     </div>
-    <div className="mt-6 mt-12 hidden px-4 md:block">
+    <div className="mt-12 mt-6 hidden px-4 md:block">
       <Companies {...companies} />
     </div>
   </div>

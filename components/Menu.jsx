@@ -32,7 +32,7 @@ const MenuItem = ({ name, Icon, text, slug, number, isOpen, toggleMenu, ...rest 
         {number}
       </div>
     )}
-    <span className="absolute top-0 right-0 hidden h-full w-1 bg-white/25 opacity-0 transition-opacity group-hover:opacity-100 md:block" />
+    <span className="absolute right-0 top-0 hidden h-full w-1 bg-white/25 opacity-0 transition-opacity group-hover:opacity-100 md:block" />
     {Icon && <Icon className="relative z-20 h-6 w-6" />}
     {text && <div className="relative z-20 h-6 text-lg font-extrabold">{text}</div>}
     <span className="mt-1 text-center text-xs md:hidden">{name}</span>
@@ -63,7 +63,7 @@ const Menu = () => {
     <>
       <div
         className={classNames(
-          'fixed top-0 left-0 z-10 block w-full animate-fade-in bg-black/90 md:hidden',
+          'fixed left-0 top-0 z-10 block w-full animate-fade-in bg-black/90 md:hidden',
           isOpen ? 'h-screen' : 'h-0'
         )}
         onClick={closeMenu}

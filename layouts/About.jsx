@@ -54,10 +54,10 @@ const Skill = ({ title, icon, level }) => (
 
 const SkillSet = ({ title, list }) => (
   <div className="bg-gradient-omega-900 p-6 md:px-12 md:py-8">
-    <p className="col-span-3 mt-0 mb-6 self-center border-l-2 border-alpha pl-3 text-white">
+    <p className="col-span-3 mb-6 mt-0 self-center border-l-2 border-alpha pl-3 text-white">
       {title}
     </p>
-    <div className="grid grid-cols-fluid gap-y-3 gap-x-8 [--tw-fluid-col-min:12rem]">
+    <div className="grid grid-cols-fluid gap-x-8 gap-y-3 [--tw-fluid-col-min:12rem]">
       {list?.map((props, j) => (
         <Reveal key={j} animation="fade-in" delay={j * 200}>
           <Skill {...props} />
@@ -72,7 +72,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
     <div className="mx-auto">
       <div className="prose prose-invert md:flex">
         <div className="relative flex h-screen basis-1/3 flex-col justify-between pb-24 md:h-auto md:items-center md:py-12">
-          <div className="not-prose absolute top-0 left-0 h-full w-full bg-omega-900 grayscale">
+          <div className="not-prose absolute left-0 top-0 h-full w-full bg-omega-900 grayscale">
             {personal_info.images?.[0] && (
               <Image
                 src={personal_info.images[0].src}
@@ -83,7 +83,7 @@ const Layout = ({ personal_info = {}, cta = {}, skills_header, skills, history }
                 fill
               />
             )}
-            <div className="absolute top-0 left-0 z-20 h-full w-full bg-gradient-to-b from-transparent via-transparent to-black/90" />
+            <div className="absolute left-0 top-0 z-20 h-full w-full bg-gradient-to-b from-transparent via-transparent to-black/90" />
           </div>
           <div className={`z-10 ${personal_info.name && 'bg-black'} p-6 text-center`}>
             <h3 className="inline">{personal_info.name}</h3>

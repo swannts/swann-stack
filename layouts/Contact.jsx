@@ -118,7 +118,7 @@ const Contact01 = ({ main = {} }) => {
                     </fieldset>
                   ))}
                 </div>
-                <div className="bg-omega-900 px-4 pt-6 pb-8 text-left md:px-8">
+                <div className="bg-omega-900 px-4 pb-8 pt-6 text-left md:px-8">
                   <ErrorMessage errors={errors} name="service" />
                   <Button
                     as="button"

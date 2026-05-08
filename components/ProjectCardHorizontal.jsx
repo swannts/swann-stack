@@ -42,7 +42,7 @@ const ProjectCardHorizontal = ({
               fill
             />
             {images[0].overlay && (
-              <div className="absolute top-0 right-4 z-10 h-full w-full">
+              <div className="absolute right-4 top-0 z-10 h-full w-full">
                 <Image
                   src={images[0].overlay.src}
                   alt={images[0].overlay.alt || title}

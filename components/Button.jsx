@@ -35,11 +35,11 @@ const Button = React.forwardRef((props, ref) => {
           'flex transform-gpu transition-transform',
           'not-prose font-mono',
           {
-            'py-2 px-4 text-sm': size === 'xs',
-            'py-3 px-6 text-sm': size === 'sm',
-            'py-4 px-8 text-base': size === 'md',
-            'py-5 px-10 text-lg': size === 'lg',
-            'py-6 px-12 text-xl': size === 'xl',
+            'px-4 py-2 text-sm': size === 'xs',
+            'px-6 py-3 text-sm': size === 'sm',
+            'px-8 py-4 text-base': size === 'md',
+            'px-10 py-5 text-lg': size === 'lg',
+            'px-12 py-6 text-xl': size === 'xl',
             'hover:translate-x-1 hover:translate-y-1': size === 'xs',
             'hover:translate-x-2 hover:translate-y-2': size !== 'xs',
             'bg-white text-black': variant === 'white',
@@ -55,8 +55,8 @@ const Button = React.forwardRef((props, ref) => {
           'absolute h-full w-full',
           'bg-gradient-to-r from-alpha via-alpha-300 to-beta',
           {
-            'top-1 left-1': size === 'xs',
-            'top-2 left-2': size !== 'xs',
+            'left-1 top-1': size === 'xs',
+            'left-2 top-2': size !== 'xs',
           }
         )}
       />

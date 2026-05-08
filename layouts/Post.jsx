@@ -72,7 +72,7 @@ const Layout = ({
           {attributes.length > 0 && (
             <div className="dark:bg-gradient-omega-900 mt-12 md:dark:shadow-2xl">
               <Sep line />
-              <dl className="grid grid-cols-fluid gap-4 p-4 [--tw-fluid-col-min:8rem] md:gap-6 md:py-6 md:px-12">
+              <dl className="grid grid-cols-fluid gap-4 p-4 [--tw-fluid-col-min:8rem] md:gap-6 md:px-12 md:py-6">
                 {attributes.map(({ label, value }) => (
                   <div key={label}>
                     <dt className="mb-2 dark:text-alpha">{label}</dt>

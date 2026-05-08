@@ -24,7 +24,7 @@ const ErrorMessage = ({ errors, name }) =>
   ) : null
 
 const SuccessMessage = ({ handleReset }) => (
-  <div className="my-6 mx-auto flex max-w-md justify-between bg-omega-800 p-3">
+  <div className="mx-auto my-6 flex max-w-md justify-between bg-omega-800 p-3">
     <span className="text-alpha">Please check your inbox and confirm your email.</span>
     <button onClick={() => handleReset()} className="h-5 w-5 hover:bg-omega-900">
       <IoClose className="mx-auto h-4 w-4 text-omega-500" />
@@ -43,7 +43,7 @@ const Badge = () => (
       <span className="text-xs">BUILT WITH</span>
       <Icon
         src="/icons/convertkit.svg"
-        className="ml-2 mb-1 inline h-6 w-24 align-middle group-hover:text-[#FB6970]"
+        className="mb-1 ml-2 inline h-6 w-24 align-middle group-hover:text-[#FB6970]"
       />
     </a>
   </div>
