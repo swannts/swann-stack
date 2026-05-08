@@ -1,8 +1,8 @@
 ---
 layout: Projects
 seo:
-  title: Portfolio Case Studies
-  description: Selected full stack and DevOps engagements spanning event platforms, marketplaces, and cloud-native products.
+  title: Senior Software Engineering Projects
+  description: Selected SaaS, full-stack, cloud-native, API, and microservices projects by Abu Bokor Siddik using React, Next.js, Node.js, Laravel, AWS, and Kubernetes.
 ---
 
 ---github
@@ -11,11 +11,10 @@ repositories:
 ---
 
 <PageTitle>
-  ### Featured Case Studies
+  ### Featured Projects
 </PageTitle>
 
-A selection of production work covering microservices, SSR frontends, and DevOps automation across startups and enterprise
-teams.
+Selected work across SaaS platforms, ticketing systems, CRM workflows, multi-vendor services, APIs, microservices, and modern React/Next.js interfaces.
 
 
 
@@ -26,7 +25,7 @@ collection:
 ---
 
 <PageTitle>
-  ### Latest Projects
+  ### Project Portfolio
 </PageTitle>
 
-Practical examples of architecting, securing, and observing complex platforms.
+Production-focused engineering examples spanning full-stack product development, backend services, cloud-ready architecture, and scalable platform workflows.
