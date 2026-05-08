@@ -110,7 +110,7 @@ export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   authorName: 'Abu Bokor Siddik',
   siteName: 'Abu Bokor Siddik Portfolio',
-  defaultTitle: 'Abu Bokor Siddik — Senior Software Engineer',
+  defaultTitle: 'Abu Bokor Siddik - Senior Software Engineer',
   titleTemplate: 'Abu Bokor Siddik | %s',
   description:
     'Senior Software Engineer building full-stack SaaS platforms, cloud-native systems, APIs, and microservices with React, Next.js, Node.js, Laravel, AWS, and Kubernetes.',

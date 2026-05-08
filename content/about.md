@@ -1,7 +1,7 @@
 ---
 layout: About
 seo:
-  title: About Abu Bokor Siddik — Senior Software Engineer
+  title: About Abu Bokor Siddik - Senior Software Engineer
   description: Senior Full Stack Engineer with 5+ years of experience building SaaS platforms, APIs, microservices, and cloud-native systems with React, Next.js, Node.js, Laravel, AWS, Azure, Docker, and Kubernetes.
 ---
 
@@ -351,16 +351,16 @@ list:
 ---history[0]
 title: Professional Experience
 list:
-  - name: Senior Software Engineer Team Lead — ScaleBridger
+  - name: Senior Software Engineer Team Lead - ScaleBridger
     date: Sep 2025 – Apr 2026
     description: Contract role leading full-stack applications using React, Next.js, and Node.js; designing scalable backend services and APIs; and improving development workflows and deployment processes.
-  - name: Senior Software Engineer — MyManager
+  - name: Senior Software Engineer - MyManager
     date: Mar 2025 – Sep 2025
     description: On-site role contributing to the MYM Manager SaaS platform, developing backend APIs and real-time features for business workflows, and collaborating closely in an agile team environment.
-  - name: Full Stack Developer — Wise Minds & WeTicket
+  - name: Full Stack Developer - Wise Minds & WeTicket
     date: Feb 2023 – May 2025
     description: Full-time partner engineering collaboration across Wise Minds and WeTicket, developing Laravel, Node.js, and microservices backends; React, Next.js, and TypeScript frontends; REST APIs; Keycloak authentication; Stripe payments; and scalable shared platform features.
-  - name: Full Stack Developer — Fortunatis GmbH
+  - name: Full Stack Developer - Fortunatis GmbH
     date: Aug 2021 – Mar 2024
     description: Remote full-stack role developing microservices deployed on AWS Kubernetes EKS, building React and TypeScript frontend applications, and improving system performance and scalability.
 ---

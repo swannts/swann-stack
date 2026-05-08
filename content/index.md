@@ -1,7 +1,7 @@
 ---
 layout: Home
 seo:
-  title: Abu Bokor Siddik — Senior Software Engineer
+  title: Abu Bokor Siddik - Senior Software Engineer
   description: Senior Software Engineer building full-stack SaaS platforms, cloud-native systems, APIs, and microservices with React, Next.js, Node.js, Laravel, AWS, and Kubernetes.
 ---
 
@@ -17,7 +17,7 @@ images:
 
 # <Typewriter>Abu Bokor Siddik</Typewriter>
 
-## Senior Software Engineer — Full Stack • Cloud & Platform
+## Senior Software Engineer Full Stack • Cloud & Platform
 
 <Sep size={12}></Sep>
 

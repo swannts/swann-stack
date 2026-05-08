@@ -249,7 +249,7 @@ To create a blockquote, add a > in front of a paragraph. The rendered output loo
 > Block quotes are
 > written like so.
 
-Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.
+Blockquotes can contain other Markdown formatted elements. Not all elements can be used - you’ll need to experiment to see which ones work.
 
 > ###### Blockquotes with Other Elements
 >
