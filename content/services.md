@@ -43,11 +43,6 @@ icon:
 </small>
 
 
-- <strong>Microservices and reusable service design</strong>
-- <strong>JWT, OAuth, Laravel Sanctum, and Keycloak authentication</strong>
-- <strong>Redis caching, database tuning, Kafka, and RabbitMQ</strong>
-  </small>
-
 ---services[1]
 title: Frontend Product Development
 icon:
@@ -62,11 +57,6 @@ icon:
   - <strong>Tailwind CSS, MUI, and Bootstrap UI consistency</strong>
 </small>
 
-
-- <strong>React, Next.js, TypeScript, Redux Toolkit, and Context API</strong>
-- <strong>Axios, React Query, and modern data-fetching workflows</strong>
-- <strong>Tailwind CSS, MUI, and Bootstrap UI consistency</strong>
-  </small>
 
 ---services[2]
 title: Cloud & Platform Engineering
@@ -83,15 +73,10 @@ icon:
 </small>
 
 
-- <strong>Containerized services and Kubernetes deployments</strong>
-- <strong>Infrastructure provisioning with Terraform</strong>
-- <strong>CI/CD workflows for safer production releases</strong>
-  </small>
-
 ---services[3]
 title: System Design & AI-Enabled Development
 icon:
-src: /icons/audit.svg
+  src: /icons/audit.svg
 
 ---
 
