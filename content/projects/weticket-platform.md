@@ -1,30 +1,32 @@
 ---
 layout: Post
-title: WeTicket Event Platform
-description: SSR ticketing experience with Laravel microservices, Keycloak SSO, and Stripe payments deployed across AWS.
-date: '2024-06-01'
+title: WeTicket Platform
+description: Event management and ticketing system with SSR frontend, Laravel backend, Keycloak authentication, and Stripe integration.
+date: '2025-05-01'
 tags:
-  - next-js
-  - laravel
-  - keycloak
+  - Next.js
+  - React
+  - Laravel
+  - Keycloak
+  - Stripe
+  - SSR
 logo:
   src: /icons/logo-1.svg
-  alt: WeTicket
+  alt: WeTicket Platform
 images:
   - src: /projects/project-1.png
-    alt: WeTicket web and mobile views
+    alt: WeTicket Platform event management and ticketing system
 attributes:
-  - label: Duration
-    value: 14 Months
   - label: Role
-    value: Senior Full Stack & DevOps Engineer
+    value: Full Stack Developer
+  - label: Focus
+    value: Ticketing, authentication, payments
 ---
 
-Built an event management platform with SSR Next.js frontends backed by Laravel microservices and Keycloak-based authentication.
-Stripe handled global payments while Redis caching and API Gateway routing kept latency low. Delivery pipelines on Bitbucket
-integrated Cypress and PHPUnit tests, pushing containers to AWS with zero-downtime releases.
+WeTicket Platform is an event management and ticketing system with an SSR frontend, Laravel backend, Keycloak authentication, and Stripe integration.
 
 #### Highlights
-- Implemented Keycloak SSO and JWT flows for organizers, buyers, and vendors.
-- Containerized services with Docker and orchestrated rollouts via Kubernetes and Helm charts.
-- Added observability using Prometheus metrics and ELK logs to monitor seat inventory and payment success rates.
+
+- Built frontend experiences with Next.js and React for server-rendered ticketing workflows.
+- Developed Laravel backend APIs for event and ticketing features.
+- Integrated Keycloak authentication and Stripe payment flows for platform users.
