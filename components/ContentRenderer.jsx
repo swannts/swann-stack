@@ -1,6 +1,8 @@
 import React from 'react'
 import { MDXRemote } from 'next-mdx-remote'
 
+import MDX from '@/components/MDX'
+
 const ContentRenderer = (props) => {
   const { source } = props
 
@@ -10,7 +12,7 @@ const ContentRenderer = (props) => {
 
   if (!content) return null
 
-  return <MDXRemote {...content} />
+  return <MDXRemote {...content} components={MDX} />
 }
 
 export default ContentRenderer

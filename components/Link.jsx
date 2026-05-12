@@ -4,12 +4,19 @@ import NextLink from 'next/link'
 const Link = ({ href, children, ...props }) => {
   const isInternalLink = href && (href.startsWith('/') || href.startsWith('#'))
 
-  return isInternalLink ? (
-    <NextLink href={href} {...props}>
-      {children}
-    </NextLink>
-  ) : (
-    <a href={href} {...props}>
+  if (isInternalLink) {
+    return (
+      <NextLink href={href} {...props}>
+        {children}
+      </NextLink>
+    )
+  }
+
+  // Strip Next.js specific wrapper props when rendering a native external anchor tag
+  const { passHref, legacyBehavior, ...restProps } = props
+
+  return (
+    <a href={href} {...restProps}>
       {children}
     </a>
   )

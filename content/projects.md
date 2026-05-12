@@ -7,8 +7,7 @@ seo:
 
 ---github
 repositories:
-
-- Swannhs
+- Swannts
 
 ---
 

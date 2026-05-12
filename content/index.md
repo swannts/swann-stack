@@ -1,52 +1,42 @@
 ---
 layout: Home
 seo:
-  title: Abu Bokor Siddik - Senior Software Engineer
-  description: Senior Software Engineer building full-stack SaaS platforms, cloud-native systems, APIs, and microservices with React, Next.js, Node.js, Laravel, AWS, and Kubernetes.
+  title: Abu Bokor Siddik - Senior Full Stack Architect & AI Engineer
+  description: Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable SaaS platforms, Agentic AI systems, cloud-native applications, and distributed architectures using Python, Node.js, and React.
 ---
 
 ---main
 images:
-
-- src: /hero.jpg
-  alt: Abu Bokor Siddik
-- src: /hero.jpg
-  alt: Abu Bokor Siddik
-
+  - src: /hero.jpg
+    alt: Abu Bokor Siddik
+  - src: /hero.jpg
+    alt: Abu Bokor Siddik
 ---
 
 # <Typewriter>Abu Bokor Siddik</Typewriter>
 
-## Senior Software Engineer Full Stack • Cloud & Platform
+## Senior Full Stack Architect & AI Engineer
 
-<Sep size={12}></Sep>
+### Python • Java • PHP • JS/TS • AI • Cloud • Microservices • DevOps
 
-Senior Software Engineer building scalable full-stack SaaS platforms, APIs, microservices, and cloud-native systems. I work across React, Next.js, Node.js, Laravel, AWS, Kubernetes, and modern DevOps practices to deliver reliable products from frontend to backend.
----achievements
+<Sep size={12} />
 
-- number: 5+
-  text: Years building production-grade applications
-- number: SaaS
-  text: Full-stack platforms, APIs, and workflows
-- number: Cloud
-  text: AWS, Azure, Docker, Kubernetes, and CI/CD
+Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable SaaS platforms, cloud-native applications, AI-powered systems, and distributed architectures. I specialize in Agentic AI workflows, RAG pipelines, REST & GraphQL APIs, and robust cloud infrastructure using modern engineering tools.
 
+---achievements[0]
+number: 5+
+text: Years building scalable production-grade SaaS platforms
 ---
 
-## ---cta
+---achievements[1]
+number: AI/LLM
+text: Agentic workflows, RAG pipelines, and API automations
+---
 
-<Button href="/projects" size="lg">
-  View Projects
-</Button>
+---achievements[2]
+number: Cloud
+text: AWS, Docker, Kubernetes EKS, and robust CI/CD pipelines
+---
 
-<Button href="/contact" size="lg">
-  Contact Me
-</Button>
-
-<Button href="https://github.com/Swannhs" size="sm">
-  GitHub
-</Button>
-
-<Button href="https://www.linkedin.com/in/swannhs/" size="sm">
-  LinkedIn
-</Button>
+---cta
+---

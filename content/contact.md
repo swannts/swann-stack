@@ -2,7 +2,7 @@
 layout: Contact
 seo:
   title: Contact Abu Bokor Siddik
-  description: Contact Abu Bokor Siddik, Senior Software Engineer focused on full-stack SaaS platforms, cloud-native systems, APIs, and microservices.
+  description: Contact Abu Bokor Siddik, Senior Full Stack Architect & AI Engineer focused on scalable SaaS, cloud-native systems, and AI-enabled product engineering.
 ---
 
 
@@ -27,8 +27,8 @@ Use the form on this page or reach me directly using the details below.
 
   <Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> Email: a.b.siddik.swann@gmail.com
 
-  <Icon src="/icons/logo-linkedin.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> LinkedIn: [Abu Bokor Siddik](https://www.linkedin.com/in/swannhs/)
+  <Icon src="/icons/logo-linkedin.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> LinkedIn: [Abu Bokor Siddik](https://www.linkedin.com/in/swannts/)
 
-  <Icon src="/icons/dashboard.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> GitHub: [Swannhs](https://github.com/Swannhs)
+  <Icon src="/icons/dashboard.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> GitHub: [Swannts](https://github.com/Swannts)
 
 </small>

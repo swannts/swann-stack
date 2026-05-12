@@ -54,12 +54,12 @@ export const menu = [
 export const social = [
   {
     name: 'GitHub',
-    url: 'https://github.com/Swannhs',
+    url: 'https://github.com/Swannts',
     Icon: IoLogoGithub,
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/swannhs/',
+    url: 'https://www.linkedin.com/in/swannts/',
     Icon: IoLogoLinkedin,
   },
 ]
@@ -110,10 +110,10 @@ export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   authorName: 'Abu Bokor Siddik',
   siteName: 'Abu Bokor Siddik Portfolio',
-  defaultTitle: 'Abu Bokor Siddik - Senior Software Engineer',
+  defaultTitle: 'Abu Bokor Siddik - Senior Full Stack Architect & AI Engineer',
   titleTemplate: 'Abu Bokor Siddik | %s',
   description:
-    'Senior Software Engineer building full-stack SaaS platforms, cloud-native systems, APIs, and microservices with React, Next.js, Node.js, Laravel, AWS, and Kubernetes.',
+    'Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable SaaS platforms, cloud-native applications, AI-powered systems, and distributed architectures.',
   email: 'a.b.siddik.swann@gmail.com',
   locale: 'en_US',
   twitter: {
