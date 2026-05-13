@@ -11,24 +11,30 @@ seo:
 ---
 
 <PageTitle>
-  ### Get in touch
-
-  ### _Let's talk about scalable software, SaaS platforms, and cloud-native systems_
+  ### Contact Me
+  ### _Building the future of AI-powered SaaS and scalable architectures_
 </PageTitle>
 
-I am available to discuss senior full-stack engineering, backend architecture, SaaS delivery, cloud and platform engineering, and AI-enabled product development.
+Available for **senior full-stack, backend, AI engineering, platform engineering, and remote SaaS opportunities**. Whether you're looking for an architect to design your next microservices system or an engineer to integrate Agentic AI workflows, I'm ready to collaborate.
 
-Use the form on this page or reach me directly using the details below.
+<div className="flex flex-wrap items-center gap-4 my-8">
+  <Button href="mailto:a.b.siddik.swann@gmail.com" size="lg">
+    Email Me
+  </Button>
+  <Button href="https://github.com/Swannts" variant="secondary" size="lg">
+    GitHub
+  </Button>
+  <Button href="https://www.linkedin.com/in/swannts/" variant="secondary" size="lg">
+    LinkedIn
+  </Button>
+  <Button href="/cv.pdf" variant="ghost" size="lg">
+    Download CV
+  </Button>
+</div>
 
-<Sep size="12"></Sep>
+---
 
-<small>
-  <Icon src="/icons/call.svg" className="inline mr-2 align-middle fill-current text-omega-500"></Icon> Phone: +8801748298069
-
-  <Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> Email: a.b.siddik.swann@gmail.com
-
-  <Icon src="/icons/logo-linkedin.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> LinkedIn: [Abu Bokor Siddik](https://www.linkedin.com/in/swannts/)
-
-  <Icon src="/icons/dashboard.svg" className="mr-2 inline align-middle fill-current text-omega-500"></Icon> GitHub: [Swannts](https://github.com/Swannts)
-
-</small>
+**Abu Bokor Siddik**  
+📧 [a.b.siddik.swann@gmail.com](mailto:a.b.siddik.swann@gmail.com)  
+📞 [+8801748298069](tel:+8801748298069)  
+📍 Remote / International

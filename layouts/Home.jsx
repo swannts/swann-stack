@@ -35,7 +35,7 @@ const HeroPhoto = ({ main }) => {
 
 const HeroAbout = ({ main }) => (
   <Reveal animation="fade-in slide-in-right" className="w-full">
-    <div className="prose prose-invert max-w-none prose-headings:m-0 prose-h1:mb-3 prose-h1:text-4xl prose-h1:font-extrabold prose-h1:tracking-tight prose-h1:text-white sm:prose-h1:text-5xl lg:prose-h1:text-6xl prose-h2:mb-4 prose-h2:bg-gradient-to-r prose-h2:from-accent prose-h2:via-beta prose-h2:to-alpha prose-h2:bg-clip-text prose-h2:text-2xl prose-h2:font-bold prose-h2:text-transparent sm:prose-h2:text-3xl lg:prose-h2:text-4xl prose-h3:mb-6 prose-h3:font-mono prose-h3:text-xs prose-h3:font-semibold prose-h3:uppercase prose-h3:tracking-widest prose-h3:text-omega-400 sm:prose-h3:text-sm prose-p:text-base prose-p:leading-relaxed prose-p:text-omega-300 sm:prose-p:text-lg">
+    <div className="prose prose-invert max-w-none prose-headings:m-0 prose-h1:mb-3 prose-h1:text-4xl prose-h1:font-extrabold prose-h1:tracking-tight prose-h1:text-white sm:prose-h1:text-5xl lg:prose-h1:text-6xl prose-h2:mb-4 prose-h2:bg-gradient-to-r prose-h2:from-accent prose-h2:via-beta prose-h2:to-alpha prose-h2:bg-clip-text prose-h2:text-xl prose-h2:font-bold prose-h2:text-transparent sm:prose-h2:text-2xl lg:prose-h2:text-3xl prose-h3:mb-6 prose-h3:font-mono prose-h3:text-xs prose-h3:font-semibold prose-h3:uppercase prose-h3:tracking-widest prose-h3:text-omega-400 sm:prose-h3:text-sm prose-p:text-base prose-p:leading-relaxed prose-p:text-omega-300 sm:prose-p:text-lg">
       <ContentRenderer source={main} />
     </div>
   </Reveal>
@@ -79,18 +79,20 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
     <div className="animate-blob animation-delay-2000 absolute top-1/3 right-10 -z-10 h-96 w-96 rounded-full bg-beta-700/15 blur-[120px] pointer-events-none" />
     <div className="animate-blob animation-delay-4000 absolute bottom-10 left-1/4 -z-10 h-96 w-96 rounded-full bg-alpha-700/10 blur-[120px] pointer-events-none" />
 
-    <div className="flex flex-col items-center justify-between gap-12 lg:flex-row lg:items-start lg:gap-16">
-      <div className="w-full flex-1 text-left lg:order-1">
+    <div className="flex flex-col items-center justify-between gap-12 lg:flex-row lg:items-center lg:gap-32">
+      <div className="w-full flex-1 text-left lg:order-1 lg:max-w-xl">
         <HeroAbout main={main} />
         <Achievements achievements={achievements} />
         {cta && Object.keys(cta).length > 0 && (
-          <div className="mt-8 w-full">
+          <div className="mt-10 w-full">
             <ContentRenderer source={cta} />
           </div>
         )}
       </div>
-      <div className="animate-float w-full shrink-0 lg:order-2 lg:w-[420px]">
-        <HeroPhoto main={main} />
+      <div className="animate-float flex w-full justify-center shrink-0 lg:order-2 lg:w-1/3 lg:justify-end">
+        <div className="w-full max-w-[380px]">
+          <HeroPhoto main={main} />
+        </div>
       </div>
     </div>
 

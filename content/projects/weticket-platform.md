@@ -1,15 +1,14 @@
 ---
 layout: Post
 title: WeTicket Platform
-description: Event management and ticketing system with SSR frontend, Laravel backend, Keycloak authentication, and Stripe integration.
+description: A scalable ticketing and transactional platform with secure payment workflows, authentication, and modular backend services.
 date: '2025-05-01'
 tags:
-  - Next.js
-  - React
   - Laravel
-  - Keycloak
+  - Next.js
   - Stripe
-  - SSR
+  - Keycloak
+  - PostgreSQL
 logo:
   src: /icons/logo-1.svg
   alt: WeTicket Platform
@@ -19,14 +18,15 @@ images:
 attributes:
   - label: Role
     value: Full Stack Developer
-  - label: Focus
-    value: Ticketing, authentication, payments
+  - label: Stack
+    value: Laravel, Next.js, Stripe, Keycloak
 ---
 
-WeTicket Platform is an event management and ticketing system with an SSR frontend, Laravel backend, Keycloak authentication, and Stripe integration.
+WeTicket is a high-performance ticketing engine built to handle high-concurrency transactions with absolute reliability. It demonstrates deep expertise in integrating complex third-party systems like Keycloak for identity and Stripe for global payments.
 
-#### Highlights
-
-- Built frontend experiences with Next.js and React for server-rendered ticketing workflows.
-- Developed Laravel backend APIs for event and ticketing features.
-- Integrated Keycloak authentication and Stripe payment flows for platform users.
+### Key Highlights
+- **Stripe Payment Integration**: Secure, PCI-compliant payment processing for global transactions.
+- **Keycloak Authentication**: Enterprise-grade identity management and SSO.
+- **SSR Frontend**: Built with Next.js for maximum performance and SEO.
+- **Scalable Laravel Backend**: Modular architecture supporting transactional workflows.
+- **High Concurrency**: Designed to handle ticket "drops" and peak load spikes.

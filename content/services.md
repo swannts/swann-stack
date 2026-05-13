@@ -12,7 +12,7 @@ seo:
 
 I build production-grade SaaS platforms, highly concurrent backend systems, microservices architectures, and state-of-the-art AI-powered applications. My approach focuses on end-to-end technical ownership, resilient system design, cloud automation, and exceptional software quality.
 
-- **FastAPI, Django, & Laravel Application Design**
+- **Java Spring Boot, FastAPI, Django, & Laravel Application Design**
 - **Agentic AI, RAG Pipelines, & LLM Integrations**
 - **SSR Frontend Applications with Next.js & React**
 - **Distributed Microservices & Event-Driven Systems**
@@ -28,7 +28,7 @@ icon:
 
 Design and implement highly scalable backend systems, robust REST & GraphQL APIs, and resilient service architectures capable of handling demanding transactional and concurrent loads.
 
-- **High-Performance Foundations**: Developing robust, thread-safe backends using Python (FastAPI, Django), PHP (Laravel), and Node.js.
+- **High-Performance Foundations**: Developing robust, thread-safe backends using **Java (Spring Boot)**, Python (FastAPI, Django), PHP (Laravel), and Node.js.
 - **Inter-Service Messaging**: Orchestrating scalable microservices communication via asynchronous event-driven queues with Kafka and RabbitMQ.
 - **Advanced Identity Management**: Implementing secure multi-tenant access control and single sign-on structures using Keycloak, OAuth2, and JWT.
 - **Performance Tuning**: Tuning database queries, indexing optimization, parallel processing, and distributed low-latency caching with Redis.

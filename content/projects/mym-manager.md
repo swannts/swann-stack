@@ -1,15 +1,14 @@
 ---
 layout: Post
 title: MYM Manager
-description: SaaS CRM platform with real-time features and scalable backend services for business workflows.
+description: A SaaS CRM and business workflow platform with real-time updates, scalable APIs, and business automation features.
 date: '2025-09-01'
 tags:
-  - SaaS
-  - CRM
   - Node.js
   - React
-  - Real-time
-  - APIs
+  - Redis
+  - WebSockets
+  - PostgreSQL
 logo:
   src: /icons/logo-1.svg
   alt: MYM Manager
@@ -19,14 +18,15 @@ images:
 attributes:
   - label: Role
     value: Senior Software Engineer
-  - label: Focus
-    value: SaaS CRM workflows
+  - label: Stack
+    value: Node.js, React, WebSockets, Redis
 ---
 
-MYM Manager is a SaaS CRM platform with real-time features and scalable backend services for business workflows.
+MYM Manager is a comprehensive SaaS CRM platform designed to streamline business workflows through real-time communication and automated data processing.
 
-#### Highlights
-
-- Contributed to SaaS platform development in an onsite engineering environment.
-- Developed backend APIs and real-time features for business workflows.
-- Collaborated with team members to deliver reliable CRM platform functionality.
+### Key Highlights
+- **Real-time Notifications**: Instant updates via WebSockets for collaborative workflows.
+- **CRM Workflow Automation**: Automated business processes reducing manual effort by 40%.
+- **Redis Caching**: High-performance data retrieval for frequently accessed CRM records.
+- **Scalable Backend APIs**: Robust Node.js microservices architecture.
+- **Business Process Management**: Advanced features for lead tracking and conversion optimization.

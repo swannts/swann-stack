@@ -1,8 +1,8 @@
 ---
 layout: Home
 seo:
-  title: Abu Bokor Siddik - Senior Full Stack Architect & AI Engineer
-  description: Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable SaaS platforms, Agentic AI systems, cloud-native applications, and distributed architectures using Python, Node.js, and React.
+  title: Abu Bokor Siddik | Senior Full Stack Architect & AI Engineer
+  description: Senior Full Stack Architect & AI Engineer specializing in Python, Java, Node.js, React, AI agents, RAG, microservices, Docker, Kubernetes, AWS, and scalable SaaS platforms.
 ---
 
 ---main
@@ -13,15 +13,15 @@ images:
     alt: Abu Bokor Siddik
 ---
 
-# <Typewriter>Abu Bokor Siddik</Typewriter>
+# Abu Bokor Siddik
 
 ## Senior Full Stack Architect & AI Engineer
 
-### Python • Java • PHP • JS/TS • AI • Cloud • Microservices • DevOps
+### Python • Java • Node.js • AI • Cloud • Microservices
 
 <Sep size={12} />
 
-Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable SaaS platforms, cloud-native applications, AI-powered systems, and distributed architectures. I specialize in Agentic AI workflows, RAG pipelines, REST & GraphQL APIs, and robust cloud infrastructure using modern engineering tools.
+Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable SaaS platforms, cloud-native applications, AI-powered systems, and distributed architectures.
 
 ---achievements[0]
 number: 5+
@@ -29,14 +29,24 @@ text: Years building scalable production-grade SaaS platforms
 ---
 
 ---achievements[1]
-number: AI/LLM
-text: Agentic workflows, RAG pipelines, and API automations
+number: AI Core
+text: Agentic workflows, RAG pipelines, and LLM integrations
 ---
 
 ---achievements[2]
 number: Cloud
-text: AWS, Docker, Kubernetes EKS, and robust CI/CD pipelines
+text: AWS EKS, Docker, Kubernetes, and robust CI/CD pipelines
 ---
 
 ---cta
+<Button href="/projects" size="lg">View Projects</Button>
+<Button href="/contact" variant="secondary" size="lg">Contact Me</Button>
 ---
+
+<div className="mt-12 flex flex-wrap gap-2 opacity-60">
+  {['Python', 'FastAPI', 'Django', 'Java', 'Spring Boot', 'Node.js', 'React', 'Next.js', 'AI Agents', 'RAG', 'Docker', 'Kubernetes', 'AWS'].map((tech) => (
+    <span key={tech} className="rounded-full bg-white/5 px-3 py-1 text-[10px] font-medium text-omega-300 ring-1 ring-white/10 uppercase tracking-widest">
+      {tech}
+    </span>
+  ))}
+</div>

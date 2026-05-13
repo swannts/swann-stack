@@ -110,10 +110,10 @@ export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   authorName: 'Abu Bokor Siddik',
   siteName: 'Abu Bokor Siddik Portfolio',
-  defaultTitle: 'Abu Bokor Siddik - Senior Full Stack Architect & AI Engineer',
+  defaultTitle: 'Abu Bokor Siddik | Senior Full Stack Architect & AI Engineer',
   titleTemplate: 'Abu Bokor Siddik | %s',
   description:
-    'Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable SaaS platforms, cloud-native applications, AI-powered systems, and distributed architectures.',
+    'Senior Full Stack Architect & AI Engineer specializing in Python, Java, Node.js, React, AI agents, RAG, and scalable cloud-native SaaS architectures.',
   email: 'a.b.siddik.swann@gmail.com',
   locale: 'en_US',
   twitter: {

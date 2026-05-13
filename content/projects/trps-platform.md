@@ -1,13 +1,13 @@
 ---
 layout: Post
 title: TRPS Platform
-description: End-to-end full-stack platform built using React, Node.js, and microservices architecture.
+description: An end-to-end full-stack platform built with scalable frontend, backend APIs, and microservices architecture.
 date: '2025-04-01'
 tags:
   - React
   - Node.js
   - Microservices
-  - Full Stack
+  - Docker
 logo:
   src: /icons/logo-2.svg
   alt: TRPS Platform
@@ -17,14 +17,15 @@ images:
 attributes:
   - label: Role
     value: Full Stack Developer
-  - label: Focus
-    value: React, Node.js, microservices
+  - label: Stack
+    value: React, Node.js, Docker
 ---
 
-TRPS Platform is an end-to-end full-stack platform built using React, Node.js, and microservices architecture.
+TRPS is a robust engineering platform that exemplifies a clean separation of concerns through a modular microservices architecture.
 
-#### Highlights
-
-- Built full-stack application features across frontend and backend layers.
-- Developed Node.js backend services aligned with microservices architecture.
-- Delivered React interfaces integrated with platform APIs.
+### Key Highlights
+- **Full-stack Ownership**: End-to-end development of critical platform features.
+- **Microservices Architecture**: Decoupled, horizontally scalable service design.
+- **API-driven System**: High-performance RESTful communication layers.
+- **Cloud-ready Structure**: Fully containerized using Docker for deployment flexibility.
+- **Production-focused Engineering**: Built with rigorous testing and monitoring.

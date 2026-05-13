@@ -14,74 +14,38 @@ name: Abu Bokor Siddik
 
 ##### <span>01.</span> Professional Summary
 
-Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable SaaS platforms, cloud-native applications, AI-powered systems, and distributed architectures using Python (FastAPI, Django), Node.js, Laravel, React, and Next.js.
+I am a **Senior Full Stack Architect & AI Engineer** with 5+ years of experience building scalable SaaS platforms, backend systems, microservices, cloud-native applications, and AI-powered workflows. 
 
-Strong expertise in backend architecture, microservices, REST APIs, cloud infrastructure, CI/CD pipelines, DevOps automation, and AI integrations. Experienced in building production-grade applications, workflow automation systems, and scalable distributed platforms using Docker, Kubernetes, AWS, and modern engineering practices.
+I work across frontend, backend, DevOps, and AI integrations with strong experience in **Python (FastAPI, Django)**, **Java (Spring Boot)**, **Node.js**, **Laravel**, **React**, and **Next.js**. My work focuses on clean architecture, scalable APIs, system performance, workflow automation, secure authentication, cloud deployment (Docker, Kubernetes, AWS), and production-ready engineering.
 
-Hands-on experience with Agentic AI systems, RAG pipelines, AI assistants, vector databases, contextual memory, and AI workflow automation using modern LLM ecosystems and AI engineering tools.
+##### <span>02.</span> Backend & Architecture Expertise
 
-##### <span>02.</span> Backend Engineering Expertise
+*   Designed and developed scalable backend systems and microservices using **Java Spring Boot**, **FastAPI**, **NestJS**, and **Laravel**.
+*   Built secure RESTful APIs and GraphQL services for high-traffic SaaS applications.
+*   Implemented complex authentication and authorization flows using **Keycloak**, **JWT**, **OAuth2**, and **Laravel Sanctum**.
+*   Integrated **Stripe** payment systems for secure transactional workflows.
+*   Optimized backend performance through Redis caching, database indexing, and asynchronous processing.
 
-* Designed and developed scalable backend systems using FastAPI, Django, Laravel, Node.js, and microservices architecture.
-* Built secure RESTful APIs and GraphQL services for scalable SaaS applications.
-* Developed event-driven systems using Kafka and RabbitMQ.
-* Implemented authentication and authorization using JWT, OAuth2, Keycloak, and Laravel Sanctum.
-* Optimized backend performance through database tuning, indexing, caching, and asynchronous processing.
-* Built scalable transactional systems supporting authentication and payment workflows.
-* Refactored and modernized backend systems for maintainability and scalability.
-* Designed modular and reusable backend services following clean architecture principles.
+##### <span>03.</span> AI Engineering & Automation
 
-##### <span>03.</span> AI Engineering Expertise
+*   Developed **RAG pipelines**, semantic retrieval systems, and contextual memory architectures.
+*   Designed AI assistant workflows using **Agentic AI** patterns, tool calling, and function calling.
+*   Integrated modern LLM APIs (OpenAI, Claude, Gemini) into production-grade business workflows.
+*   Explored **Multi-Agent Systems** and **LLMOps** for AI observability and reliability.
 
-* Built AI-assisted workflows and automation systems using modern LLM APIs.
-* Worked with RAG pipelines, semantic retrieval, embeddings, and contextual memory systems.
-* Designed AI assistant workflows using tool calling and function calling patterns.
-* Integrated AI-powered features into SaaS applications and backend systems.
-* Applied prompt engineering and system prompt design for AI workflow optimization.
-* Explored multi-agent systems and agentic AI orchestration concepts.
-* Worked with AI workflow automation and production-ready AI integration patterns.
+##### <span>04.</span> Cloud, DevOps & Deployment
 
-##### <span>04.</span> Frontend Engineering Expertise
+*   Managed scalable deployments on **Kubernetes (AWS EKS)** and orchestrated containerized services with **Docker**.
+*   Built robust **CI/CD pipelines** using **GitHub Actions** and **Jenkins** for automated reliability.
+*   Provisioned cloud-native infrastructure using **Terraform** and **Ansible**.
+*   Ensured system reliability through **Prometheus**, **Grafana**, and **Sentry** monitoring.
 
-* Developed responsive frontend applications using React.js, Next.js, and TypeScript.
-* Built SSR and SSG applications focused on performance and SEO optimization.
-* Managed application state using Redux Toolkit and Context API.
-* Integrated REST APIs and GraphQL services using modern data-fetching patterns.
-* Implemented authentication flows and protected routes.
-* Ensured responsive and consistent UI using Tailwind CSS, MUI, and Bootstrap.
-
-##### <span>05.</span> DevOps & Cloud Experience
-
-* Containerized applications using Docker for development and production environments.
-* Managed scalable deployments on Kubernetes (AWS EKS).
-* Built and maintained CI/CD pipelines for automated build, testing, and deployment workflows.
-* Provisioned infrastructure using Terraform.
-* Managed cloud resources and production environments on AWS and Azure.
-* Improved deployment reliability through automation and infrastructure optimization.
-* Worked with monitoring, observability, and centralized logging systems.
-
-##### <span>06.</span> System Design & Architecture
-
-* Designed scalable microservices-based architectures for SaaS applications.
-* Built distributed systems with event-driven communication patterns.
-* Applied Redis caching strategies for performance optimization.
-* Developed scalable backend APIs with versioning and modular architecture.
-* Designed systems with scalability, fault tolerance, maintainability, and observability in mind.
-
-##### <span>07.</span> Engineering Approach
-
-* Focus on scalable and maintainable architecture.
-* Strong emphasis on backend performance and API design.
-* Advocate for clean code and quality-driven development.
-* Comfortable taking ownership of systems and features end-to-end.
-* Passionate about AI engineering, workflow automation, and modern cloud-native systems.
-
-<div className="flex flex-wrap items-center justify-center gap-4">
+<div className="flex flex-wrap items-center justify-center gap-4 mt-8">
   <Button href="/contact" size="lg">
     Contact Me
   </Button>
-  <Button href="/projects" variant="secondary" size="lg">
-    View Projects
+  <Button href="https://github.com/Swannts" variant="secondary" size="lg">
+    GitHub
   </Button>
 </div>
 ---
@@ -89,231 +53,158 @@ Hands-on experience with Agentic AI systems, RAG pipelines, AI assistants, vecto
 ---skills_header
 title: Technical Skills
 list:
-  - Agentic AI & RAG Pipelines
-  - Python FastAPI & Django Architecture
-  - Scalable Microservices & APIs
-  - Cloud-Native AWS & Kubernetes Deployments
+  - Senior Full Stack Architecture
+  - AI Engineering & Agentic Workflows
+  - Cloud-Native & Microservices
+  - Production-Ready DevOps
 ---
 
 ---skills[0]
-title: Backend Development
+title: Backend Engineering
 list:
   - title: Python (FastAPI, Django)
     level: 5
-    icon:
-      src: /icons/django.svg
+    icon: { src: /icons/django.svg }
+  - title: Java (Spring Boot)
+    level: 4
+    icon: { src: /icons/dashboard.svg }
+  - title: Node.js (Express, NestJS)
+    level: 5
+    icon: { src: /icons/nodedotjs.svg }
   - title: PHP (Laravel)
     level: 5
-    icon:
-      src: /icons/laravel.svg
-  - title: Node.js (Express.js, NestJS)
+    icon: { src: /icons/laravel.svg }
+  - title: REST & GraphQL APIs
     level: 5
-    icon:
-      src: /icons/nodedotjs.svg
-  - title: REST APIs & GraphQL
-    level: 5
-    icon:
-      src: /icons/graphql.svg
+    icon: { src: /icons/graphql.svg }
   - title: Microservices Architecture
     level: 5
-    icon:
-      src: /icons/dashboard.svg
-  - title: ORMs (Eloquent, Prisma, SQLAlchemy)
-    level: 4
-    icon:
-      src: /icons/prisma.svg
+    icon: { src: /icons/dashboard.svg }
 ---
 
 ---skills[1]
-title: Frontend Development
+title: Frontend Engineering
 list:
   - title: React.js & Next.js
     level: 5
-    icon:
-      src: /icons/next-js.svg
+    icon: { src: /icons/next-js.svg }
   - title: TypeScript
     level: 5
-    icon:
-      src: /icons/javascript.svg
-  - title: Redux Toolkit & Context API
-    level: 4
-    icon:
-      src: /icons/redux.svg
-  - title: Tailwind CSS, MUI, Bootstrap
-    level: 4
-    icon:
-      src: /icons/javascript.svg
+    icon: { src: /icons/javascript.svg }
+  - title: Redux Toolkit & Context
+    level: 5
+    icon: { src: /icons/redux.svg }
+  - title: Tailwind CSS & MUI
+    level: 5
+    icon: { src: /icons/javascript.svg }
 ---
 
 ---skills[2]
-title: AI / LLM / Agentic AI
+title: AI / LLM Engineering
 list:
-  - title: RAG & Semantic Retrieval
+  - title: RAG & Semantic Search
     level: 5
-    icon:
-      src: /icons/dashboard.svg
-  - title: MCP & Multi-Agent Systems
+    icon: { src: /icons/dashboard.svg }
+  - title: Agentic AI & Tool Calling
     level: 5
-    icon:
-      src: /icons/audit.svg
-  - title: Tool Calling & Function Calling
-    level: 5
-    icon:
-      src: /icons/graphql.svg
-  - title: Prompt Engineering & Guardrails
-    level: 5
-    icon:
-      src: /icons/dashboard.svg
-  - title: Vector Databases & Embeddings
+    icon: { src: /icons/audit.svg }
+  - title: Multi-Agent Systems
     level: 4
-    icon:
-      src: /icons/graphql.svg
-  - title: Contextual Memory & LLMOps
+    icon: { src: /icons/dashboard.svg }
+  - title: Prompt Engineering & LLMOps
+    level: 5
+    icon: { src: /icons/audit.svg }
+  - title: Vector DBs & Embeddings
     level: 4
-    icon:
-      src: /icons/audit.svg
+    icon: { src: /icons/graphql.svg }
 ---
 
 ---skills[3]
-title: AI Tools & Productivity
-list:
-  - title: OpenAI API & Claude API
-    level: 5
-    icon:
-      src: /icons/graphql.svg
-  - title: Gemini API & Webhooks
-    level: 5
-    icon:
-      src: /icons/graphql.svg
-  - title: ChatGPT & Claude Assistants
-    level: 5
-    icon:
-      src: /icons/dashboard.svg
-  - title: Cursor AI & GitHub Copilot
-    level: 5
-    icon:
-      src: /icons/audit.svg
----
-
----skills[4]
-title: Database & Caching
-list:
-  - title: PostgreSQL
-    level: 5
-    icon:
-      src: /icons/graphql.svg
-  - title: MySQL
-    level: 5
-    icon:
-      src: /icons/graphql.svg
-  - title: MongoDB
-    level: 4
-    icon:
-      src: /icons/graphql.svg
-  - title: Redis
-    level: 5
-    icon:
-      src: /icons/dashboard.svg
----
-
----skills[5]
-title: Event-Driven & Real-Time
-list:
-  - title: Kafka
-    level: 4
-    icon:
-      src: /icons/dashboard.svg
-  - title: RabbitMQ
-    level: 4
-    icon:
-      src: /icons/dashboard.svg
-  - title: WebSockets
-    level: 5
-    icon:
-      src: /icons/graphql.svg
----
-
----skills[6]
-title: DevOps & Cloud
+title: Cloud & DevOps
 list:
   - title: Docker & Kubernetes (EKS)
     level: 5
-    icon:
-      src: /icons/docker.svg
+    icon: { src: /icons/docker.svg }
   - title: AWS & Azure Cloud
     level: 5
-    icon:
-      src: /icons/aws.svg
+    icon: { src: /icons/aws.svg }
   - title: Terraform & Ansible
     level: 4
-    icon:
-      src: /icons/dashboard.svg
-  - title: CI/CD & GitHub Actions
+    icon: { src: /icons/dashboard.svg }
+  - title: CI/CD (GitHub Actions)
     level: 5
-    icon:
-      src: /icons/audit.svg
-  - title: Jenkins Pipelines
-    level: 4
-    icon:
-      src: /icons/dashboard.svg
+    icon: { src: /icons/audit.svg }
 ---
 
----skills[7]
-title: Monitoring & Testing
+---skills[4]
+title: Databases & Messaging
 list:
-  - title: Prometheus & Grafana
+  - title: PostgreSQL & MySQL
+    level: 5
+    icon: { src: /icons/graphql.svg }
+  - title: MongoDB & Redis
+    level: 5
+    icon: { src: /icons/graphql.svg }
+  - title: Kafka & RabbitMQ
     level: 4
-    icon:
-      src: /icons/audit.svg
-  - title: ELK Stack & Sentry
-    level: 4
-    icon:
-      src: /icons/dashboard.svg
+    icon: { src: /icons/dashboard.svg }
+  - title: WebSockets
+    level: 5
+    icon: { src: /icons/graphql.svg }
+---
+
+---skills[5]
+title: Testing & Observability
+list:
   - title: Jest, Cypress, PHPUnit
     level: 4
-    icon:
-      src: /icons/javascript.svg
-  - title: Postman, Swagger, Testcontainers
+    icon: { src: /icons/javascript.svg }
+  - title: Prometheus & Grafana
+    level: 4
+    icon: { src: /icons/audit.svg }
+  - title: Sentry & ELK Stack
+    level: 4
+    icon: { src: /icons/dashboard.svg }
+  - title: Postman & Swagger
     level: 5
-    icon:
-      src: /icons/graphql.svg
+    icon: { src: /icons/graphql.svg }
 ---
 
 ---history[0]
 title: Professional Experience
 list:
   - name: Senior Software Engineer Team Lead — ScaleBridger
-    date: Sep 2025 – Apr 2026 (Contract)
-    description: Led development of scalable full-stack applications using React, Next.js, Node.js, and TypeScript. Designed backend APIs and scalable service architectures. Improved deployment workflows and engineering productivity. Collaborated with distributed teams in remote development environments and contributed to scalable cloud-native platform development.
+    date: Sep 2025 – Apr 2026
+    description: Led development of scalable full-stack applications using React, Next.js, Node.js, and TypeScript. Designed backend APIs and scalable service architectures. Improved CI/CD workflows and deployment automation. Collaborated with distributed engineering teams in remote environments.
   - name: Senior Software Engineer — MYM Manager
     date: Mar 2025 – Sep 2025
-    description: Developed scalable SaaS platform features and backend systems. Built real-time application features using WebSockets. Developed backend APIs supporting business workflow automation. Worked on scalable CRM and SaaS workflows. Collaborated in Agile teams to deliver production-ready features.
+    description: Developed scalable SaaS platform features and backend systems using Node.js and React. Built real-time application features using WebSockets and Redis. Worked on CRM and business workflow automation systems. Improved backend scalability and application reliability.
   - name: Full Stack Developer — Wise Minds & WeTicket
     date: Feb 2023 – May 2025
-    description: Developed scalable SaaS and ticketing platform features using Laravel, Node.js, React, and Next.js. Built scalable backend services and REST APIs supporting transactional workflows. Integrated secure payment systems using Stripe. Implemented secure authentication and identity management using Keycloak. Built SSR frontend applications focused on performance and scalability. Contributed to modernization and architecture improvements across frontend and backend systems in a scalable microservices-based platform architecture.
+    description: Developed scalable SaaS and ticketing platform features using Laravel, Node.js, React, and Next.js. Built REST APIs and microservices supporting transactional workflows. Integrated Stripe payment systems and Keycloak authentication. Developed SSR frontend applications using Next.js.
   - name: Full Stack Developer — Fortunatis GmbH
     date: Aug 2021 – Mar 2024
-    description: Developed microservices deployed on AWS Kubernetes (EKS). Built frontend applications using React and TypeScript. Improved application scalability and system performance. Worked on cloud-native deployment and CI/CD workflows while contributing to distributed system architecture improvements.
+    description: Developed microservices deployed on AWS Kubernetes EKS. Built frontend applications using React and TypeScript. Worked on backend services and cloud-native deployment workflows. Contributed to CI/CD automation and deployment reliability.
 ---
 
 ---history[1]
 title: Project Highlights
 list:
+  - name: SwannStack AI Knowledge Platform
+    date: Next.js • FastAPI • PostgreSQL • RAG
+    description: An AI-powered developer knowledge platform designed to support semantic search, RAG-based Q&A, AI assistants, and technical content discovery.
   - name: WeTicket Platform
     date: Laravel • React • Next.js • Stripe • Keycloak
-    description: Built scalable ticketing and transactional platform features. Integrated secure payment workflows using Stripe. Implemented authentication and authorization using Keycloak. Developed SSR frontend applications using Next.js.
-  - name: MYM Manager
-    date: Node.js • React • WebSockets • Redis
-    description: Developed scalable SaaS CRM platform. Implemented real-time communication and notifications. Built scalable backend services and APIs.
-  - name: TRPS Platform
-    date: React • Node.js • Microservices
-    description: Designed and developed end-to-end full-stack platform. Built scalable microservices architecture. Managed backend services and frontend integration.
+    description: A scalable ticketing and transactional platform with secure payment workflows, authentication, and modular backend services.
+  - name: Cloud Microservices Platform
+    date: Java • Spring Boot • React • AWS EKS
+    description: A cloud-native microservices platform built with Java Spring Boot services, containerized deployments, and Kubernetes-based infrastructure.
 ---
 
 ---history[2]
 title: Education
 list:
-  - name: Bachelor of Science (B.Sc.) in Information and Communication Engineering
+  - name: B.Sc. in Information and Communication Engineering
     date: BAUET
-    description: Bangladesh Army University of Engineering and Technology (BAUET).
+    description: Bangladesh Army University of Engineering and Technology.
 ---

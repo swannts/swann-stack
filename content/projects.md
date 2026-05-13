@@ -12,10 +12,10 @@ repositories:
 ---
 
 <PageTitle>
-  ### Featured Projects
+  ### Engineering Portfolio
 </PageTitle>
 
-Selected work across SaaS platforms, ticketing systems, CRM workflows, multi-vendor services, APIs, microservices, and modern React/Next.js interfaces.
+Selected work across **Agentic AI systems, RAG platforms, cloud-native microservices, and scalable SaaS transactional workflows**. I focus on production-grade engineering, resilient backend design, and high-fidelity user experiences.
 
 
 
