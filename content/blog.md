@@ -1,8 +1,8 @@
 ---
 layout: Blog
 seo:
-  title: Learn Programming
-  description: Let's start your programming journey.
+  title: System Design & AI Engineering Notes | Abu Bokor Siddik
+  description: Practical notes on scalable backend systems, AI-powered applications, distributed architecture, and production engineering lessons.
 collection:
   path: /blog
   sortBy: date
@@ -10,9 +10,9 @@ collection:
   infinitePaging: true
 ---
 
-### Latest Articles
+### System Design & AI Engineering Notes
 
-A few handcrafted articles about my thoughts and experiments.
+Practical notes on scalable backend systems, AI-powered applications, distributed architecture, and production engineering.
 
 ---categories
 collection:
@@ -23,4 +23,4 @@ shallow: true
 
 ### Categories
 
-<small>I write about web development and modern JavaScript frameworks.</small>
+<small>Technical notes and architectural deep-dives across the full stack.</small>
