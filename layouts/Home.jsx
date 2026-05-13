@@ -47,20 +47,20 @@ const Achievements = ({ achievements }) => (
       {achievements?.map((item, i) => (
         <div
           key={i}
-          className="group relative flex flex-col items-start border-l-2 border-omega-800 pl-5 transition-all hover:border-alpha"
+          className="group relative flex flex-col items-start border-l-2 border-omega-800 pl-5 transition-all duration-300 hover:-translate-y-1 hover:border-alpha"
         >
-          <div className="absolute -left-[5px] top-2.5 h-2 w-2 rounded-full bg-omega-700 transition-colors group-hover:bg-accent" />
+          <div className="absolute -left-[5px] top-2.5 h-2 w-2 rounded-full bg-omega-700 transition-colors duration-300 group-hover:scale-125 group-hover:bg-accent" />
           <span
             className={classNames(
-              'text-3xl font-extrabold tracking-tight sm:text-4xl',
-              i === 0 && 'text-accent',
-              i === 1 && 'bg-gradient-to-r from-beta to-accent bg-clip-text text-transparent',
-              i >= 2 && 'text-alpha'
+              'text-3xl font-extrabold tracking-tight transition-colors duration-300 sm:text-4xl',
+              i === 0 && 'text-accent group-hover:text-white',
+              i === 1 && 'bg-gradient-to-r from-beta to-accent bg-clip-text text-transparent group-hover:from-white group-hover:to-white',
+              i >= 2 && 'text-alpha group-hover:text-white'
             )}
           >
             {item.number}
           </span>
-          <p className="m-0 mt-2 text-xs font-medium leading-relaxed text-omega-300 sm:text-sm">
+          <p className="m-0 mt-2 text-xs font-medium leading-relaxed text-omega-300 transition-colors duration-300 group-hover:text-omega-100 sm:text-sm">
             {item.text}
           </p>
         </div>
@@ -71,9 +71,13 @@ const Achievements = ({ achievements }) => (
 
 const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
   <div className="relative mx-auto max-w-7xl overflow-hidden px-4 py-12 sm:px-6 md:py-20 lg:px-8">
-    {/* Absolute ambient radial background light nodes for extreme premium depth */}
-    <div className="absolute -top-40 left-10 -z-10 h-96 w-96 rounded-full bg-accent-700/15 blur-[120px] pointer-events-none" />
-    <div className="absolute top-1/3 right-10 -z-10 h-96 w-96 rounded-full bg-beta-700/10 blur-[120px] pointer-events-none" />
+    {/* High-fidelity Grain/Noise overlay for premium texture */}
+    <div className="bg-noise pointer-events-none absolute inset-0 -z-20 opacity-[0.03]" />
+
+    {/* Dynamic ambient radial background light nodes with drift animation */}
+    <div className="animate-blob absolute -top-40 left-10 -z-10 h-96 w-96 rounded-full bg-accent-700/20 blur-[120px] pointer-events-none" />
+    <div className="animate-blob animation-delay-2000 absolute top-1/3 right-10 -z-10 h-96 w-96 rounded-full bg-beta-700/15 blur-[120px] pointer-events-none" />
+    <div className="animate-blob animation-delay-4000 absolute bottom-10 left-1/4 -z-10 h-96 w-96 rounded-full bg-alpha-700/10 blur-[120px] pointer-events-none" />
 
     <div className="flex flex-col items-center justify-between gap-12 lg:flex-row lg:items-start lg:gap-16">
       <div className="w-full flex-1 text-left lg:order-1">
@@ -85,15 +89,15 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
           </div>
         )}
       </div>
-      <div className="w-full shrink-0 lg:order-2 lg:w-[420px]">
+      <div className="animate-float w-full shrink-0 lg:order-2 lg:w-[420px]">
         <HeroPhoto main={main} />
       </div>
     </div>
 
     {companies && Object.keys(companies).length > 0 && (
-      <div className="mt-16 w-full px-4 md:mt-24">
+      <Reveal animation="fade-in slide-in-bottom" delay={400} className="mt-16 w-full px-4 md:mt-24">
         <Companies {...companies} />
-      </div>
+      </Reveal>
     )}
   </div>
 )
