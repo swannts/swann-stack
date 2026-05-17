@@ -1,6 +1,7 @@
 import React from 'react'
 import classNames from 'clsx'
 import Menu from '@/components/Menu'
+import ChatWidget from '@/components/ChatWidget'
 import fonts from '@/styles/fonts'
 
 const Layout = (props) => {
@@ -24,6 +25,7 @@ const Layout = (props) => {
         </main>
       </div>
       <Menu />
+      <ChatWidget />
     </div>
   )
 }

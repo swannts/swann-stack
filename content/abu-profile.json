@@ -1,0 +1,94 @@
+{
+  "name": "Abu Bokor Siddik (Swann)",
+  "nickname": "Swann",
+  "title": "Senior Full Stack Architect & AI Engineer",
+  "subtitle": "Python • Java • Node.js • AI • Cloud • Microservices",
+  "contact": {
+    "email": "a.b.siddik.swann@gmail.com",
+    "phone": "+8801748298069",
+    "github": "https://github.com/Swannts",
+    "linkedin": "https://www.linkedin.com/in/swannts/"
+  },
+  "summary": "Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable SaaS platforms, cloud-native systems, AI-powered applications, backend systems, microservices, and distributed architectures using Python, Java, Node.js, Laravel, React, Next.js, Docker, Kubernetes, AWS, and modern AI/LLM technologies. Known professionally as Swann.",
+  "skills": {
+    "languages": ["Python", "Java", "Node.js", "TypeScript", "PHP", "JavaScript"],
+    "backend": ["FastAPI", "Django", "Spring Boot", "Express.js", "NestJS", "Laravel"],
+    "frontend": ["React.js", "Next.js", "TypeScript", "HTML5", "CSS3", "TailwindCSS"],
+    "ai_engineering": [
+      "LLMs", "RAG", "MCP", "AI Agents", "Multi-Agent Systems", 
+      "Tool Calling", "Function Calling", "Prompt Engineering", 
+      "Vector Databases", "Embeddings", "LLMOps", "AI Observability"
+    ],
+    "cloud_devops": ["Docker", "Kubernetes", "AWS", "Azure", "Terraform", "CI/CD", "GitHub Actions"],
+    "databases_messaging": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Kafka", "RabbitMQ", "WebSockets"]
+  },
+  "experience": [
+    {
+      "role": "Senior Software Engineer Team Lead",
+      "company": "ScaleBridger",
+      "period": "Sep 2025 – Apr 2026",
+      "highlights": [
+        "Led development of scalable full-stack applications using React, Next.js, and Node.js.",
+        "Designed backend APIs and scalable service architectures.",
+        "Improved CI/CD workflows and deployment automation."
+      ]
+    },
+    {
+      "role": "Senior Software Engineer",
+      "company": "MYM Manager",
+      "period": "Mar 2025 – Sep 2025",
+      "highlights": [
+        "Developed scalable SaaS platform features and backend systems.",
+        "Built real-time features using WebSockets and Redis.",
+        "Worked on CRM and business workflow automation."
+      ]
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Wise Minds & WeTicket",
+      "period": "Feb 2023 – May 2025",
+      "highlights": [
+        "Developed scalable ticketing platforms using Laravel and Next.js.",
+        "Integrated Stripe and Keycloak.",
+        "Modernized architecture for transactional workflows."
+      ]
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Fortunatis GmbH",
+      "period": "Aug 2021 – Mar 2024",
+      "highlights": [
+        "Developed microservices on AWS Kubernetes EKS.",
+        "Built frontend applications using React and TypeScript.",
+        "Contributed to CI/CD and system scalability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "WeTicket Platform",
+      "tech": ["Laravel", "React", "Next.js", "Stripe", "Keycloak"],
+      "description": "Scalable ticketing platform with secure payments, authentication, and SSR frontend."
+    },
+    {
+      "name": "MYM Manager",
+      "tech": ["Node.js", "React", "Redis", "WebSockets"],
+      "description": "SaaS CRM with real-time updates and business workflow automation."
+    },
+    {
+      "name": "TRPS Platform",
+      "tech": ["React", "Node.js", "Microservices"],
+      "description": "End-to-end full-stack platform with cloud-ready microservices architecture."
+    },
+    {
+      "name": "SwannStack AI Knowledge Platform",
+      "tech": ["Next.js", "FastAPI", "PostgreSQL", "Redis", "RAG", "Vector Search"],
+      "description": "AI-powered developer platform with semantic search and RAG-based Q&A."
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Science in Information and Communication Engineering",
+    "university": "Bangladesh Army University of Engineering and Technology"
+  },
+  "availability": "Open for senior full-stack, backend, AI, and remote SaaS roles."
+}

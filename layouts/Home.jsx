@@ -5,6 +5,7 @@ import Image from '@/components/Image'
 import Sep from '@/components/Sep'
 import Reveal from '@/components/Reveal'
 import Companies from '@/components/Companies'
+import ChatSection from '@/components/ChatSection'
 
 const HeroPhoto = ({ main }) => {
   if (!main?.images?.[0]) return null
@@ -35,7 +36,7 @@ const HeroPhoto = ({ main }) => {
 
 const HeroAbout = ({ main }) => (
   <Reveal animation="fade-in slide-in-right" className="w-full">
-    <div className="prose prose-invert max-w-none prose-headings:m-0 prose-h1:mb-3 prose-h1:text-4xl prose-h1:font-extrabold prose-h1:tracking-tight prose-h1:text-white sm:prose-h1:text-5xl lg:prose-h1:text-6xl prose-h2:mb-4 prose-h2:bg-gradient-to-r prose-h2:from-accent prose-h2:via-beta prose-h2:to-alpha prose-h2:bg-clip-text prose-h2:text-xl prose-h2:font-bold prose-h2:text-transparent sm:prose-h2:text-2xl lg:prose-h2:text-3xl prose-h3:mb-6 prose-h3:font-mono prose-h3:text-xs prose-h3:font-semibold prose-h3:uppercase prose-h3:tracking-widest prose-h3:text-omega-400 sm:prose-h3:text-sm prose-p:text-base prose-p:leading-relaxed prose-p:text-omega-300 sm:prose-p:text-lg">
+    <div className="prose prose-invert max-w-none prose-headings:m-0 prose-h1:mb-3 prose-h1:text-3xl prose-h1:font-extrabold prose-h1:tracking-tight prose-h1:text-white sm:prose-h1:text-4xl lg:prose-h1:text-5xl prose-h2:mb-4 prose-h2:bg-gradient-to-r prose-h2:from-accent prose-h2:via-beta prose-h2:to-alpha prose-h2:bg-clip-text prose-h2:text-xl prose-h2:font-bold prose-h2:text-transparent sm:prose-h2:text-2xl lg:prose-h2:text-3xl prose-h3:mb-6 prose-h3:font-mono prose-h3:text-xs prose-h3:font-semibold prose-h3:uppercase prose-h3:tracking-widest prose-h3:text-omega-400 sm:prose-h3:text-sm prose-p:text-base prose-p:leading-relaxed prose-p:text-omega-300 sm:prose-p:text-lg">
       <ContentRenderer source={main} />
     </div>
   </Reveal>
@@ -101,6 +102,8 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
         <Companies {...companies} />
       </Reveal>
     )}
+
+    <ChatSection />
   </div>
 )
 
