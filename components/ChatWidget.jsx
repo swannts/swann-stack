@@ -6,11 +6,11 @@ import remarkGfm from 'remark-gfm'
 import LoadingDots from './LoadingDots'
 
 const SUGGESTED_QUESTIONS = [
-  "What are Swann's strongest skills?",
-  "Tell me about Swann's AI experience.",
-  "What projects has Swann worked on?",
-  "How can I contact Swann?",
-  "Is Swann suitable for remote SaaS roles?"
+  "What are Abu's strongest skills?",
+  "Tell me about Abu's AI experience.",
+  "What projects has Abu worked on?",
+  "How can I contact Abu?",
+  "Is Abu suitable for remote SaaS roles?"
 ]
 
 const ChatWidget = () => {
@@ -28,12 +28,12 @@ const ChatWidget = () => {
 
   // Persistence
   useEffect(() => {
-    const saved = localStorage.getItem('swann_chat_history')
+    const saved = localStorage.getItem('abu_chat_history')
     if (saved) setMessages(JSON.parse(saved))
   }, [])
 
   useEffect(() => {
-    localStorage.setItem('swann_chat_history', JSON.stringify(messages))
+    localStorage.setItem('abu_chat_history', JSON.stringify(messages))
   }, [messages])
 
   const handleSend = async (e) => {
@@ -64,7 +64,7 @@ const ChatWidget = () => {
 
   const clearHistory = () => {
     setMessages([])
-    localStorage.removeItem('swann_chat_history')
+    localStorage.removeItem('abu_chat_history')
   }
 
   return (
@@ -79,7 +79,7 @@ const ChatWidget = () => {
                  <span className="text-xs font-bold">AI</span>
               </div>
               <div>
-                <h3 className="m-0 text-sm font-bold text-white">Ask Swann AI Assistant</h3>
+                <h3 className="m-0 text-sm font-bold text-white">Ask Abu AI Assistant</h3>
                 <p className="m-0 text-[10px] text-omega-400">Ask about skills, experience & projects</p>
               </div>
             </div>
@@ -104,7 +104,7 @@ const ChatWidget = () => {
                   <IoChatbubblesSharp size={24} />
                 </div>
                 <div>
-                  <p className="text-sm text-white font-medium">Hi! I'm Swann's AI assistant.</p>
+                  <p className="text-sm text-white font-medium">Hi! I'm Abu's AI assistant.</p>
                   <p className="text-xs text-omega-400 mt-1 px-4">I can answer questions about his expertise in Full Stack, Cloud, and AI Engineering.</p>
                 </div>
                 <div className="flex flex-wrap justify-center gap-2 px-2 mt-4">

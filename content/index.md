@@ -2,7 +2,17 @@
 layout: Home
 seo:
   title: Abu Bokor Siddik | Senior Full Stack Architect & AI Engineer
-  description: Senior Full Stack Architect & AI Engineer specializing in Python, Java, Node.js, React, AI agents, RAG, microservices, Docker, Kubernetes, AWS, and scalable SaaS platforms.
+  description: Senior Full Stack Architect & AI Engineer specializing in Python, Java, Node.js, React, AI agents, RAG, microservices, Docker, Kubernetes, AWS, and scalable SaaS platforms. Known professionally as Swann.
+blogs:
+  collection:
+    path: /blog
+    sortBy: date
+    limit: 3
+projectsList:
+  collection:
+    path: /projects
+    sortBy: date
+    limit: 4
 ---
 
 ---main
@@ -21,7 +31,7 @@ images:
 
 <Sep size={12} />
 
-Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable SaaS platforms, cloud-native applications, AI-powered systems, and distributed architectures.
+Senior Full Stack Architect & AI Engineer with 5+ years of experience building scalable production-grade SaaS platforms, cloud-native applications, AI-powered systems, and distributed architectures.
 
 ---achievements[0]
 number: 5+
@@ -39,8 +49,8 @@ text: AWS EKS, Docker, Kubernetes, and robust CI/CD pipelines
 ---
 
 ---cta
-<Button href="/projects" size="lg">View Projects</Button>
-<Button href="/contact" variant="secondary" size="lg">Contact Me</Button>
+<Button href="#contact" size="lg">Contact Me</Button>
+<Button href="#projects" variant="secondary" size="lg">View Projects</Button>
 ---
 
 <div className="mt-12 flex flex-wrap gap-2 opacity-60">

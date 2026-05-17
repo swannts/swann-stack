@@ -7,10 +7,10 @@ import LoadingDots from './LoadingDots'
 import Reveal from './Reveal'
 
 const SUGGESTED_QUESTIONS = [
-  "What are Swann's strongest skills?",
-  "Tell me about Swann's AI experience.",
-  "Is Swann suitable for remote SaaS roles?",
-  "How can I contact Swann?"
+  "What are Abu's strongest skills?",
+  "Tell me about Abu's AI experience.",
+  "Is Abu suitable for remote SaaS roles?",
+  "How can I contact Abu?"
 ]
 
 const ChatSection = () => {
@@ -63,7 +63,7 @@ const ChatSection = () => {
                   <IoSparklesSharp size={24} />
                 </div>
                 <h2 className="mt-6 text-3xl font-extrabold text-white sm:text-4xl">
-                  Ask Swann <span className="text-alpha">Anything</span>
+                  Ask Abu <span className="text-alpha">Anything</span>
                 </h2>
                 <p className="mt-6 text-lg leading-relaxed text-omega-300">
                   Curious about my technical background? My AI assistant is grounded in my CV, projects, and engineering notes.

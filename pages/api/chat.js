@@ -3,8 +3,10 @@ import { ChatPromptTemplate, MessagesPlaceholder } from "@langchain/core/prompts
 import { AgentExecutor, createOpenAIFunctionsAgent } from "langchain/agents"
 import { DynamicTool } from "@langchain/core/tools"
 import { HumanMessage, AIMessage } from "@langchain/core/messages"
-import abuProfile from '../../content/abu-profile.json'
+import abuProfile from '../../data/abu-profile'
 import { getKnowledgeBase } from '../../lib/ai/knowledge-base'
+import { getOfflineMockResponse } from '../../lib/ai/chatService'
+import { SYSTEM_PROMPT } from '../../lib/ai/systemPrompt'
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -12,38 +14,47 @@ export default async function handler(req, res) {
   }
 
   const { messages } = req.body
+
+  if (!messages || !Array.isArray(messages) || messages.length === 0) {
+    return res.status(400).json({ error: 'Invalid messages body' })
+  }
+
+  const userQuery = messages[messages.length - 1].content
+
+  // API Key Safety & Local Grounded Mock Mode
   const GROQ_API_KEY = process.env.GROQ_API_KEY
 
   if (!GROQ_API_KEY) {
-    return res.status(200).json({ content: "I'm in local mock mode. Please set GROQ_API_KEY to enable LangChain + RAG capabilities." })
+    const mockReply = getOfflineMockResponse(userQuery)
+    return res.status(200).json({ content: mockReply })
   }
 
   try {
     const model = new ChatGroq({
       apiKey: GROQ_API_KEY,
       modelName: "llama-3.3-70b-versatile",
-      temperature: 0.7,
+      temperature: 0.2, // Extremely low temperature to ensure strict factuality
     })
 
     // Define MCP-inspired tools
     const tools = [
       new DynamicTool({
-        name: "get_swann_profile",
-        description: "Returns Swann's core profile, skills, and contact information.",
+        name: "get_abu_profile",
+        description: "Returns Abu Bokor Siddik's core profile, skills, experience highlights, and contact info.",
         func: async () => JSON.stringify(abuProfile, null, 2),
       }),
       new DynamicTool({
-        name: "search_engineering_notes",
-        description: "Search through Swann's technical articles and system design notes. Use this for questions about AI, RAG, Microservices, or Kafka.",
+        name: "search_system_design_and_ai_notes",
+        description: "Search through Abu's technical articles and system design notes. Use this for questions about AI Agents, RAG, Microservices, or Kafka.",
         func: async () => {
           const knowledge = await getKnowledgeBase()
           const notes = knowledge.filter(k => k.source.includes('blog'))
-          return JSON.stringify(notes.map(n => ({ title: n.title, content: n.content.substring(0, 1000) })), null, 2)
+          return JSON.stringify(notes.map(n => ({ title: n.title, content: n.content.substring(0, 1200) })), null, 2)
         },
       }),
       new DynamicTool({
         name: "get_project_portfolio",
-        description: "Returns details about Swann's engineering projects (WeTicket, MYM Manager, etc).",
+        description: "Returns detailed case study specifications for Abu's engineering projects (WeTicket Platform, MYM Manager, TRPS Platform, SwannStack AI).",
         func: async () => {
           const knowledge = await getKnowledgeBase()
           const projects = knowledge.filter(k => k.source.includes('projects'))
@@ -53,28 +64,7 @@ export default async function handler(req, res) {
     ]
 
     const prompt = ChatPromptTemplate.fromMessages([
-      ["system", `You are "Ask Swann AI Assistant", a professional senior-level engineering agent.
-      Your job is to answer questions about Abu Bokor Siddik (Swann)'s professional background.
-      
-      You have access to Swann's verified knowledge base via tools. 
-      ALWAYS use the tools to fetch accurate information before answering.
-      
-      Formatting Rules:
-      - USE REAL NEWLINES (\n\n) between every paragraph and bullet point.
-      - Use bullet points (*) for all lists. Ensure EACH bullet is on its own line.
-      - Ensure the output is highly human-readable and scannable.
-      - NEVER output a single large block of text.
-      - SKIP ALL internal chatter and meta-commentary.
-      - NEVER start with phrases like "To answer your question", "Based on my search", or "I have fetched information".
-      - JUMP DIRECTLY to the structured answer.
-      - Use bold text for key terms or project names.
-      
-      General Rules:
-      - Answer ONLY using information fetched from tools.
-      - Be concise, professional, and act as a senior architectural assistant.
-      - If you can't find info, say: "I don't have that information in Swann's profile."
-      - Encourage the user to contact Swann for hiring opportunities.
-      - You are NOT Swann. You are his portfolio agent.`],
+      ["system", SYSTEM_PROMPT],
       new MessagesPlaceholder("chat_history"),
       ["human", "{input}"],
       new MessagesPlaceholder("agent_scratchpad"),
@@ -98,13 +88,17 @@ export default async function handler(req, res) {
     })
 
     const result = await agentExecutor.invoke({
-      input: messages[messages.length - 1].content,
+      input: userQuery,
       chat_history: history,
     })
 
     return res.status(200).json({ content: result.output })
   } catch (error) {
     console.error('LangChain/Groq Error:', error)
-    return res.status(500).json({ error: 'Failed to process request with LangChain' })
+    // Graceful fallback to mock response if LangChain API fails
+    const mockReply = getOfflineMockResponse(userQuery)
+    return res.status(200).json({ 
+      content: `${mockReply}\n\n*(Note: Fallback offline response used due to LangChain engine timeout/connection issue)*` 
+    })
   }
 }
