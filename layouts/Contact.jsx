@@ -82,7 +82,7 @@ const Contact01 = ({ main = {} }) => {
       <div className="prose prose-invert items-start lg:flex">
         <Reveal
           animation="fade-in slide-in-right"
-          className="prose prose-invert basis-1/3 lg:mr-14"
+          className="prose prose-invert lg:basis-5/12 lg:mr-14"
         >
           <ContentRenderer source={main} />
         </Reveal>

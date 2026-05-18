@@ -22,7 +22,6 @@ const Button = React.forwardRef((props, ref) => {
         'relative inline-flex items-center justify-center',
         'leading-normal no-underline',
         'group cursor-pointer select-none focus:outline-none',
-        'peer md:peer-even:ml-6',
         disabled && 'pointer-events-none grayscale',
         className
       )}
@@ -42,8 +41,10 @@ const Button = React.forwardRef((props, ref) => {
             'px-12 py-6 text-xl': size === 'xl',
             'hover:translate-x-1 hover:translate-y-1': size === 'xs',
             'hover:translate-x-2 hover:translate-y-2': size !== 'xs',
-            'bg-white text-black': variant === 'white',
-            'bg-black text-white': variant === 'black',
+            'bg-white text-black hover:bg-omega-100': variant === 'white',
+            'bg-black text-white hover:bg-omega-900': variant === 'black',
+            'bg-omega-800 text-omega-100 hover:bg-omega-750 hover:text-white': variant === 'secondary',
+            'bg-omega-900 text-omega-300 hover:bg-omega-800 hover:text-white': variant === 'ghost',
           }
         )}
       >
