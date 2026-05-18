@@ -1,24 +1,26 @@
 import React, { useState, useEffect, useRef } from 'react'
 import classNames from 'clsx'
-import { IoSend, IoClose, IoChatbubblesSharp, IoTrashOutline, IoArrowBack } from 'react-icons/io5'
+import { IoSend, IoClose, IoChatbubblesSharp, IoTrashOutline, IoArrowBack, IoExpandOutline, IoContractOutline } from 'react-icons/io5'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import LoadingDots from './LoadingDots'
 
 const SUGGESTED_QUESTIONS = [
-  "What are Abu's strongest skills?",
-  "Tell me about Abu's AI experience.",
-  "What projects has Abu worked on?",
-  "How can I contact Abu?",
-  "Is Abu suitable for remote SaaS roles?"
+  "What are Swann's strongest skills?",
+  "Tell me about Swann's AI experience.",
+  "What projects has Swann worked on?",
+  "How can I contact Swann?",
+  "Is Swann suitable for remote SaaS roles?"
 ]
 
 const ChatWidget = () => {
   const [isOpen, setIsOpen] = useState(false)
+  const [isExpanded, setIsExpanded] = useState(false)
   const [messages, setMessages] = useState([])
   const [input, setInput] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const scrollRef = useRef(null)
+  const inputRef = useRef(null)
 
   useEffect(() => {
     if (scrollRef.current) {
@@ -28,13 +30,34 @@ const ChatWidget = () => {
 
   // Persistence
   useEffect(() => {
-    const saved = localStorage.getItem('abu_chat_history')
+    const saved = localStorage.getItem('swann_chat_history')
     if (saved) setMessages(JSON.parse(saved))
   }, [])
 
   useEffect(() => {
-    localStorage.setItem('abu_chat_history', JSON.stringify(messages))
+    localStorage.setItem('swann_chat_history', JSON.stringify(messages))
   }, [messages])
+
+  // Event listener for opening the chatbot from external triggers (e.g. Hero CTAs)
+  useEffect(() => {
+    const handleOpenChat = () => {
+      setIsOpen(true)
+    }
+    window.addEventListener('open-swann-chat', handleOpenChat)
+    return () => {
+      window.removeEventListener('open-swann-chat', handleOpenChat)
+    }
+  }, [])
+
+  // Auto-focus input when the chat opens
+  useEffect(() => {
+    if (isOpen) {
+      const timer = setTimeout(() => {
+        inputRef.current?.focus()
+      }, 150)
+      return () => clearTimeout(timer)
+    }
+  }, [isOpen])
 
   const handleSend = async (e) => {
     e?.preventDefault()
@@ -64,14 +87,19 @@ const ChatWidget = () => {
 
   const clearHistory = () => {
     setMessages([])
-    localStorage.removeItem('abu_chat_history')
+    localStorage.removeItem('swann_chat_history')
   }
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end">
       {/* Chat Window */}
       {isOpen && (
-        <div className="mb-4 flex h-[500px] w-[350px] flex-col overflow-hidden rounded-3xl border border-omega-800 bg-omega-900 shadow-2xl animate-fade-in sm:w-[400px]">
+        <div className={classNames(
+          "mb-4 flex flex-col overflow-hidden rounded-3xl border border-omega-800 bg-omega-900 shadow-2xl animate-fade-in transition-all duration-300",
+          isExpanded 
+            ? "h-[700px] w-[350px] sm:w-[650px] max-h-[85vh] max-w-[95vw]" 
+            : "h-[500px] w-[350px] sm:w-[400px]"
+        )}>
           {/* Header */}
           <div className="flex items-center justify-between bg-omega-800/50 p-4 backdrop-blur-md">
             <div className="flex items-center gap-3">
@@ -79,13 +107,20 @@ const ChatWidget = () => {
                  <span className="text-xs font-bold">AI</span>
               </div>
               <div>
-                <h3 className="m-0 text-sm font-bold text-white">Ask Abu AI Assistant</h3>
+                <h3 className="m-0 text-sm font-bold text-white">Ask Swann AI Assistant</h3>
                 <p className="m-0 text-[10px] text-omega-400">Ask about skills, experience & projects</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2.5">
               <button onClick={clearHistory} className="text-omega-400 hover:text-white transition-colors" title="Clear history">
                 <IoTrashOutline size={18} />
+              </button>
+              <button 
+                onClick={() => setIsExpanded(!isExpanded)} 
+                className="text-omega-400 hover:text-white transition-colors" 
+                title={isExpanded ? "Collapse size" : "Expand size"}
+              >
+                {isExpanded ? <IoContractOutline size={18} /> : <IoExpandOutline size={18} />}
               </button>
               <button onClick={() => setIsOpen(false)} className="text-omega-400 hover:text-white transition-colors">
                 <IoClose size={22} />
@@ -103,9 +138,9 @@ const ChatWidget = () => {
                 <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-omega-800 text-alpha">
                   <IoChatbubblesSharp size={24} />
                 </div>
-                <div>
-                  <p className="text-sm text-white font-medium">Hi! I'm Abu's AI assistant.</p>
-                  <p className="text-xs text-omega-400 mt-1 px-4">I can answer questions about his expertise in Full Stack, Cloud, and AI Engineering.</p>
+                <div className="space-y-1">
+                  <p style={{ fontSize: '13px', lineHeight: '18px' }} className="text-white font-medium my-0">Hi! I'm Swann's AI assistant.</p>
+                  <p style={{ fontSize: '12px', lineHeight: '16px' }} className="text-omega-400 px-4 my-0">I can answer questions about his expertise in Full Stack, Cloud, and AI Engineering.</p>
                 </div>
                 <div className="flex flex-wrap justify-center gap-2 px-2 mt-4">
                   {SUGGESTED_QUESTIONS.map(q => (
@@ -131,16 +166,30 @@ const ChatWidget = () => {
               >
                 <div
                   className={classNames(
-                    'max-w-[85%] rounded-2xl px-4 py-2 text-sm leading-relaxed shadow-sm',
+                    'max-w-[85%] rounded-2xl px-4 py-2 leading-relaxed shadow-sm',
                     m.role === 'user' 
                       ? 'bg-alpha text-white rounded-br-none' 
-                      : 'bg-omega-800 text-omega-100 rounded-bl-none border border-omega-700 prose prose-invert prose-p:my-0 prose-p:leading-relaxed prose-ul:my-2 prose-li:my-0 prose-sm max-w-none'
+                      : 'bg-omega-800 text-omega-100 rounded-bl-none border border-omega-700 max-w-none'
                   )}
                 >
                   {m.role === 'user' ? (
-                    m.content
+                    <div style={{ fontSize: '13px', lineHeight: '18px' }} className="text-white">
+                      {m.content}
+                    </div>
                   ) : (
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                    <ReactMarkdown 
+                      remarkPlugins={[remarkGfm]}
+                      components={{
+                        p: ({node, ...props}) => <p style={{ fontSize: '13px', lineHeight: '18px' }} className="my-1 text-omega-100" {...props} />,
+                        li: ({node, ...props}) => <li style={{ fontSize: '13px', lineHeight: '18px' }} className="my-0.5 text-omega-200" {...props} />,
+                        ul: ({node, ...props}) => <ul className="list-disc pl-4 my-1.5" {...props} />,
+                        ol: ({node, ...props}) => <ol className="list-decimal pl-4 my-1.5" {...props} />,
+                        strong: ({node, ...props}) => <strong style={{ fontSize: '13px' }} className="font-bold text-white" {...props} />,
+                        h1: ({node, ...props}) => <h1 style={{ fontSize: '14px' }} className="font-bold text-white mt-2 mb-1" {...props} />,
+                        h2: ({node, ...props}) => <h2 style={{ fontSize: '14px' }} className="font-bold text-white mt-2 mb-1" {...props} />,
+                        h3: ({node, ...props}) => <h3 style={{ fontSize: '14px' }} className="font-bold text-white mt-2 mb-1" {...props} />
+                      }}
+                    >
                       {m.content}
                     </ReactMarkdown>
                   )}
@@ -160,6 +209,7 @@ const ChatWidget = () => {
           <form onSubmit={handleSend} className="border-t border-omega-800 bg-omega-900/80 p-4 backdrop-blur-md">
             <div className="relative flex items-center">
               <input
+                ref={inputRef}
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}

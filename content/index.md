@@ -50,6 +50,7 @@ text: AWS EKS, Docker, Kubernetes, and robust CI/CD pipelines
 
 ---cta
 <Button href="#contact" size="lg">Contact Me</Button>
+<Button id="hero-ask-ai" variant="secondary" size="lg">Ask Abu AI</Button>
 <Button href="#projects" variant="secondary" size="lg">View Projects</Button>
 ---
 

@@ -52,6 +52,7 @@ flowchart TD
     *   **Enterprise Agent Mode**: Utilizes LangChain's `createOpenAIFunctionsAgent` to orchestrate Groq `llama-3.3-70b-versatile` under a super-low temperature (0.2) to enforce factual, grounded retrieval answers from three specialized semantic tools.
     *   **Local Grounded Mode**: If no `GROQ_API_KEY` is provided, a local heuristic matcher parses developer intents to query Abu's profile structures, delivering rich, fast, offline markdown answers.
 2.  **Safety Guardrails**: Implements strict `systemPrompt.js` grounding instructions. If a question is asked outside the scope of Abu's CV documents, the chatbot responds with a unified safety fallback: *"I don't have that information in Abu's profile."*, ensuring zero hallucinations.
+3.  **Event-Driven Trigger Architecture**: Features a decoupled custom window event listener (`open-abu-chat`). This allows any standard or MDX-rendered button (such as the Hero CTA or About sidebar) to programmatically open, slide in, and auto-focus the chatbot's input field without requiring state pollution or heavy React Context wrappers.
 
 ---
 
@@ -134,6 +135,9 @@ npm run build
 
 ## 🗺️ Engineering Roadmap (Upcoming Updates)
 
+- [ ] **Production Vector DB Transition**: Migrate the keyword-based RAG matching pipelines to a production-grade vector indexer using `pgvector` on PostgreSQL or Pinecone, implementing dynamic cosine-similarity semantic scoring.
+- [ ] **Embedding Caching Tier**: Introduce a high-performance Redis embedding cache layer to cache identical user semantic embeddings, drastically reducing LLM inference costs and dropping latency to sub-10ms.
+- [ ] **Custom Model Context Protocol (MCP)**: Construct a dedicated custom MCP server exposing Abu's local file nodes, enabling prompt-grounded agent workflows to securely audit swann-stack code schemas on the fly.
 - [ ] **Real-Time Web Search Tool**: Equip the Ask Abu AI agent with Google Search tools to pull real-time web trends when discussing live SaaS frameworks.
 - [ ] **Dynamic SVG Architecture Visualizer**: Build interactive, zoomable microservice blueprints for projects inside case studies.
 - [ ] **Multi-Document Analytics Upload**: Let recruiters drag and drop their custom job descriptions to immediately run a gap analysis match against Abu's skills.
